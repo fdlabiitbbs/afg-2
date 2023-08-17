@@ -1,29 +1,192 @@
-import React from 'react'
+"use client";
+import React, { useState } from "react";
+import { motion, AnimatePresence, delay } from 'framer-motion'
 
 const Navbar = () => {
-  return (
-    <header className="text-gray-400 bg-gray-900 body-font">
-        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-            <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg>
-            <span className="ml-3 text-xl">Tailblocks</span>
-            </a>
-            <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a className="mr-5 hover:text-white">First Link</a>
-            <a className="mr-5 hover:text-white">Second Link</a>
-            <a className="mr-5 hover:text-white">Third Link</a>
-            <a className="mr-5 hover:text-white">Fourth Link</a>
-            </nav>
-            <button className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Button
-            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-            </button>
-        </div>
-    </header>
-  )
-}
 
-export default Navbar
+  const [open, setOpen] = useState(false)
+
+  const isOpen = () => {
+      setOpen(!open)
+  }
+
+  const item = {
+      exit: {
+          opacity: 0,
+          height: 0,
+          transition: {
+              ease: "easeInOut",
+              duration: 0.5
+          }
+      }
+  }
+
+  const [navItem, setNavItem] = useState("hidden");
+  const handleclick = () => {
+    if (navItem === "hidden") {
+      setNavItem("text-left mr-2");
+    } else {
+      setNavItem("hidden");
+    }
+  };
+
+  return (
+    <div className="sticky top-0 backdrop-blur z-10">
+      {/* DESKTOP NAVIGATION BAR */}
+      <nav className="justify-between mt-2 hidden md:flex">
+        <div className="ml-2">
+          <span className="cursor-pointer">
+            {/* <Image src={febslogo} alt="navbar" width={50} height={50} /> */}
+            <h1 className="py-2 px-5 cursor-pointer text-xl">AFG</h1>
+          </span>
+        </div>
+        <div className="flex items-center">
+          <ul className="flex">
+            <a href="#home">
+              <li className="py-2 px-5 cursor-pointer text-xl">
+                Home
+              </li>
+            </a>
+            <a href="#about">
+              <li className="py-2 px-5 cursor-pointer text-xl">
+                People
+              </li>
+            </a>
+            <a href="#events">
+              <li className="py-2 px-5 cursor-pointer text-xl">
+              Research
+              </li>
+            </a>
+            <a href="#posts">
+              <li className="py-2 px-5 cursor-pointer text-xl">
+                Publication
+              </li>
+            </a>
+            <a href="#team">
+              <li className="py-2 px-5 cursor-pointer text-xl">
+                Project
+              </li>
+            </a>
+            <a href="#contacts">
+              <li className="py-2 px-5 cursor-pointer text-xl">
+                Technologies developed
+              </li>
+            </a>
+            <a href="#contacts">
+              <li className="py-2 px-5 cursor-pointer text-xl text-white">
+                <svg className="text-white text-xl" xmlns="http://www.w3.org/2000/svg" width="16" height="29" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16"> 
+                  <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" fill="white">
+                  </path> 
+                </svg>
+              </li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+
+      {/* MOBILE NAVIGATION BAR */}
+      <nav className="m-0 p-0 box-border flex flex-col md:hidden">
+          <div className="flex justify-between">
+            <div className="w-[58px] h-[58px]">
+              {/* <Image src={febslogo} alt="navbar" width={50} height={50} /> */}
+              <h1>AFG</h1>
+            </div>
+
+            <div className="w-[58px] h-[58px] flex justify-between items-center cursor-pointer" 
+            onClick={isOpen}>
+
+              {open ? (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-10 h-10"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              ) : (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className="w-10 h-10"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  />
+                </svg>
+              )}
+            </div>
+            
+          </div>
+        <AnimatePresence>
+          {open && (
+            <motion.div
+              variants={item}
+              initial={{ height: 0, opacity: 0 }}
+              animate={{ height: "100vh", opacity: 1 }}
+              exit="exit"
+            >
+              <div className=" w-[100%] h-[100%] relative flex justify-center items-center flex-col bg-gradient-to-br from-[#0ddf92] to-[#0957a0]">
+                <a
+                  href="#home"
+                  className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
+                  onClick={isOpen}
+                >
+                  Home
+                </a>
+                <a
+                  href="#about"
+                  className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
+                  onClick={isOpen}
+                >
+                  About
+                </a>
+                <a
+                  href="#events"
+                  className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
+                  onClick={isOpen}
+                >
+                  Event
+                </a>
+                <a
+                  href="#posts"
+                  className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
+                  onClick={isOpen}
+                >
+                  Posts
+                </a>
+                <a
+                  href="#team"
+                  className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
+                  onClick={isOpen}
+                >
+                  Team
+                </a>
+                <a
+                  href="#contacts"
+                  className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
+                  onClick={isOpen}
+                >
+                  Contact
+                </a>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </nav>
+    </div>
+  );
+};
+
+export default Navbar;

@@ -3,7 +3,7 @@ import HomePage from '@/components/HomePage';
 
 export default function Home() {
   return (
-    <div className='text-yellow-400'>
+    <div className='text-white'>
       <Navbar />
       <HomePage />
     </div>
