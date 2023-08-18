@@ -1,4 +1,4 @@
-export const ResearchFacility = [
+export const ResearchFacilities = [
     {
         id: 1,
         title: "Subsonic Wind Tunnel",
@@ -27,12 +27,12 @@ export const ResearchFacility = [
     {
         id: 6,
         title: "Computational Facility",
-        content: ": Multiple Dedicated computational servers with 64 and 48 cores are available to perform high-end Computational Fluid Dynamics Simulations."
+        content: "Multiple Dedicated computational servers with 64 and 48 cores are available to perform high-end Computational Fluid Dynamics Simulations."
     },
     {
         id: 7,
         title: "Other Hardware",
-        content: ": Various power amplifiers, analog filters, and Data acquisition systems are available for conducting customized experiments."
+        content: "Various power amplifiers, analog filters, and Data acquisition systems are available for conducting customized experiments."
     }
 ]
 
@@ -137,7 +137,89 @@ export const Journals = [
         names: "",
         title: "",
         misc: "",
-        url: "",
+        link: "",
         if: ""
     }
 ]
+
+export const Education = [
+    {
+        id: 1,
+        degree: "Ph.D., Thermal & Fluids, Indian Institute of Technology Bombay, India (2014)"
+    },
+    {
+        id: 2,
+        degree: "M.Tech, Energy Science, Indian Institute of Technology Bombay, India (2008)"
+    },
+    {
+        id: 3,
+        degree: "B.E, Mechanical, National Institute of Technology Raipur, India (2006)"
+    }
+]
+
+export const Awards = [
+    {
+        id: 1,
+        award: "SERB International Research Experience (SIRE) Fellowship - 2022"
+    },
+    {
+        id: 2,
+        award: "Directors Commendation for Outstanding Research 2020-21 IIT Bhubaneswar"
+    },
+    {
+        id: 3,
+        award: "INAE Young Engineer Award – 2019"
+    },
+    {
+        id: 4,
+        award: "INAE Young Associate - 2019"
+    },
+    {
+        id: 5,
+        award: "Distinguished Teaching Award Overall Best Performance 2018-19, IIT Bhubaneswar"
+    },
+    {
+        id: 6,
+        award: "Teaching Excellence Award: 2017-18, IIT Bhubaneswar"
+    },
+    {
+        id: 7,
+        award: "Young Scientist Award 2017- Venus International Foundation"
+    },
+    {
+        id: 8,
+        award: "IIT Bombay Excellence in Thesis Work Award -2015"
+    },
+    {
+        id: 9,
+        award: "American Physical Society /DFD Travel Grant – 2013"
+    },
+    {
+        id: 10,
+        award: "Department of Science and Technology & CSIR India, Travel Grant (2013)"
+    },
+    {
+        id: 11,
+        award: "Forbes Marshall Fellowship 2006-2008, IIT Bombay (Postgraduate Studies)"
+    },
+    {
+        id: 12,
+        award: "Merit-Based Scholarship from S.E.C. Railway, India (2003, 2004 & 2005) for graduate Studies"
+    }
+]
+
+export const StudentNames = {
+    "names": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "David",
+      "Ella",
+      "Frank",
+      "Grace",
+      "Henry",
+      "Isabel",
+      "Jack"
+    ]
+  };
+  
