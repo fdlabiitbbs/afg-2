@@ -391,7 +391,7 @@ export const Conferences = [
 export const Journals = [
   {
     ID: 1,
-    Authors: ["Venugopal, A.", "Amit Agrawal", "S. V. Prabhu"],
+    Authors: [<b>Venugopal A</b>, "Amit Agrawal", "S. V. Prabhu"],
     Title:
       "Influence of blockage and upstream disturbances on the performance of a vortex flowmeter with a trapezoidal bluff body",
     Journal: "Measurement",
@@ -401,7 +401,7 @@ export const Journals = [
   },
   {
     ID: 2,
-    Authors: ["Venugopal, A.", "Amit Agrawal", "S. V. Prabhu"],
+    Authors: [<b>Venugopal A</b>, "Amit Agrawal", "S. V. Prabhu"],
     Title:
       "Influence of blockage and shape of a bluff body on the performance of vortex flowmeter with wall pressure measurement",
     Journal: "Measurement",
@@ -411,7 +411,7 @@ export const Journals = [
   },
   {
     ID: 3,
-    Authors: ["Venugopal, A.", "Amit Agrawal", "S. V. Prabhu"],
+    Authors: [<b>Venugopal A</b>, "Amit Agrawal", "S. V. Prabhu"],
     Title: "Review on vortex flowmeter-Designer perspective",
     Journal: "Sensors and Actuators A: Physical",
     Volume_Issue_Year_Pages: ["170", "1", "2011", "8-23"],
@@ -420,7 +420,7 @@ export const Journals = [
   },
   {
     ID: 4,
-    Authors: ["Venugopal, A.", "Amit Agrawal", "S. V. Prabhu"],
+    Authors: [<b>Venugopal A</b>, "Amit Agrawal", "S. V. Prabhu"],
     Title:
       "Frequency detection in vortex flowmeter for low Reynolds number using piezoelectric sensor and installation effects",
     Journal: "Sensors and Actuators A: Physical",
@@ -430,7 +430,7 @@ export const Journals = [
   },
   {
     ID: 5,
-    Authors: ["Borkar, Kishor", "Venugopal, A", "S. V. Prabhu"],
+    Authors: ["Borkar, Kishor", <b>Venugopal A</b>, "S. V. Prabhu"],
     Title:
       "Pressure measurement technique and installation effects on the performance of wafer cone design",
     Journal: "Flow Measurement and Instrumentation",
@@ -440,7 +440,7 @@ export const Journals = [
   },
   {
     ID: 6,
-    Authors: ["Borkar, Kishor", "Venugopal, A.", "S. V. Prabhu"],
+    Authors: ["Borkar, Kishor", <b>Venugopal A</b>, "S. V. Prabhu"],
     Title:
       "Study on the design and performance of a Bi-directional cone flowmeter",
     Journal: "Flow Measurement and Instrumentation",
@@ -450,7 +450,7 @@ export const Journals = [
   },
   {
     ID: 7,
-    Authors: ["Venugopal, A.", "Amit Agrawal", "S. V. Prabhu"],
+    Authors: [<b>Venugopal A</b>, "Amit Agrawal", "S. V. Prabhu"],
     Title:
       "Performance evaluation of piezoelectric and differential pressure sensor for vortex flowmeters",
     Journal: "Measurement",
@@ -460,7 +460,7 @@ export const Journals = [
   },
   {
     ID: 8,
-    Authors: ["Venugopal, A.", "Amit Agrawal", "S. V. Prabhu"],
+    Authors: [<b>Venugopal A</b>, "Amit Agrawal", "S. V. Prabhu"],
     Title: "A Vortex cross-correlation flowmeter with improved turndown ratio",
     Journal: "Review of Scientific Instruments",
     Volume_Issue_Year_Pages: ["85", "6", "2014", "066109"],
@@ -469,7 +469,7 @@ export const Journals = [
   },
   {
     ID: 9,
-    Authors: ["Venugopal, A.", "Amit Agrawal", "S. V. Prabhu"],
+    Authors: [<b>Venugopal A</b>, "Amit Agrawal", "S. V. Prabhu"],
     Title:
       "Spatial correlations in the wake of a circular cylinder and a normal plate Placed inside a pipe",
     Journal: "Journal of Fluids and Structures",
@@ -479,7 +479,7 @@ export const Journals = [
   },
   {
     ID: 10,
-    Authors: ["Lavish, O.", "Venugopal, A.", "Amit Agrawal", "S. V. Prabhu"],
+    Authors: ["Lavish O.", <b>Venugopal A</b>, "Amit Agrawal", "S. V. Prabhu"],
     Title: "Vortex shedding from a circular cylinder with a parallel slit",
     Journal: "Journal of Visualization",
     Volume_Issue_Year_Pages: ["2017", "", "", "1-13"],
@@ -488,7 +488,7 @@ export const Journals = [
   },
   {
     ID: 11,
-    Authors: ["Venugopal, A.", "Amit Agrawal", "S. V. Prabhu"],
+    Authors: [<b>Venugopal A</b>, "Amit Agrawal", "S. V. Prabhu"],
     Title:
       "Investigations on turbulent flow around bluff bodies placed in a circular pipe",
     Journal: "Journal of Fluids Engineering, ASME -2017",
@@ -498,7 +498,7 @@ export const Journals = [
   },
   {
     ID: 12,
-    Authors: ["Kapil M", "Venugopal, A.", "Amit Agrawal", "S. V. Prabhu"],
+    Authors: ["Kapil M", <b>Venugopal A</b>, "Amit Agrawal", "S. V. Prabhu"],
     Title:
       "Improvement in the performance of the vortex flowmeter using contraction cone",
     Journal: "Measurement",
@@ -508,7 +508,7 @@ export const Journals = [
   },
   {
     ID: 13,
-    Authors: ["Venugopal, A.", "Amit Agrawal", "S. V. Prabhu"],
+    Authors: [<b>Venugopal A</b>, "Amit Agrawal", "S. V. Prabhu"],
     Title: "Vortex Dynamics of Trapezoidal bluff body placed inside a pipe",
     Journal: "Journal of Turbulence",
     Volume_Issue_Year_Pages: ["19", "", "2018", "1-24"],
@@ -517,7 +517,7 @@ export const Journals = [
   },
   {
     ID: 14,
-    Authors: ["Venugopal, A.", "Amit Agrawal", "S. V. Prabhu"],
+    Authors: [<b>Venugopal A</b>, "Amit Agrawal", "S. V. Prabhu"],
     Title:
       "On the Linearity, Turndown Ratio and Shape of the Bluff Body for Vortex Flowmeter",
     Journal: "Measurement",
@@ -527,7 +527,7 @@ export const Journals = [
   },
   {
     ID: 15,
-    Authors: ["Choudhary, Kushal Prasad", "Venugopal A", "Yogesh G. Bhumkar"],
+    Authors: ["Choudhary, Kushal Prasad", <b>Venugopal A</b>, "Yogesh G. Bhumkar"],
     Title: "Numerical simulation of beam drift effect in ultrasonic flow-meter",
     Journal: "Measurement",
     Volume_Issue_Year_Pages: ["146", "", "2019", "705-717"],
@@ -536,18 +536,18 @@ export const Journals = [
   },
   {
     ID: 16,
-    Authors: ["Liladhar J", "Venugopal A"],
+    Authors: ["Liladhar J", <b>Venugopal A</b>],
     Title:
       "Numerical Investigation on Heat Transfer and Flow Characteristics of a Confined Circular Cylinder with Slit",
     Journal: "Journal of Thermal Science and Engineering Applications: ASME",
-    Year: "2019",
+    Volume_Issue_Year_Pages: ["2019"],
     DOI: "https://doi.org/10.1115/1.4046061",
     impactFactor: 1.879,
   },
   {
     ID: 17,
     Authors: [
-      "Venugopal A",
+      <b>Venugopal A</b>,
       "Jitendra Narayan Dash",
       "Dhrubaraj Dora",
       "Rajan Jha",
@@ -560,7 +560,7 @@ export const Journals = [
   },
   {
     ID: 18,
-    Authors: ["H Yadav", "A Venugopal", "SV PRABHU", "A Agrawal"],
+    Authors: ["H Yadav", <b>Venugopal A</b>, "SV PRABHU", "A Agrawal"],
     Title:
       "Study on connecting tube dynamics for transient pressure measurement",
     Journal: "Sadhana",
@@ -570,17 +570,17 @@ export const Journals = [
   },
   {
     ID: 19,
-    Authors: ["Venugopal A", "A Kodam", "R Jha"],
+    Authors: [<b>Venugopal A</b>, "A Kodam", "R Jha"],
     Title:
       "Bi-Directional Interferometric Flowmeter with Linear Sensitivity and Large Dynamic Range",
     Journal: "IEEE Transactions on Instrumentation and Measurement",
-    Year: "2020",
+    Volume_Issue_Year_Pages:[ "2020"],
     DOI: "https://doi.org/10.1109/TIM.2020.3014468",
     impactFactor: 5.332,
   },
   {
     ID: 20,
-    Authors: ["Mukesh K", "Venugopal A."],
+    Authors: ["Mukesh K", <b>Venugopal A</b>],
     Title:
       "Jet deflection by two side-by-side arranged hydrofoils pitching in a quiescent fluid",
     Journal: "AIP Advances",
@@ -591,7 +591,7 @@ export const Journals = [
 
   {
     ID: 21,
-    Authors: ["Venugopal, A.", "Amit Agrawal", "S. V. Prabhu"],
+    Authors: [<b>Venugopal A</b>, "Amit Agrawal", "S. V. Prabhu"],
     Title:
       "Experimental investigations on flow over a circular cylinder placed in a circular pipe",
     Journal: "Physics of Fluids",
@@ -601,7 +601,7 @@ export const Journals = [
   },
   {
     ID: 22,
-    Authors: ["Venugopal A", "J Pasa", "SS Samantaray"],
+    Authors: [<b>Venugopal A</b>, "J Pasa", "SS Samantaray"],
     Title:
       "Experimental visualization of sneezing and efficacy of face masks and shields",
     Journal: "Physics of Fluids",
@@ -612,26 +612,26 @@ export const Journals = [
   },
   {
     ID: 23,
-    Authors: ["H Gupta", "Venugopal A", "R Jha"],
+    Authors: ["H Gupta", <b>Venugopal A</b>, "R Jha"],
     Title:
       "Industrial Fluid Flow Measurement using Optical Fiber Sensors: A review",
     Journal: "IEEE Sensors",
-    Year: "2021",
+    Volume_Issue_Year_Pages: ["2021"],
     DOI: "https://doi.org/10.1109/JSEN.2020.3045506",
     impactFactor: 4.325,
   },
   {
     ID: 24,
-    Authors: ["Thummar, Dhruv", "Jaganmohan Reddy", "Venugopal, A"],
+    Authors: ["Thummar, Dhruv", "Jaganmohan Reddy", <b>Venugopal A</b>],
     Title: "Machine Learning for Vortex Flowmeter Design",
     Journal: "IEEE Transactions on Instrumentation and Measurement",
-    Year: "2021",
+    Volume_Issue_Year_Pages: ["2021"],
     DOI: "https://doi.org/10.1109/TIM.2021.3128692",
     impactFactor: 5.332,
   },
   {
     ID: 25,
-    Authors: ["D Mirikar", "S Palanivel", "Venugopal A"],
+    Authors: ["D Mirikar", "S Palanivel", <b>Venugopal A</b>],
     Title:
       "Droplet fate, efficacy of face mask, and transmission of virus-laden droplets inside a conference room",
     Journal: "Physics of Fluids",
@@ -641,7 +641,7 @@ export const Journals = [
   },
   {
     ID: 26,
-    Authors: ["Venugopal A", "J Pasa", "SS Samantaray"],
+    Authors: [<b>Venugopal A</b>, "J Pasa", "SS Samantaray"],
     Title: "Double masking protection vs. comfort—A quantitative assessment",
     Journal: "Physics of Fluids",
     Volume_Issue_Year_Pages: ["33", "7", "2021", "077120"],
@@ -650,7 +650,7 @@ export const Journals = [
   },
   {
     ID: 27,
-    Authors: ["Venugopal A", "J Pasa", "SS Samantaray", "VS Varma"],
+    Authors: [<b>Venugopal A</b>, "J Pasa", "SS Samantaray", "VS Varma"],
     Title:
       "Breathing, virus transmission, and social distancing—an experimental visualization study",
     Journal: "AIP Advances",
@@ -663,7 +663,7 @@ export const Journals = [
     ID: 28,
     Authors: [
       "Nandan, Rakesh",
-      "Venugopal, A",
+      <b>Venugopal A</b>,
       "Prasenjit Rath",
       "Mihir Kumar Das",
     ],
@@ -676,7 +676,7 @@ export const Journals = [
   },
   {
     ID: 29,
-    Authors: ["Ambolkar, Manthan", "Venugopal, A"],
+    Authors: ["Ambolkar, Manthan", <b>Venugopal A</b>],
     Title:
       "Propulsive performance of a pitching foil in a side-by-side arrangement with auxiliary pitching foil",
     Journal: "Journal of Fluids and Structures",
@@ -688,7 +688,7 @@ export const Journals = [
     ID: 30,
     Authors: [
       "Chatterjee, Kalipada",
-      "Venugopal, A",
+      <b>Venugopal A</b>,
       "Dhananjay Patil",
       "Rajan Jha",
     ],
@@ -701,16 +701,16 @@ export const Journals = [
   },
   {
     ID: 31,
-    Authors: ["Madapati, Nikhilesh", "Venugopal, A"],
+    Authors: ["Madapati, Nikhilesh", <b>Venugopal A</b>],
     Title: "T‐joint Micromixer Coupled with Deforming Diaphragm",
     Journal: "Chemical Engineering & Technology",
-    Year: "2022",
+    Volume_Issue_Year_Pages: ["2022"],
     DOI: "https://doi.org/10.1002/ceat.202200036",
     impactFactor: 2.215,
   },
   {
     ID: 32,
-    Authors: ["Pasa, Jangyadatta", "Samarendra Panda", "Venugopal A"],
+    Authors: ["Pasa, Jangyadatta", "Samarendra Panda", <b>Venugopal A</b>],
     Title:
       "Influence of Strouhal number and phase difference on the flow behaviour of a synthetic jet array",
     Journal: "Physics of Fluids",
@@ -720,7 +720,7 @@ export const Journals = [
   },
   {
     ID: 33,
-    Authors: ["Panda, Samarendra", "Trushar B. Gohil", "Venugopal, A"],
+    Authors: ["Panda, Samarendra", "Trushar B. Gohil", <b>Venugopal A</b>],
     Title:
       "Influence of Mass Flux Ratio on the Evolution of Coaxial Synthetic Jet",
     Journal: "Physics of Fluids",
@@ -730,37 +730,37 @@ export const Journals = [
   },
   {
     ID: 34,
-    Authors: ["Panda, Samarendra", "Trushar B. Gohil", "Venugopal, A"],
+    Authors: ["Panda, Samarendra", "Trushar B. Gohil", <b>Venugopal A</b>],
     Title: "Evolution of Flow Structure from a Coaxial Synthetic Jet",
     Journal: "International Journal of Mechanical Sciences",
-    Year: "2022",
+    Volume_Issue_Year_Pages: ["2022"],
     DOI: "https://doi.org/10.1016/j.ijmecsci.2022.107588",
     impactFactor: 6.772,
   },
   {
     ID: 35,
-    Authors: ["Mudavath, Vishnu", "Venugopal, A"],
+    Authors: ["Mudavath, Vishnu", <b>Venugopal A</b>],
     Title:
       "Impingement heat transfer characteristics of nozzles with inclined exits",
     Journal: "Experimental Heat Transfer",
-    Year: "2023",
+    Volume_Issue_Year_Pages: ["2023"],
     DOI: "https://doi.org/10.1080/08916152.2023.2166162",
     impactFactor: 3.272,
   },
   {
     ID: 36,
-    Authors: ["Panda, Samarendra", "Jangyadatta Pasa", "Venugopal A"],
+    Authors: ["Panda, Samarendra", "Jangyadatta Pasa", <b>Venugopal A</b>],
     Title:
       "Characterisation of an Independently Controlled Coaxial Synthetic Jet",
     Journal: "Sensors and Actuators A: Physical",
-    Year: "2023",
+    Volume_Issue_Year_Pages: ["2023"],
     DOI: "https://doi.org/10.1016/j.sna.2023.114469",
     impactFactor: 4.291,
   },
   {
     ID: 37,
     Authors: [
-      "Venugopal, A.",
+      <b>Venugopal A</b>,
       "Kartik Rajput",
       "Rakesh Nandan",
       "Pransenjit Rath",
@@ -779,28 +779,28 @@ export const Journals = [
       "Kusuluri, Rajendra",
       "Dnyanesh Mirikar",
       "Silambarasan Palanivel",
-      "Venugopal A",
+      <b>Venugopal A</b>,
     ],
     Title:
       "Risk assessment of airborne virus transmission in an intensive care unit due to single and sequential coughing",
     Journal: "Risk Analysis",
-    Year: "2023",
+    Volume_Issue_Year_Pages: ["2023"],
     DOI: "https://doi.org/10.1111/risa.14133",
     impactFactor: 4.302,
   },
   {
     ID: 39,
-    Authors: ["Arvind Maurya", "Ritesh Kumar", "Venugopal A", "Rajan Jha"],
+    Authors: ["Arvind Maurya", "Ritesh Kumar", <b>Venugopal A</b>, "Rajan Jha"],
     Title:
       "An all-optical system for transit time estimation in fluids using single source and detector",
     Journal: "IEEE Transactions on Instrumentation and Measurement",
-    Year: "2023",
+    Volume_Issue_Year_Pages: ["2023"],
     DOI: "",
     impactFactor: 5.332,
   },
   {
     ID: 40,
-    Authors: ["Pasa, Jangyadatta", "Samarendra Panda", "Venugopal A"],
+    Authors: ["Pasa, Jangyadatta", "Samarendra Panda", <b>Venugopal A</b>],
     Title:
       "Focusing of jet from synthetic jet array using non-linear phase delay",
     Journal: "Physics of Fluids",
@@ -810,11 +810,11 @@ export const Journals = [
   },
   {
     ID: 41,
-    Authors: ["Venugopal A", "Kusuluri, Rajendra", "Dnyanesh Mirikar"],
+    Authors: [<b>Venugopal A</b>, "Kusuluri", "Rajendra", "Dnyanesh Mirikar"],
     Title:
       "Role of Face Masks and Ventilation Rates in Mitigating Respiratory Disease Transmission in ICU",
     Journal: "Scientific Reports (Nature Publication)",
-    Year: "2023",
+    Volume_Issue_Year_Pages: ["2023"],
     impactFactor: 4.99,
   },
 ];

@@ -69,7 +69,7 @@ const Navbar = () => {
                           class="h-6 w-6"
                         >
                           <path
-                            stroke-linecap="round"
+                            strokeLinecap="round"
                             strokeLinejoin="round"
                             d="M19.5 8.25l-7.5 7.5-7.5-7.5"
                           />
@@ -113,7 +113,7 @@ const Navbar = () => {
                           class="h-6 w-6"
                         >
                           <path
-                            stroke-linecap="round"
+                            strokeLinecap="round"
                             strokeLinejoin="round"
                             d="M19.5 8.25l-7.5 7.5-7.5-7.5"
                           />
@@ -124,9 +124,9 @@ const Navbar = () => {
                       class="invisible absolute z-50 flex w-[200px] flex-col shadow-xl group-hover:visible rounded-lg bg-slate-600"
                       
                     >
-                      <a class="mt-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500">
+                      <Link href="/journals" class="mt-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500">
                         Journals
-                      </a>
+                      </Link>
 
                       <a class="mb-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500">
                         Conferences
