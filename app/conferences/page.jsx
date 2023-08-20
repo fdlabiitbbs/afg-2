@@ -3,6 +3,9 @@ import Navbar from "@/components/Navbar";
 import { Conferences } from "@/constants";
 
 const page = () => {
+  const reversedConferences = Conferences.map(
+    (conference, index, array) => array[array.length - 1 - index]
+  );
   return (
     <div>
       <Navbar />
@@ -11,7 +14,7 @@ const page = () => {
         <br />
         <div className="lg:ml-20 md:ml-12 ml-8">
           <ol style={{ listStyle: "decimal" }}>
-            {Conferences.map((conference, index) => {
+            {reversedConferences.map((conference, index) => {
               return (
                 <li className="my-6 pl-4" key={conference.id}>
                   <div className="md:flex">
@@ -64,7 +67,7 @@ const page = () => {
                         </div>
                     </div>
                   </div>
-                  <p className="text-xl">{conference.conferenceName}</p>
+                  <p className="text-xl font-semibold">{conference.conferenceName}</p>
                   <p className="">{conference.info}</p>
                   <p className="">{conference.attendees}</p>
                 </li>
