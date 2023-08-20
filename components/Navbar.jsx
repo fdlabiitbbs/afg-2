@@ -51,13 +51,13 @@ const Navbar = () => {
         </div>
         <div className="flex items-center">
           <ul className="flex">
-            <li className="py-2 px-5 cursor-pointer text-xl hover:bg-slate-600">
+            <li className="py-2 px-5 cursor-pointer text-xl hover:bg-slate-600 flex items-center">
               <Link href="./">Home</Link>
             </li>
-            <li className="py-2 px-5 cursor-pointer text-xl hover:bg-slate-600">
+            <li className="py-2 px-5 cursor-pointer text-xl hover:bg-slate-600 flex items-center">
               <Link href="/people">People</Link>
             </li>
-            <li className="py-2 cursor-pointer text-xl hover:bg-slate-600">
+            <li className="py-2 cursor-pointer text-xl hover:bg-slate-600 flex items-center">
               <div className="mx-auto flex items-center justify-center ">
                 <div className="group relative cursor-pointer">
                   <div className="flex items-center justify-between px-4">
@@ -97,7 +97,7 @@ const Navbar = () => {
                 </div>
               </div>
             </li>
-            <li className="py-2 cursor-pointer text-xl hover:bg-slate-600">
+            <li className="py-2 cursor-pointer text-xl hover:bg-slate-600 flex items-center">
               <div className="mx-auto flex items-center justify-center ">
                 <div className="group relative cursor-pointer">
                   <div className="flex items-center justify-between px-4">
@@ -137,16 +137,16 @@ const Navbar = () => {
                 </div>
               </div>
             </li>
-            <li className="py-2 px-5 cursor-pointer text-xl hover:bg-slate-600">
+            <li className="py-2 px-5 cursor-pointer text-xl hover:bg-slate-600 flex items-center">
               <Link href="/projects">Project</Link>
             </li>
-            <li className="py-2 px-5 cursor-pointer text-xl hover:bg-slate-600">
+            <li className="py-2 px-5 cursor-pointer text-xl hover:bg-slate-600 flex items-center">
               <Link href="/technologies-developed">Technologies Developed</Link>
             </li>
-            <li className="py-2 px-5 cursor-pointer text-xl text-white hover:bg-slate-600">
+            <li className="py-2 px-5 cursor-pointer text-xl text-white hover:bg-slate-600 flex items-center">
               <a href="https://scholar.google.co.in/citations?user=1N1daS8AAAAJ&hl=en">
                 <svg
-                  className="text-xl bi bi-google"
+                  className="text-xl bi bi-google w-6 h-6"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="29"
@@ -160,7 +160,7 @@ const Navbar = () => {
                 </svg>
               </a>
             </li>
-            <li className="py-2 px-5 cursor-pointer">
+            <li className="cursor-pointer flex items-center px-2">
               <ThemeSwitcher />
             </li>
           </ul>
@@ -230,7 +230,7 @@ const Navbar = () => {
               animate={{ height: "100vh", opacity: 1 }}
               exit="exit"
             >
-              <div className=" w-[100%] h-[100%] relative flex justify-center items-center flex-col">
+              <div className=" w-full h-[100%] relative flex items-center flex-col m-4">
                 <Link
                   href="/"
                   className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
@@ -245,20 +245,41 @@ const Navbar = () => {
                 >
                   People
                 </Link>
-                <a
+                <Link
                   href="#events"
                   className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
                   onClick={isOpen}
                 >
                   Research
-                </a>
-                <a
-                  href="#posts"
+                </Link>
+                <Link
+                  href="/journals"
                   className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
                   onClick={isOpen}
                 >
-                  Publication
-                </a>
+                  Journals
+                </Link>
+                <Link
+                  href="/conferences"
+                  className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
+                  onClick={isOpen}
+                >
+                  Conferences
+                </Link>
+                <Link
+                  href="/research"
+                  className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
+                  onClick={isOpen}
+                >
+                  Research
+                </Link>
+                <Link
+                  href="/research-facilities"
+                  className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
+                  onClick={isOpen}
+                >
+                  Research Facilities
+                </Link>
                 <Link
                   href="/projects"
                   className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
@@ -274,7 +295,7 @@ const Navbar = () => {
                   Technologies Developed
                 </Link>
                 <Link
-                  href=""
+                  href="https://scholar.google.co.in/citations?user=1N1daS8AAAAJ&hl=en"
                   className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
                   onClick={isOpen}
                 >
@@ -283,7 +304,7 @@ const Navbar = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
                     height="29"
-                    fill="currentColor"
+                    fill="orange"
                     viewBox="0 0 16 16"
                   >
                     <path

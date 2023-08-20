@@ -2,11 +2,11 @@
 import React, { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 
-const ThemeSwitcher = () => {
-  const [sun, setSun] = useState(false);
+const page = () => {
+  const [open, setOpen] = useState(false);
 
-  const isSun = () => {
-    setSun(!sun);
+  const isOpen = () => {
+    setOpen(!open);
   };
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
@@ -24,39 +24,18 @@ const ThemeSwitcher = () => {
     <div>
       <div
         className="w-[58px] h-[58px] flex justify-between items-center cursor-pointer sticky top-0 backdrop-blur z-10"
-        // onClick={issun}
+        // onClick={isOpen}
         onClick={() => {
-          isSun();
+          isOpen();
           setTheme(theme === "light" ? "dark" : "light");
         }}
       >
-        {sun ? (
-            <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 47.5 47.5"
-            id="sunlight"
-            className="w-[40px] h-[40px]"
-          >
-            <defs>
-              <clipPath id="a">
-                <path d="M0 38h38V0H0v38Z"></path>
-              </clipPath>
-            </defs>
-            <g
-              fill="#ffac33"
-              clip-path="url(#a)"
-              transform="matrix(1.25 0 0 -1.25 0 47.5)"
-            >
-              <path d="M17 35s0 2 2 2 2-2 2-2v-2s0-2-2-2-2 2-2 2v2zM35 21s2 0 2-2-2-2-2-2h-2s-2 0-2 2 2 2 2 2h2zM5 21s2 0 2-2-2-2-2-2H3s-2 0-2 2 2 2 2 2h2zM10.121 29.706s1.414-1.414 0-2.828-2.828 0-2.828 0l-1.415 1.414s-1.414 1.414 0 2.829c1.415 1.414 2.829 0 2.829 0l1.414-1.415ZM31.121 8.707s1.414-1.414 0-2.828-2.828 0-2.828 0l-1.414 1.414s-1.414 1.414 0 2.828 2.828 0 2.828 0l1.414-1.414ZM30.708 26.879s-1.414-1.414-2.828 0 0 2.828 0 2.828l1.414 1.414s1.414 1.414 2.828 0 0-2.828 0-2.828l-1.414-1.414ZM9.708 5.879s-1.414-1.414-2.828 0 0 2.828 0 2.828l1.414 1.414s1.414 1.414 2.828 0 0-2.828 0-2.828L9.708 5.879ZM17 5s0 2 2 2 2-2 2-2V3s0-2-2-2-2 2-2 2v2zM29 19c0 5.523-4.478 10-10 10-5.523 0-10-4.477-10-10 0-5.522 4.477-10 10-10 5.522 0 10 4.478 10 10"></path>
-            </g>
-          </svg>
-        ) : (
-            <svg
+        {open ? (
+          <svg
             xmlns="http://www.w3.org/2000/svg"
             data-name="Artboard 30"
-            viewBox="0 0 64 66"
+            viewBox="0 0 64 64"
             id="moon"
-            className="w-[30px] h-[30px]"
           >
             <path
               fill="#ffd55d"
@@ -80,10 +59,29 @@ const ThemeSwitcher = () => {
               points="50.391 54.5 48 49.865 53.065 50.75 56.652 47 57.391 52.182 62 54.5 57.391 56.818 56.652 62 53.065 58.25 48 59.135 50.391 54.5"
             ></polygon>
           </svg>
+        ) : (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 47.5 47.5"
+            id="sun"
+          >
+            <defs>
+              <clipPath id="a">
+                <path d="M0 38h38V0H0v38Z"></path>
+              </clipPath>
+            </defs>
+            <g
+              fill="#ffac33"
+              clip-path="url(#a)"
+              transform="matrix(1.25 0 0 -1.25 0 47.5)"
+            >
+              <path d="M17 35s0 2 2 2 2-2 2-2v-2s0-2-2-2-2 2-2 2v2zM35 21s2 0 2-2-2-2-2-2h-2s-2 0-2 2 2 2 2 2h2zM5 21s2 0 2-2-2-2-2-2H3s-2 0-2 2 2 2 2 2h2zM10.121 29.706s1.414-1.414 0-2.828-2.828 0-2.828 0l-1.415 1.414s-1.414 1.414 0 2.829c1.415 1.414 2.829 0 2.829 0l1.414-1.415ZM31.121 8.707s1.414-1.414 0-2.828-2.828 0-2.828 0l-1.414 1.414s-1.414 1.414 0 2.828 2.828 0 2.828 0l1.414-1.414ZM30.708 26.879s-1.414-1.414-2.828 0 0 2.828 0 2.828l1.414 1.414s1.414 1.414 2.828 0 0-2.828 0-2.828l-1.414-1.414ZM9.708 5.879s-1.414-1.414-2.828 0 0 2.828 0 2.828l1.414 1.414s1.414 1.414 2.828 0 0-2.828 0-2.828L9.708 5.879ZM17 5s0 2 2 2 2-2 2-2V3s0-2-2-2-2 2-2 2v2zM29 19c0 5.523-4.478 10-10 10-5.523 0-10-4.477-10-10 0-5.522 4.477-10 10-10 5.522 0 10 4.478 10 10"></path>
+            </g>
+          </svg>
         )}
       </div>
     </div>
   );
 };
 
-export default ThemeSwitcher;
+export default page;

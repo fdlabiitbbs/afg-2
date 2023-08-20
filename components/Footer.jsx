@@ -3,7 +3,8 @@ import IIT_logo from "../assets/IIT_logo.svg";
 
 const Footer = () => {
   return (
-    <footer className="body-font">
+    <footer className="body-font mt-10">
+      <hr className="h-1 bg-black" />
       <div className="px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <a className="flex title-font font-medium items-center md:justify-start justify-center">
           <Image
