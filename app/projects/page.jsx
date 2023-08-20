@@ -12,7 +12,7 @@ const page = () => {
         <ul style={{ listStyle: 'disc' }} className="ml-8 mt-4">
             {sponsoredProjects.map((project, index) => {
                 return (
-                    <li className="mt-2">
+                    <li className="mt-2" key={project.Id}>
                        <p>{project.Project_Name} - {project.Funding_Agency} ({project.Funding_Amount})</p> 
                     </li>             
                 )
@@ -22,7 +22,7 @@ const page = () => {
         <ul style={{ listStyle: 'disc' }} className="ml-8 mt-4">
             {consultancyProjects.map((project, index) => {
                 return (
-                    <li className="mt-2">
+                    <li className="mt-2" key={project.id}>
                        <p>{project.Project_Name} - {project.Funding_Agency} ({project.Funding_Amount})</p> 
                     </li>             
                 )

@@ -12,7 +12,7 @@ const page = () => {
           <ol style={{ listStyle: "decimal" }}>
             {Conferences.map((conference, index) => {
               return (
-                <li className="my-6 pl-4">
+                <li className="my-6 pl-4" key={conference.id}>
                   <div className="md:flex text-gray-300">
                     <div className="flex">
                         <div>

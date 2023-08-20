@@ -891,21 +891,25 @@ export const sponsoredProjects = [
 
 export const consultancyProjects = [
   {
+    id: 1,
     Project_Name: "Design Review for Multi-variable Industrial Sensor",
     Funding_Agency: "Honeywell Technology Solutions Lab Pvt. Ltd",
     Funding_Amount: "5.1 Lakhs"
   },
   {
+    id: 2,
     Project_Name: "Design of Miniature Ultrasonic Sensor",
     Funding_Agency: "General Electric",
     Funding_Amount: "2.95 Lakhs"
   },
   {
+    id: 3,
     Project_Name: "Design of Coriolis Mass Flowmeter",
     Funding_Agency: "Honeywell Technology Solutions Lab Pvt. Ltd",
     Funding_Amount: "13 Lakhs"
   },
   {
+    id: 4,
     Project_Name: "Design and Development of Flow Measurement Solution",
     Funding_Agency: "Honeywell Technology Solutions Lab Pvt. Ltd",
     Funding_Amount: "21.5 Lakhs"
@@ -989,18 +993,18 @@ export const Awards = [
 ];
 
 
-export const StudentNames = {
-  names: [
-    "Alice",
-    "Bob",
-    "Charlie",
-    "David",
-    "Ella",
-    "Frank",
-    "Grace",
-    "Henry",
-    "Isabel",
-    "Jack",
-  ],
-};
+// export const StudentNames = {
+//   names: [
+//     "Alice",
+//     "Bob",
+//     "Charlie",
+//     "David",
+//     "Ella",
+//     "Frank",
+//     "Grace",
+//     "Henry",
+//     "Isabel",
+//     "Jack",
+//   ],
+// };
 

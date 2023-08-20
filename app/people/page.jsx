@@ -15,7 +15,7 @@ const page = () => {
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <Image
               className="object-cover object-center rounded mx-auto h-[350px] w-[250px]"
-              alt="hero"
+              alt="Dr Venugopal Arummuru"
               src={profilePic}              
             />
             <div className="text-white text-center mx-auto text-2xl mt-8">Dr Venugopal Arummuru</div>
@@ -151,7 +151,7 @@ const page = () => {
         </div>
       </div>
 
-      <Team />
+      {/* <Team /> */}
       <Footer />
     </div>
   );
