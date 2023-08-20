@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence, delay } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
+import logo from  "@/assets/logo.jpg";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -31,13 +33,13 @@ const Navbar = () => {
   };
 
   return (
-    <div className="sticky top-0 backdrop-blur z-10">
+    <div className="top-0 backdrop-blur z-10">
       {/* DESKTOP NAVIGATION BAR */}
-      <nav className="justify-between hidden md:flex">
-        <div className="ml-2">
+      <nav className="justify-between hidden md:flex bg-black">
+        <div>
           <span className="cursor-pointer">
             {/* <Image src={febslogo} alt="navbar" width={50} height={50} /> */}
-            <h1 className="py-2 px-5 cursor-pointer text-xl">AFG</h1>
+            <Image src={logo} width={300} height={300} alt="logoAFG" className="cursor-pointer text-xl h-[200px] w-[450px]" />
           </span>
         </div>
         <div className="flex items-center">
@@ -161,14 +163,14 @@ const Navbar = () => {
 
       {/* MOBILE NAVIGATION BAR */}
       <nav className="m-0 p-0 box-border flex flex-col md:hidden">
-        <div className="flex justify-between">
-          <div className="w-[58px] h-[58px]">
+        <div className="flex justify-between bg-black">
+          <div className="">
             {/* <Image src={febslogo} alt="navbar" width={50} height={50} /> */}
-            <h1>AFG</h1>
+            <Image src={logo} width={500} height={500} alt="logoAFG" className="cursor-pointer text-xl h-[150px] w-[250px]" />
           </div>
 
           <div
-            className="w-[58px] h-[58px] flex justify-between items-center cursor-pointer"
+            className="w-[58px] h-[58px] flex justify-between items-center cursor-pointer sticky top-0 backdrop-blur z-10"
             onClick={isOpen}
           >
             {open ? (
@@ -213,20 +215,20 @@ const Navbar = () => {
               exit="exit"
             >
               <div className=" w-[100%] h-[100%] relative flex justify-center items-center flex-col bg-gray-900">
-                <a
-                  href="#home"
+                <Link
+                  href="/"
                   className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
                   onClick={isOpen}
                 >
                   Home
-                </a>
-                <a
-                  href="#about"
+                </Link>
+                <Link
+                  href="/people"
                   className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
                   onClick={isOpen}
                 >
                   People
-                </a>
+                </Link>
                 <a
                   href="#events"
                   className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
@@ -241,22 +243,22 @@ const Navbar = () => {
                 >
                   Publication
                 </a>
-                <a
-                  href="#team"
+                <Link
+                  href="/projects"
                   className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
                   onClick={isOpen}
                 >
                   Project
-                </a>
-                <a
-                  href="#contacts"
+                </Link>
+                <Link
+                  href="/techmnologies-developed"
                   className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
                   onClick={isOpen}
                 >
                   Technologies Developed
-                </a>
-                <a
-                  href="#contacts"
+                </Link>
+                <Link
+                  href=""
                   className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
                   onClick={isOpen}
                 >
@@ -273,7 +275,7 @@ const Navbar = () => {
                       fill="white"
                     ></path>
                   </svg>
-                </a>
+                </Link>
               </div>
             </motion.div>
           )}

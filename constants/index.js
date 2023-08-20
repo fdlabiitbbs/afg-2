@@ -2,8 +2,8 @@ import patent1 from '../assets/patent1.png'
 import patent2 from '../assets/patent2.jpg'
 import patent3 from '../assets/patent3.gif'
 import patent4 from '../assets/patent4.gif'
-import patent5 from '../assets/patent5.png'
-import patent6 from '../assets/patent6.png'
+import patent5 from '../assets/patent5.jpg'
+import patent6 from '../assets/patent6.jpg'
 
 export const ResearchFacilities = [
   {
