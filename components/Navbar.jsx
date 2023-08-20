@@ -50,23 +50,22 @@ const Navbar = () => {
             </li>
             <li className="py-2 cursor-pointer text-xl hover:bg-slate-600">
               
-                <div class="mx-auto flex items-center justify-center ">
-                  <div class="group relative cursor-pointer">
-                    <div class="flex items-center justify-between px-4">
+                <div className="mx-auto flex items-center justify-center ">
+                  <div className="group relative cursor-pointer">
+                    <div className="flex items-center justify-between px-4">
                       <a
-                        class="menu-hover"
-                        onClick=""
+                        className="menu-hover"
                       >
                         Research
                       </a>
-                      <span>
+                      {/* <span>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
                           viewBox="0 0 24 24"
-                          stroke-width="1.5"
+                          strokeWidth="1.5"
                           stroke="currentColor"
-                          class="h-6 w-6"
+                          className="h-6 w-6"
                         >
                           <path
                             strokeLinecap="round"
@@ -74,17 +73,15 @@ const Navbar = () => {
                             d="M19.5 8.25l-7.5 7.5-7.5-7.5"
                           />
                         </svg>
-                      </span>
+                      </span> */}
                     </div>
                     <div
-                      class="invisible absolute z-50 flex w-[200px] flex-col shadow-xl group-hover:visible rounded-lg bg-slate-700"
-                      
-                    >
-                      <Link href="/research" class="mt-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500">
+                      className="invisible absolute z-50 flex w-[200px] flex-col shadow-xl group-hover:visible rounded-lg bg-slate-700">
+                      <Link href="/research" className="mt-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500">
                         Research
                       </Link>
 
-                      <Link href="/research-facilities" class="mb-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500">
+                      <Link href="/research-facilities" className="mb-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500">
                         Facilities
                       </Link>
                     </div>
@@ -94,23 +91,22 @@ const Navbar = () => {
             </li>
             <li className="py-2 cursor-pointer text-xl hover:bg-slate-600">
               
-                <div class="mx-auto flex items-center justify-center ">
-                  <div class="group relative cursor-pointer">
-                    <div class="flex items-center justify-between px-4">
+                <div className="mx-auto flex items-center justify-center ">
+                  <div className="group relative cursor-pointer">
+                    <div className="flex items-center justify-between px-4">
                       <a
-                        class="menu-hover"
-                        onClick=""
+                        className="menu-hover"
                       >
                         Publication
                       </a>
-                      <span>
+                      {/* <span>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
                           viewBox="0 0 24 24"
-                          stroke-width="1.5"
+                          strokeWidth="1.5"
                           stroke="currentColor"
-                          class="h-6 w-6"
+                          className="h-6 w-6"
                         >
                           <path
                             strokeLinecap="round"
@@ -118,26 +114,26 @@ const Navbar = () => {
                             d="M19.5 8.25l-7.5 7.5-7.5-7.5"
                           />
                         </svg>
-                      </span>
+                      </span> */}
                     </div>
                     <div
-                      class="invisible absolute z-50 flex w-[200px] flex-col shadow-xl group-hover:visible rounded-lg bg-slate-600"
+                      className="invisible absolute z-50 flex w-[200px] flex-col shadow-xl group-hover:visible rounded-lg bg-slate-600"
                       
                     >
-                      <Link href="/journals" class="mt-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500">
+                      <Link href="/journals" className="mt-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500">
                         Journals
                       </Link>
 
-                      <a class="mb-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500">
+                      <Link href="/conferences" className="mb-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500">
                         Conferences
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
               
             </li>
             <li className="py-2 px-5 cursor-pointer text-xl hover:bg-slate-600">
-              <a>Project</a>
+              <Link href="/projects">Project</Link>
             </li>
             <li className="py-2 px-5 cursor-pointer text-xl hover:bg-slate-600">
               <Link href="/technologies-developed">Technologies Developed</Link>
@@ -150,7 +146,6 @@ const Navbar = () => {
                   width="16"
                   height="29"
                   fill="currentColor"
-                  class=""
                   viewBox="0 0 16 16"
                 >
                   <path
@@ -271,7 +266,6 @@ const Navbar = () => {
                     width="16"
                     height="29"
                     fill="currentColor"
-                    class=""
                     viewBox="0 0 16 16"
                   >
                     <path

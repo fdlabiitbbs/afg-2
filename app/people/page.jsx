@@ -3,6 +3,8 @@ import Footer from "@/components/Footer";
 import Team from "@/components/Team";
 import { Education } from "@/constants";
 import { Awards } from "@/constants";
+import Image from "next/image";
+import profilePic from "@/assets/profilePic.jpg";
 
 const page = () => {
   return (
@@ -11,12 +13,12 @@ const page = () => {
       <section className="text-gray-400 bg-gray-900 body-font">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img
-              className="object-cover object-center rounded"
+            <Image
+              className="object-cover object-center rounded mx-auto h-[350px] w-[250px]"
               alt="hero"
-              src="https://dummyimage.com/720x600"
+              src={profilePic}              
             />
-            <div className="text-white text-center mx-auto text-4xl mt-8">Dr Venugopal Arummuru</div>
+            <div className="text-white text-center mx-auto text-2xl mt-8">Dr Venugopal Arummuru</div>
           </div>
           <div className="w-[100%]">
             <div className="md:ml-5 space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
@@ -29,7 +31,7 @@ const page = () => {
                     height="10"
                   >
                     <path
-                      fill-rule="nonzero"
+                      fillRule="nonzero"
                       d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z"
                     />
                   </svg>
@@ -51,7 +53,7 @@ const page = () => {
                     height="10"
                   >
                     <path
-                      fill-rule="nonzero"
+                      fillRule="nonzero"
                       d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z"
                     />
                   </svg>
@@ -76,7 +78,7 @@ const page = () => {
                     height="10"
                   >
                     <path
-                      fill-rule="nonzero"
+                      fillRule="nonzero"
                       d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z"
                     />
                   </svg>
@@ -98,7 +100,7 @@ const page = () => {
                     height="10"
                   >
                     <path
-                      fill-rule="nonzero"
+                      fillRule="nonzero"
                       d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z"
                     />
                   </svg>

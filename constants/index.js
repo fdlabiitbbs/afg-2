@@ -1,3 +1,10 @@
+import patent1 from '../assets/patent1.png'
+import patent2 from '../assets/patent2.jpg'
+import patent3 from '../assets/patent3.gif'
+import patent4 from '../assets/patent4.gif'
+import patent5 from '../assets/patent5.png'
+import patent6 from '../assets/patent6.png'
+
 export const ResearchFacilities = [
   {
     id: 1,
@@ -42,6 +49,7 @@ export const ResearchFacilities = [
       "Various power amplifiers, analog filters, and Data acquisition systems are available for conducting customized experiments.",
   },
 ];
+
 
 export const ResearchContent = [
   {
@@ -88,10 +96,12 @@ export const ResearchContent = [
   },
 ];
 
+
 export const TechnologiesDeveloped = [
   {
     id: 1,
     title: "Vortex Cross-correlation Flowmeter",
+    img: patent1,
     patentNo: "1763/MUM/2013",
     background:
       "Vortex flowmeters are extensively used in various industrial applications for fluid flow measurement. The performance of vortex flowmeters is significantly compromised by various factors inherent to industrial processes, such as flow pulsations, piping vibrations, and installation effects. These factors attract significant concern, particularly when operating under low Reynolds number flow conditions, where the vortex signal is relatively weak. Consequently, these effects impose limitations on the flowmeter's lower operating range.",
@@ -101,6 +111,7 @@ export const TechnologiesDeveloped = [
   {
     id: 2,
     title: "Vortex Flowmeter for Measuring a fluid flow rate",
+    img: patent2,
     patentNo: "2459/MUM/2015",
     background:
       "Vortex flowmeters are widely employed in industrial applications to measure fluid flow. However, their performance is greatly affected by factors like flow pulsations, piping vibrations, and installation effects. Hence upstream and downstream straight pipes are required to achieve the required accuracy. However, this piping requirement is expensive and may not be feasible in industrial applications. ",
@@ -111,6 +122,7 @@ export const TechnologiesDeveloped = [
     id: 3,
     title:
       "A System And A Method To Create And Modulate Coaxial Synthetic Jets",
+      img: patent3,
     patentNo: "202131047214",
     background:
       "Many engineering applications like, aerodynamics, electronics cooling, and process industries and combustion requires effective utilization of fluids. Such applications demand an active flow control technique to manipulate the flow field to achieve the desired effects like turbulence enhancement and vortices. Existing flow control devices have limited scope due to their ineffectiveness in manipulating the flow field to achieve these desired effects. ",
@@ -120,6 +132,7 @@ export const TechnologiesDeveloped = [
   {
     id: 4,
     title: "A system and method for focusing of jets",
+    img: patent4,
     patentNo: "TEMP/E-1/38398/2023-KOL",
     background:
       "Many engineering applications like, aerodynamics, electronics cooling, and process industries and combustion requires effective utilization of fluids. Such applications demand an active flow control technique to manipulate the flow field to achieve the desired effects like turbulence enhancement and vortices. Existing flow control devices have limited scope due to their ineffectiveness in manipulating the flow field to achieve these desired effects.",
@@ -129,6 +142,7 @@ export const TechnologiesDeveloped = [
   {
     id: 5,
     title: "A System and a Method for Multipoint Sensing",
+    img: patent5,
     patentNo: "TEMP E-1/59888/2020/KOL",
     background:
       "Detection of vibration at multiple locations has applications in industrial operations, tracking of physiological motions for health monitoring and environmental surveillance. OTDR, FBG and classical interferometry techniques have been proposed in this regard. However, the OTDR and classical interferometric techniques are limited by reduced sensitivity with length of fiber while FBGs are temperature intolerant and lack scalability. Hence, more effective and reliable sensing and detection techniques are required.",
@@ -139,6 +153,7 @@ export const TechnologiesDeveloped = [
     id: 6,
     title:
       "A Model Interferometer Based System to Improve Performance of Vortex Flow meter",
+      img: patent6,
     patentNo: "E-5/320/2019/KOL",
     background:
       "Optical fiber-based vibration sensors are a potential class of technology. Their market value is rapidly increasing due to their high sensitivity and the potential to design versatile probes to detect various parameters. In practical applications, the performance of such sensor probes is affected by the external field noise and low amplitude of the external field. In order to improve their real time performance in complex environments, the modulation or conditioning of their responses is a definite solution. In this regard, methods based on spatial signal processing or phase noise cancellation have been reported. However, amplification, attenuation of noise components and filtering using a single system remained elusive. ",
@@ -147,10 +162,11 @@ export const TechnologiesDeveloped = [
   },
 ];
 
+
 export const Conferences = [
   {
     id: 1,
-    conferneceName:
+    conferenceName:
       "34th National Conference on Fluid Mechanics and Fluid Power",
     info: "Numerical investigations on the vortex shedding of a circular cylinder as applicable to vortex flowmeter",
     attendees: "Vengopual A., Amit Agrawal and S. V. Prabhu",
@@ -159,7 +175,7 @@ export const Conferences = [
   },
   {
     id: 2,
-    conferneceName:
+    conferenceName:
       "11th Asian International Conference on Fluid Machinery, Indian Institute of Technology",
     info: "Comparison of piezo-sensor and differential wall pressure sensor for vortex flowmeter application",
     attendees: "Venugopal, A., Amit Agrawal and S. V. Prabhu",
@@ -168,7 +184,7 @@ export const Conferences = [
   },
   {
     id: 3,
-    conferneceName:
+    conferenceName:
       "IUTAM Symposium on Bluff Body Flows, Indian Institute of Technology",
     info: "Analysis of vortex flowmeter signal with empirical mode decomposition and autocorrelation function",
     attendees: "Venugopal, A., Amit Agrawal and S. V. Prabhu",
@@ -177,7 +193,7 @@ export const Conferences = [
   },
   {
     id: 4,
-    conferneceName:
+    conferenceName:
       "Proceedings of the Thirty Ninth National Conference on Fluid Mechanics and Fluid Power",
     info: "Experimental Investigations on Multi-hole Orifice meters under Fully Developed Flow Conditions",
     attendees: "Gajendra Kumar, Venugopal A., and S.V. Prabhu",
@@ -186,7 +202,7 @@ export const Conferences = [
   },
   {
     id: 5,
-    conferneceName:
+    conferenceName:
       "Towards Smarter and Greener Flow Measurement and Control, FCRI Global Conference and Exhibition",
     info: "Study on effects of wafer cone design and presence of upstream pipe bends on the performance of wafer conical flowmeter",
     attendees: "Kishore, B., Venugopal, A., and S. V. Prabhu",
@@ -195,7 +211,7 @@ export const Conferences = [
   },
   {
     id: 6,
-    conferneceName:
+    conferenceName:
       "Towards Smarter and Greener Flow Measurement and Control, FCRI Global Conference and Exhibition",
     info: "Installation effects on the performance of vortex flowmeter with piezo-sensor",
     attendees: "Venugopal, A., Amit Agrawal and S. V. Prabhu",
@@ -204,7 +220,7 @@ export const Conferences = [
   },
   {
     id: 7,
-    conferneceName:
+    conferenceName:
       "Towards Smarter and Greener Flow Measurement and Control, FCRI Global Conference and Exhibition",
     info: "Vortex cross correlation flowmeter",
     attendees: "Venugopal, A., Amit Agrawal and S. V. Prabhu",
@@ -213,7 +229,7 @@ export const Conferences = [
   },
   {
     id: 8,
-    conferneceName: "XX IMEKO World Congress",
+    conferenceName: "XX IMEKO World Congress",
     info: "Flow visualization studies on trapezoidal bluff for vortex flowmeter application",
     attendees: "Venugopal A., Amit Agrawal and S. V. Prabhu",
     date: "9-14 September 2012",
@@ -221,7 +237,7 @@ export const Conferences = [
   },
   {
     id: 9,
-    conferneceName: "14th European Turbulence Conference",
+    conferenceName: "14th European Turbulence Conference",
     info: "Flow over a circular cylinder Placed Inside a Pipe",
     attendees: "Venugopal A., Amit Agrawal and S. V. Prabhu",
     date: "1-4 September 2013",
@@ -229,7 +245,7 @@ export const Conferences = [
   },
   {
     id: 10,
-    conferneceName:
+    conferenceName:
       "ICFMA 2013: International Conference on Fluid Mechanics and Application",
     info: "Influence of after body shape on the performance of blunt shaped bodies as vortex shedders",
     attendees: "Lavish O., Venugopal, A., Amit Agrawal and S.V. Prabhu",
@@ -238,7 +254,7 @@ export const Conferences = [
   },
   {
     id: 11,
-    conferneceName:
+    conferenceName:
       "66th Annual Meeting of the American Physical Society's Division of Fluid Dynamics (DFD)",
     info: "Investigation on flow around cylinder with parallel slit in a circular pipe using flow visualization approach",
     attendees: "Venugopal, A., Lavish, O., Amit Agrawal and S. V. Prabhu",
@@ -247,7 +263,7 @@ export const Conferences = [
   },
   {
     id: 12,
-    conferneceName:
+    conferenceName:
       "66th Annual Meeting of the American Physical Society's Division of Fluid Dynamics (DFD)",
     info: "Symmetric vortex shedding in the wake of circular cylinder placed inside a pipe",
     attendees: "Venugopal, A., Ordia, L., Agrawal, A., and Prabhu, S.V.",
@@ -256,7 +272,7 @@ export const Conferences = [
   },
   {
     id: 13,
-    conferneceName:
+    conferenceName:
       "5th International and 41th National Conference on Fluid Mechanics and Fluid Power",
     info: "Vortex Dynamics of Bluff Bodies Placed Inside a Pipe in Unsteady Laminar Regime",
     attendees: "Venugopal, A., Amit Agrawal and S. V. Prabhu",
@@ -265,7 +281,7 @@ export const Conferences = [
   },
   {
     id: 14,
-    conferneceName: "9th International Symposium on Fluid Flow Measurement",
+    conferenceName: "9th International Symposium on Fluid Flow Measurement",
     info: "CFD Analysis for Ultrasonic Flow Meter Accuracy Improvement in Flare Gas Applications",
     attendees:
       "Isaac Sadovnik, Jed Matson, Selvakumaran S, Venugopal A, Lei Sui",
@@ -274,7 +290,7 @@ export const Conferences = [
   },
   {
     id: 15,
-    conferneceName: "9th  International Symposium on Fluid Flow Measurement",
+    conferenceName: "9th  International Symposium on Fluid Flow Measurement",
     info: "A Novel High Accuracy Delay Time Estimation Algorithm to Compute Vortex Convection Velocity",
     attendees: "Kaluri V Rangarao, Venugopal A",
     date: "14-17 April, 2015",
@@ -282,7 +298,7 @@ export const Conferences = [
   },
   {
     id: 16,
-    conferneceName: "IEEE Region 10 Symposium (TENSYMP)",
+    conferenceName: "IEEE Region 10 Symposium (TENSYMP)",
     info: "gold-Fourier Kaluri method for estimating vortex shedding frequency",
     attendees: "Rangarao, Kaluri V., and Venugopal A.",
     date: "2016",
@@ -290,7 +306,7 @@ export const Conferences = [
   },
   {
     id: 17,
-    conferneceName:
+    conferenceName:
       "7 th International and 45 th National Fluid Mechanics and Fluid Power Conference",
     info: "Numerical Simulation of Synthetic Jet Using OpenFOAM",
     attendees: "P. Samarendra, Gohil Trushar B., A. Venugopal",
@@ -299,7 +315,7 @@ export const Conferences = [
   },
   {
     id: 18,
-    conferneceName: "25th International Congress on Sound and Vibration",
+    conferenceName: "25th International Congress on Sound and Vibration",
     info: "Influence of Cross Flow on the Propagation and Steering of Acoustic Field",
     attendees: "Kushal Prasad Choudhary, V Arumuru,Y G Bhumkar",
     date: "8-12 July 2018",
@@ -307,7 +323,7 @@ export const Conferences = [
   },
   {
     id: 19,
-    conferneceName:
+    conferenceName:
       "9th International Symposium on Fluid-Structure Interactions, Flow-Sound Interactions, Flow-Induced Vibration & Noise FIV2018: FSI2 & FIV+N",
     info: "On the Interaction of Separation Bubbles in the Near Wake of a Cylinder",
     attendees: "Bimlendu M., Sathyanarayana A, Venugopal A",
@@ -316,7 +332,7 @@ export const Conferences = [
   },
   {
     id: 20,
-    conferneceName: "64th CONGRESS OF ISTAM",
+    conferenceName: "64th CONGRESS OF ISTAM",
     info: "Effect of Strouhal number on the flow field of Synthetic Jet",
     attendees: "P. Samarendra, Gohil Trushar B., A. Venugopal",
     date: "9-12 December, 2019",
@@ -324,7 +340,7 @@ export const Conferences = [
   },
   {
     id: 21,
-    conferneceName:
+    conferenceName:
       "In proceedings of the 26th National and 4th International ISHMT-ASTFE Heat and Mass Transfer Conference",
     info: "Impingement heat transfer enhancement by synthetic jet array",
     attendees: "Pasa, J., & Arumuru, V",
@@ -333,7 +349,7 @@ export const Conferences = [
   },
   {
     id: 22,
-    conferneceName:
+    conferenceName:
       "International Symposium on Fluids and Thermal Engineering (FLUTE-2021)",
     info: "Effect of natural and forced convection on the PCM based hybrid heat sink for cooling of electronic components",
     attendees: "R Nandan, V Arumuru, P Rath and M K Das",
@@ -342,7 +358,7 @@ export const Conferences = [
   },
   {
     id: 23,
-    conferneceName:
+    conferenceName:
       "Fluid Mechanics and Fluid Power (Vol. 3). FMFP 2021. Lecture Notes in Mechanical Engineering",
     info: "Effect of Velocity Ratio on Evolution of Vortices of a Coaxial jet. In: Bhattacharyya, S., Verma, S., Harikrishnan, A.R",
     attendees: "Samantaray, S.S., Arumuru, V",
@@ -351,7 +367,7 @@ export const Conferences = [
   },
   {
     id: 24,
-    conferneceName:
+    conferenceName:
       "74 th Annual Meeting of the APS Division of Fluid Dynamics Abstracts (pp. H28-010)",
     info: "Evolution of Coaxial Synthetic Jet with Different Velocity Ratios",
     attendees: "Panda, S., Gohil, T., Arumuru, V. (2021)",
@@ -360,7 +376,7 @@ export const Conferences = [
   },
   {
     id: 25,
-    conferneceName:
+    conferenceName:
       "In proceedings of the 49th National and 9th International conference on Fluid Mechanics and Fluid Power (FMFP)",
     info: "Proper orthogonal decomposition analysis of flow characterization of adjacent synthetic jets",
     attendees: "Pasa, J., Khandelwal, G., & Arumuru, V. (2021)",
@@ -369,7 +385,7 @@ export const Conferences = [
   },
   {
     id: 26,
-    conferneceName:
+    conferenceName:
       "9th International and 49th National Conference on Fluid Mechanics and Fluid Power (FMFP)",
     info: "Experimental study of PCM and synthetic jet based hybrid heat sink with cylindrical fins for electronic cooling",
     attendees: "R Nandan, V Arumuru, P Rath, MK Das.",
@@ -377,8 +393,8 @@ export const Conferences = [
     place: "Roorkee, India",
   },
   {
-    id: 17,
-    conferneceName:
+    id: 27,
+    conferenceName:
       "9 th International and 49 th National Fluid Mechanics and Fluid Power Conference",
     info: "Numerical Investigation on the Flow Behaviour of a Coaxial Synthetic Jet in a Quiescent Environment",
     attendees:
@@ -387,6 +403,7 @@ export const Conferences = [
     place: "IIT Roorkee, India",
 },
 ];
+
 
 export const Journals = [
   {
@@ -819,6 +836,83 @@ export const Journals = [
   },
 ];
 
+
+export const sponsoredProjects = [
+      {
+        Id: 1,
+        Project_Name: "Indigenous Development of a novel low-cost Solar PV panel self-cleaning device",
+        Funding_Agency: "DST (Department of Science and Technology)",
+        Funding_Amount: "42.5 lakhs"
+      },
+      {
+        Id: 2,
+        Project_Name: "Indigenous Development of Controlled Interferometry Based High Temperature Industrial Flow Measurement device",
+        Funding_Agency: "Device Development Program, DST",
+        Funding_Amount: "79 lakhs"
+      },
+      {
+        Id: 3,
+        Project_Name: "Design and Development of Jet Pumps",
+        Funding_Agency: "Aeronautical Development Agency",
+        Funding_Amount: "13 lakhs"
+      },
+      {
+        Id: 4,
+        Project_Name: "Centre for Wing Design",
+        Funding_Agency: "FIST, DST",
+        Funding_Amount: "265 lakhs"
+      },
+      {
+        Id: 5,
+        Project_Name: "Design and Development of Hybrid 'PCM-Synthetic Jet' based Heat Sink for Electronic Cooling",
+        Funding_Agency: "DST",
+        Funding_Amount: "38 lakhs"
+      },
+      {
+        Id: 6,
+        Project_Name: "Computational Analysis of Acoustic Beam Steering",
+        Funding_Agency: "AR&DB",
+        Funding_Amount: "17.6 lakhs"
+      },
+      {
+        Id: 7,
+        Project_Name: "Design & Development of Synthetic Jet",
+        Funding_Agency: "SERB: ECR",
+        Funding_Amount: "32.1 lakhs"
+      },
+      {
+        Id: 8,
+        Project_Name: "Design of Multipath Ultrasonic flow meter",
+        Funding_Agency: "IIT Bhubaneswar",
+        Funding_Amount: "10 lakhs"
+      } 
+]
+
+
+export const consultancyProjects = [
+  {
+    Project_Name: "Design Review for Multi-variable Industrial Sensor",
+    Funding_Agency: "Honeywell Technology Solutions Lab Pvt. Ltd",
+    Funding_Amount: "5.1 Lakhs"
+  },
+  {
+    Project_Name: "Design of Miniature Ultrasonic Sensor",
+    Funding_Agency: "General Electric",
+    Funding_Amount: "2.95 Lakhs"
+  },
+  {
+    Project_Name: "Design of Coriolis Mass Flowmeter",
+    Funding_Agency: "Honeywell Technology Solutions Lab Pvt. Ltd",
+    Funding_Amount: "13 Lakhs"
+  },
+  {
+    Project_Name: "Design and Development of Flow Measurement Solution",
+    Funding_Agency: "Honeywell Technology Solutions Lab Pvt. Ltd",
+    Funding_Amount: "21.5 Lakhs"
+  }
+]
+
+
 export const Education = [
   {
     id: 1,
@@ -836,6 +930,7 @@ export const Education = [
       "B.E, Mechanical, National Institute of Technology Raipur, India (2006)",
   },
 ];
+
 
 export const Awards = [
   {
@@ -892,6 +987,7 @@ export const Awards = [
       "Merit-Based Scholarship from S.E.C. Railway, India (2003, 2004 & 2005) for graduate Studies",
   },
 ];
+
 
 export const StudentNames = {
   names: [

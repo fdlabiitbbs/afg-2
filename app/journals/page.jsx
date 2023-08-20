@@ -15,7 +15,7 @@ const page = () => {
           return (
             <li
               key={journal.ID}
-              className="md:px-4 ml-8 md:mx-20 md:py-4 p-2 rounded-lg hover:bg-slate-600"
+              className="md:pl-4 ml-8 md:mx-20 md:py-4 p-2 rounded-lg hover:bg-slate-600"
             >
               <h1 className="text-xl">{journal.Title}</h1>
               <p>
@@ -41,7 +41,7 @@ const page = () => {
               </span>
               <div>
                 <a href={journal.DOI} className="text-red-600">
-                    {journal.DOI}
+                    DOI
                 </a>
               </div>
             </li>
