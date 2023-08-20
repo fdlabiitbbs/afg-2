@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence, delay } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import logo from  "@/assets/logo.jpg";
+import logo from "@/assets/logo.jpg";
 import ThemeSwitcher from "./ThemeSwitcher";
 
 const Navbar = () => {
@@ -40,7 +40,13 @@ const Navbar = () => {
         <div>
           <span className="cursor-pointer">
             {/* <Image src={febslogo} alt="navbar" width={50} height={50} /> */}
-            <Image src={logo} width={300} height={300} alt="logoAFG" className="cursor-pointer text-xl h-[200px] w-[450px]" />
+            <Image
+              src={logo}
+              width={300}
+              height={300}
+              alt="logoAFG"
+              className="cursor-pointer text-xl h-[200px] w-[450px]"
+            />
           </span>
         </div>
         <div className="flex items-center">
@@ -52,16 +58,11 @@ const Navbar = () => {
               <Link href="/people">People</Link>
             </li>
             <li className="py-2 cursor-pointer text-xl hover:bg-slate-600">
-              
-                <div className="mx-auto flex items-center justify-center ">
-                  <div className="group relative cursor-pointer">
-                    <div className="flex items-center justify-between px-4">
-                      <a
-                        className="menu-hover"
-                      >
-                        Research
-                      </a>
-                      {/* <span>
+              <div className="mx-auto flex items-center justify-center ">
+                <div className="group relative cursor-pointer">
+                  <div className="flex items-center justify-between px-4">
+                    <a className="menu-hover">Research</a>
+                    {/* <span>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -77,32 +78,31 @@ const Navbar = () => {
                           />
                         </svg>
                       </span> */}
-                    </div>
-                    <div
-                      className="invisible absolute z-50 flex w-[200px] flex-col shadow-xl group-hover:visible rounded-lg bg-slate-700">
-                      <Link href="/research" className="mt-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500">
-                        Research
-                      </Link>
+                  </div>
+                  <div className="invisible absolute z-50 flex w-[200px] flex-col shadow-xl group-hover:visible rounded-lg bg-slate-700">
+                    <Link
+                      href="/research"
+                      className="mt-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500"
+                    >
+                      Research
+                    </Link>
 
-                      <Link href="/research-facilities" className="mb-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500">
-                        Facilities
-                      </Link>
-                    </div>
+                    <Link
+                      href="/research-facilities"
+                      className="mb-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500"
+                    >
+                      Facilities
+                    </Link>
                   </div>
                 </div>
-              
+              </div>
             </li>
             <li className="py-2 cursor-pointer text-xl hover:bg-slate-600">
-              
-                <div className="mx-auto flex items-center justify-center ">
-                  <div className="group relative cursor-pointer">
-                    <div className="flex items-center justify-between px-4">
-                      <a
-                        className="menu-hover"
-                      >
-                        Publication
-                      </a>
-                      {/* <span>
+              <div className="mx-auto flex items-center justify-center ">
+                <div className="group relative cursor-pointer">
+                  <div className="flex items-center justify-between px-4">
+                    <a className="menu-hover">Publication</a>
+                    {/* <span>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -118,22 +118,24 @@ const Navbar = () => {
                           />
                         </svg>
                       </span> */}
-                    </div>
-                    <div
-                      className="invisible absolute z-50 flex w-[200px] flex-col shadow-xl group-hover:visible rounded-lg bg-slate-600"
-                      
+                  </div>
+                  <div className="invisible absolute z-50 flex w-[200px] flex-col shadow-xl group-hover:visible rounded-lg bg-slate-600">
+                    <Link
+                      href="/journals"
+                      className="mt-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500"
                     >
-                      <Link href="/journals" className="mt-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500">
-                        Journals
-                      </Link>
+                      Journals
+                    </Link>
 
-                      <Link href="/conferences" className="mb-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500">
-                        Conferences
-                      </Link>
-                    </div>
+                    <Link
+                      href="/conferences"
+                      className="mb-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500"
+                    >
+                      Conferences
+                    </Link>
                   </div>
                 </div>
-              
+              </div>
             </li>
             <li className="py-2 px-5 cursor-pointer text-xl hover:bg-slate-600">
               <Link href="/projects">Project</Link>
@@ -144,7 +146,7 @@ const Navbar = () => {
             <li className="py-2 px-5 cursor-pointer text-xl text-white hover:bg-slate-600">
               <a href="https://scholar.google.co.in/citations?user=1N1daS8AAAAJ&hl=en">
                 <svg
-                  className="text-white text-xl bi bi-google"
+                  className="text-xl bi bi-google"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="29"
@@ -170,44 +172,54 @@ const Navbar = () => {
         <div className="flex justify-between bg-black">
           <div className="">
             {/* <Image src={febslogo} alt="navbar" width={50} height={50} /> */}
-            <Image src={logo} width={500} height={500} alt="logoAFG" className="cursor-pointer text-xl h-[150px] w-[250px]" />
+            <Image
+              src={logo}
+              width={500}
+              height={500}
+              alt="logoAFG"
+              className="cursor-pointer text-xl h-[150px] w-[250px]"
+            />
           </div>
 
-          <div
-            className="w-[58px] h-[58px] flex justify-between items-center cursor-pointer sticky top-0 backdrop-blur z-10"
-            onClick={isOpen}
-          >
-            {open ? (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-10 h-10"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            ) : (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1.5"
-                stroke="currentColor"
-                className="w-10 h-10"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                />
-              </svg>
-            )}
+          <div>
+            
+            <div
+              className="w-[58px] h-[58px] flex justify-between items-center cursor-pointer sticky top-0 backdrop-blur z-10"
+              onClick={isOpen}
+            >
+              {open ? (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="white"
+                  className="w-10 h-10"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              ) : (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="white"
+                  className="w-10 h-10"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  />
+                </svg>
+              )}
+            </div>
+            <ThemeSwitcher />
           </div>
         </div>
         <AnimatePresence>
@@ -218,7 +230,7 @@ const Navbar = () => {
               animate={{ height: "100vh", opacity: 1 }}
               exit="exit"
             >
-              <div className=" w-[100%] h-[100%] relative flex justify-center items-center flex-col bg-gray-900">
+              <div className=" w-[100%] h-[100%] relative flex justify-center items-center flex-col">
                 <Link
                   href="/"
                   className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
