@@ -29,7 +29,7 @@ const page = () => {
                   <div className="mb-3 leading-relaxed text-justify">
                     {research.content.map((content, index) => {
                       return (
-                        <p className="mb-1">{content}</p>
+                        <p className="mb-1" key={content}>{content}</p>
                       )
                     })}
                   </div>
