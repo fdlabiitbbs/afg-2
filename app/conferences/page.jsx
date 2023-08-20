@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { Conferences } from "@/constants";
 
@@ -13,7 +14,7 @@ const page = () => {
             {Conferences.map((conference, index) => {
               return (
                 <li className="my-6 pl-4" key={conference.id}>
-                  <div className="md:flex text-gray-300">
+                  <div className="md:flex">
                     <div className="flex">
                         <div>
                         <svg
@@ -64,14 +65,15 @@ const page = () => {
                     </div>
                   </div>
                   <p className="text-xl">{conference.conferenceName}</p>
-                  <p className="text-gray-400">{conference.info}</p>
-                  <p className="text-gray-400">{conference.attendees}</p>
+                  <p className="">{conference.info}</p>
+                  <p className="">{conference.attendees}</p>
                 </li>
               );
             })}
           </ol>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

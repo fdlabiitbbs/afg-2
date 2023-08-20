@@ -10,20 +10,20 @@ const page = () => {
   return (
     <div>
       <Navbar />
-      <section className="text-gray-400 bg-gray-900 body-font">
+      <section className="body-font">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <Image
-              className="object-cover object-center rounded mx-auto h-[350px] w-[250px]"
+              className="object-cover object-center rounded mx-auto h-[350px] w-[250px] border-2 border-black"
               alt="Dr Venugopal Arummuru"
               src={profilePic}              
             />
-            <div className="text-white text-center mx-auto text-2xl mt-8">Dr Venugopal Arummuru</div>
+            <div className="text-center font-semibold mx-auto text-3xl mt-8">Dr Venugopal Arummuru</div>
           </div>
           <div className="w-[100%]">
             <div className="md:ml-5 space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
               <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
-                <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-black group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
                   <svg
                     className="fill-current"
                     xmlns="http://www.w3.org/2000/svg"
@@ -40,12 +40,12 @@ const page = () => {
                   <div className="flex items-center justify-between space-x-2 mb-1">
                     <div className="font-bold text-slate-900">Mar 2016 - Present</div>
                   </div>
-                  <div className="text-slate-500">Assistant Professor,<br /> IIT Bhubaneswar, India</div>
+                  <div className="text-black">Assistant Professor,<br /> IIT Bhubaneswar, India</div>
                 </div>
               </div>
 
               <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
-                <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-black group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
                   <svg
                     className="fill-current"
                     xmlns="http://www.w3.org/2000/svg"
@@ -63,14 +63,14 @@ const page = () => {
                   <div className="flex items-center justify-between space-x-2 mb-1">
                     <div className="font-bold text-slate-900">Sep 2014 - Feb 2016</div>
                   </div>
-                  <div className="text-slate-500">
+                  <div className="text-black">
                     Lead Engineer/Technologist,<br /> GE Measurement & Control, India
                   </div>
                 </div>
               </div>
 
               <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
-                <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-black group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
                   <svg
                     className="fill-current"
                     xmlns="http://www.w3.org/2000/svg"
@@ -87,12 +87,12 @@ const page = () => {
                   <div className="flex items-center justify-between space-x-2 mb-1">
                     <div className="font-bold text-slate-900">Jun 2014 - Aug 2014</div>
                   </div>
-                  <div className="text-slate-500">Research Associate,<br /> National University of Singapore, Singapore</div>
+                  <div className="text-black">Research Associate,<br /> National University of Singapore, Singapore</div>
                 </div>
               </div>
 
               <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
-                <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-black group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
                   <svg
                     className="fill-current"
                     xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +109,7 @@ const page = () => {
                   <div className="flex items-center justify-between space-x-2 mb-1">
                     <div className="font-bold text-slate-900">Aug 2008 - Jun 2010</div>
                   </div>
-                  <div className="text-slate-500">Design and Development Engineer,<br /> Forbes Marshall Pvt. Ltd India</div>
+                  <div className="text-black">Design and Development Engineer,<br /> Forbes Marshall Pvt. Ltd India</div>
                 </div>
               </div>
             </div>

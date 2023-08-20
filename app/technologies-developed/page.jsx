@@ -8,10 +8,10 @@ const page = () => {
   return (
     <>
       <Navbar />
-      <div className="text-white">
+      <div className="">
         {TechnologiesDeveloped.map((tech, index) => {
           return (
-            <section className="text-gray-400 bg-gray-900 body-font" key={tech.id}>
+            <section className="body-font" key={tech.id}>
               <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
                   <Image
@@ -23,10 +23,10 @@ const page = () => {
                   />
                 </div>
                 <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center" key={tech.id}>
-                  <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+                  <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
                     {tech.title}
                   </h1>
-                  <p className="mb-3 leading-relaxed text-white">Indian Patent No - {tech.patentNo}</p>
+                  <p className="mb-3 leading-relaxed">Indian Patent No - {tech.patentNo}</p>
                   <p className="mb-3 leading-relaxed text-justify">
                     Background: {tech.background}
                   </p>

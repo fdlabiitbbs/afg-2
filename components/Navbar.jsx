@@ -4,6 +4,7 @@ import { motion, AnimatePresence, delay } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import logo from  "@/assets/logo.jpg";
+import ThemeSwitcher from "./ThemeSwitcher";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -35,7 +36,7 @@ const Navbar = () => {
   return (
     <div className="top-0 backdrop-blur z-10">
       {/* DESKTOP NAVIGATION BAR */}
-      <nav className="justify-between hidden md:flex bg-black">
+      <nav className="justify-between hidden md:flex bg-black text-white">
         <div>
           <span className="cursor-pointer">
             {/* <Image src={febslogo} alt="navbar" width={50} height={50} /> */}
@@ -141,7 +142,7 @@ const Navbar = () => {
               <Link href="/technologies-developed">Technologies Developed</Link>
             </li>
             <li className="py-2 px-5 cursor-pointer text-xl text-white hover:bg-slate-600">
-              <a>
+              <a href="https://scholar.google.co.in/citations?user=1N1daS8AAAAJ&hl=en">
                 <svg
                   className="text-white text-xl bi bi-google"
                   xmlns="http://www.w3.org/2000/svg"
@@ -156,6 +157,9 @@ const Navbar = () => {
                   ></path>
                 </svg>
               </a>
+            </li>
+            <li className="py-2 px-5 cursor-pointer">
+              <ThemeSwitcher />
             </li>
           </ul>
         </div>

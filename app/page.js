@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
-    <div className='text-white'>
+    <div>
       <Navbar />
       <HomePage />
       <Footer />
