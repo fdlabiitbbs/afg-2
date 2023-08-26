@@ -121,7 +121,7 @@ const page = () => {
                 <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-black group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    enable-background="new 0 0 50 50"
+                    enableBackground="new 0 0 50 50"
                     viewBox="0 0 50 50"
                     id="chemical-testing"
                   >
@@ -297,7 +297,7 @@ const page = () => {
 							c0.256,0,0.512,0.0308,0.809,0.1024l0.7578-0.1331l-0.2355,0.3993l0.0819,0.0819c0.1434,0.1536,0.2048,0.3072,0.1843,0.4608
 							c-0.0308,0.1946-0.1843,0.3789-0.4403,0.5223c-0.3072,0.1843-0.7168,0.2764-1.1572,0.2764
 							c-0.4403,0-0.85-0.0921-1.1572-0.2764C23.032,22.0696,22.8784,21.8647,22.8784,21.6497z"
-                        enable-background="new"
+                        enableBackground="new"
                       ></path>
                       <circle
                         cx="25.539"
@@ -813,7 +813,7 @@ const page = () => {
         </div>
       </div>
 
-      {/* <Team /> */}
+      <Team />
       <Footer />
     </div>
   );

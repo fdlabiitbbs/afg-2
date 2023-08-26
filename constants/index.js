@@ -4,6 +4,16 @@ import patent3 from '../assets/patent3.gif'
 import patent4 from '../assets/patent4.gif'
 import patent5 from '../assets/patent5.jpg'
 import patent6 from '../assets/patent6.jpg'
+import SamarendraPanda from '../assets/SamarendraPanda.jpg'
+import VardhanMittal from '../assets/VardhanMittal.jpg'
+import SidharthaSankar from '../assets/SidharthaSankar.jpg' 
+import RakeshNandan from '../assets/RakeshNandan.jpg'
+import JangyadattaPasa from '../assets/JangyadattaPasa.jpg'
+import PranavPP from '../assets/PranavPP.jpg'
+import NitishKumar from '../assets/NitishKumar.jpg'
+import KondareddyMourya from '../assets/KondareddyMourya.jpg'
+import ChandanSethi from '../assets/ChandanSethi.jpg'
+
 
 export const ResearchFacilities = [
   {
@@ -838,83 +848,112 @@ export const Journals = [
 
 
 export const sponsoredProjects = [
-      {
-        Id: 1,
-        Project_Name: "Indigenous Development of a novel low-cost Solar PV panel self-cleaning device",
-        Funding_Agency: "DST (Department of Science and Technology)",
-        Funding_Amount: "42.5 lakhs"
-      },
-      {
-        Id: 2,
-        Project_Name: "Indigenous Development of Controlled Interferometry Based High Temperature Industrial Flow Measurement device",
-        Funding_Agency: "Device Development Program, DST",
-        Funding_Amount: "79 lakhs"
-      },
-      {
-        Id: 3,
-        Project_Name: "Design and Development of Jet Pumps",
-        Funding_Agency: "Aeronautical Development Agency",
-        Funding_Amount: "13 lakhs"
-      },
-      {
-        Id: 4,
-        Project_Name: "Centre for Wing Design",
-        Funding_Agency: "FIST, DST",
-        Funding_Amount: "265 lakhs"
-      },
-      {
-        Id: 5,
-        Project_Name: "Design and Development of Hybrid 'PCM-Synthetic Jet' based Heat Sink for Electronic Cooling",
-        Funding_Agency: "DST",
-        Funding_Amount: "38 lakhs"
-      },
-      {
-        Id: 6,
-        Project_Name: "Computational Analysis of Acoustic Beam Steering",
-        Funding_Agency: "AR&DB",
-        Funding_Amount: "17.6 lakhs"
-      },
-      {
-        Id: 7,
-        Project_Name: "Design & Development of Synthetic Jet",
-        Funding_Agency: "SERB: ECR",
-        Funding_Amount: "32.1 lakhs"
-      },
-      {
-        Id: 8,
-        Project_Name: "Design of Multipath Ultrasonic flow meter",
-        Funding_Agency: "IIT Bhubaneswar",
-        Funding_Amount: "10 lakhs"
-      } 
+  {
+    id: 1,
+    Project_Name: "Design and Development of Steering and Focusing Synthetic Jet Array",
+    Funding_Agency: "CRG, DST",
+    Funding_Amount: "43.2 lakhs"
+  },
+  {
+    id: 2,
+    Project_Name: "Indigenous Development of a novel low-cost Solar PV panel self-cleaning device",
+    Funding_Agency: "DST (Department of Science and Technology)",
+    Funding_Amount: "42.5 lakhs"
+  },
+  {
+    id: 3,
+    Project_Name: "Fiber Reinforced cotton & polyester photonics fabrics with thermal comfort and illumination functionality",
+    Funding_Agency: "Ministry of Textile",
+    Funding_Amount: "72 lakhs"
+  },
+  {
+    id: 4,
+    Project_Name: "Indigenous Development of Controlled Interferometry Based High Temperature Industrial Flow Measurement device",
+    Funding_Agency: "Device Development Program, DST",
+    Funding_Amount: "79 lakhs"
+  },
+  {
+    id: 5,
+    Project_Name: "Centre for Wing Design",
+    Funding_Agency: "FIST, DST",
+    Funding_Amount: "265 lakhs"
+  },
+  {
+    id: 6,
+    Project_Name: "Design and Development of Hybrid 'PCM-Synthetic Jet' based Heat Sink for Electronic Cooling",
+    Funding_Agency: "DST",
+    Funding_Amount: "38 lakhs",
+    Status: "Completed"
+  },
+  {
+    id: 7,
+    Project_Name: "Design and Development of Jet Pumps",
+    Funding_Agency: "Aeronautical Development Agency",
+    Funding_Amount: "13 lakhs",
+    Status: "Completed"
+  },
+  {
+    id: 8,
+    Project_Name: "Computational Analysis of Acoustic Beam Steering",
+    Funding_Agency: "AR&DB",
+    Funding_Amount: "17.6 lakhs",
+    Status: "Completed"
+  },
+  {
+    id: 9,
+    Project_Name: "Design & Development of Synthetic Jet",
+    Funding_Agency: "SERB: ECR",
+    Funding_Amount: "32.1 lakhs",
+    Status: "Completed"
+  },
+  {
+    id: 10,
+    Project_Name: "Design of Multipath Ultrasonic flow meter",
+    Funding_Agency: "IIT Bhubaneswar",
+    Funding_Amount: "10 lakhs",
+    Status: "Completed"
+  }
 ]
+
 
 
 export const consultancyProjects = [
   {
     id: 1,
-    Project_Name: "Design Review for Multi-variable Industrial Sensor",
-    Funding_Agency: "Honeywell Technology Solutions Lab Pvt. Ltd",
-    Funding_Amount: "5.1 Lakhs"
+    Project_Name: "Fitness Monitoring System and Pro diagnostics of LURO BURNER – Paradeep Phosphate Limited",
+    Funding_Agency: "Paradeep Phosphate Limited",
+    Funding_Amount: "14.2 lakhs"
   },
   {
     id: 2,
-    Project_Name: "Design of Miniature Ultrasonic Sensor",
-    Funding_Agency: "General Electric",
-    Funding_Amount: "2.95 Lakhs"
+    Project_Name: "Design Review for Multi-variable Industrial Sensor",
+    Funding_Agency: "Honeywell Technology Solutions Lab Pvt. Ltd",
+    Funding_Amount: "5.1 Lakhs",
+    Status: "Completed"
   },
   {
     id: 3,
-    Project_Name: "Design of Coriolis Mass Flowmeter",
-    Funding_Agency: "Honeywell Technology Solutions Lab Pvt. Ltd",
-    Funding_Amount: "13 Lakhs"
+    Project_Name: "Design of Miniature Ultrasonic Sensor",
+    Funding_Agency: "General Electric",
+    Funding_Amount: "2.95 Lakhs",
+    Status: "Completed"
   },
   {
     id: 4,
+    Project_Name: "Design of Coriolis Mass Flowmeter",
+    Funding_Agency: "Honeywell Technology Solutions Lab Pvt. Ltd",
+    Funding_Amount: "13 Lakhs",
+    Status: "Completed"
+  },
+  {
+    id: 5,
     Project_Name: "Design and Development of Flow Measurement Solution",
     Funding_Agency: "Honeywell Technology Solutions Lab Pvt. Ltd",
-    Funding_Amount: "21.5 Lakhs"
+    Funding_Amount: "21.5 Lakhs",
+    Status: "Completed"
   }
 ]
+
 
 
 export const Education = [
@@ -993,18 +1032,71 @@ export const Awards = [
 ];
 
 
-// export const StudentNames = {
-//   names: [
-//     "Alice",
-//     "Bob",
-//     "Charlie",
-//     "David",
-//     "Ella",
-//     "Frank",
-//     "Grace",
-//     "Henry",
-//     "Isabel",
-//     "Jack",
-//   ],
-// };
+export const StudentNames = [
+    {
+      id: 1,
+      name: "Samarendra Panda",
+      degree: "Ph.D.",
+      description: "Dr. Samarendra Panda recently defended his thesis on novel coaxial synthetic jet. He developed a novel coaxial synthetic jet (CSJ) actuator having an independent actuation facility. The flow field is analyzed in a quiescent environment numerically using openFoam and experimentally with hot-wire anemometry. He has one patent application along with five international journals.",
+      image: SamarendraPanda
+    },
+    {
+      id: 2,
+      name: "Sidhartha Sankar Samantaray",
+      degree: "Ph.D.",
+      description: "Experimental investigations are performed to understand the dynamics of a pulsating coaxial jet with emphasis on impingement application. Hotwire anemometer, Particle image velocimetry, and Infrared thermography are used as tools to obtain flow field and temperature information to understand the dependence of Nusselt number on nozzle to plate distance, velocity ratio, amplitude, and frequency of pulsation, etc.",
+      image: SidharthaSankar
+    },
+    {
+      id: 3,
+      name: "Jangyadatta Pasa",
+      degree: "Ph.D.",
+      description: "He proposed and demonstrated a new focusing phenomenon with synthetic jet array and analyzed the flow field using openFOAM numerically. He also characterized the jet using hotwire anemometer and Infrared thermography.",
+      image: JangyadattaPasa
+    },
+    {
+      id: 4,
+      name: "Rakesh Nandan",
+      degree: "Ph.D.",
+      description: "He is working on the design and development of a hybrid heat sink by combining active and passive cooling systems for thermal management of electronic devices. His research work is mainly focused on integrating Synthetic jet into the phase-change material-based heat sink to make it compact, effective, and efficient.",
+      image: RakeshNandan
+    },
+    {
+      id: 5,
+      name: "Nitish Kumar",
+      degree: "Ph.D.",
+      description: "He is working on compact and efficient active flow control devices for thermal management and aerodynamics flow control.",
+      image: NitishKumar
+    },
+    {
+      id: 6,
+      name: "Chandan Sethi",
+      degree: "M. Tech",
+      description: "He is exploring the potential of coaxial synthetic jets for thermal management of electronics using experimental tools like hotwire anemometer and infrared thermography.",
+      image: ChandanSethi
+    },
+    {
+      id: 7,
+      name: "Pranav P P",
+      degree: "M. Tech",
+      description: "His area of research is hydrodynamic instability. He is developing an experimental facility to quantify these instabilities and use them effectively for various engineering applications.",
+      image: PranavPP
+    },
+    {
+      id: 8,
+      name: "Vardhan Mittal",
+      degree: "B. Tech",
+      description: "He is working on synthetic jet-based flow control devices for boundary layer transition control and flow separation mitigation to improve the aerodynamics performance of airfoils.",
+      image: VardhanMittal
+    },
+    {
+      id: 9,
+      name: "Kondareddy Mourya",
+      degree: "B.Tech",
+      description: "He is exploring the possibility of thin foil flexible structures for flow control and thermal management using numerical and experimental tools.",
+      image: KondareddyMourya
+    }
+  ]
+  
+
 
