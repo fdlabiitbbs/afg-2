@@ -14,7 +14,7 @@ const Team = () => {
         <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
           {StudentNames.map((student, index) => {
             return (
-              <div className="items-center rounded-lg shadow sm:flex border-2 border-gray-700">
+              <div className="items-center rounded-lg shadow sm:flex border-2 border-gray-700" key={student.id}>
                 <div className="w-full">
                   <Image
                     className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
