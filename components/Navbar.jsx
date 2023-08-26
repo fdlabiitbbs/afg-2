@@ -244,14 +244,7 @@ const Navbar = () => {
                   onClick={isOpen}
                 >
                   People
-                </Link>
-                <Link
-                  href="#events"
-                  className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
-                  onClick={isOpen}
-                >
-                  Research
-                </Link>
+                </Link>        
                 <Link
                   href="/journals"
                   className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
@@ -288,7 +281,7 @@ const Navbar = () => {
                   Project
                 </Link>
                 <Link
-                  href="/techmnologies-developed"
+                  href="/technologies-developed"
                   className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
                   onClick={isOpen}
                 >
