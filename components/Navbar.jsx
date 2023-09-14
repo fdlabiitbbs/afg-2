@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence, delay } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/assets/logo.jpg";
+import logo from "@/assets/afg_gif.gif";
 import ThemeSwitcher from "./ThemeSwitcher";
 
 const Navbar = () => {
@@ -45,23 +45,23 @@ const Navbar = () => {
               width={300}
               height={300}
               alt="logoAFG"
-              className="cursor-pointer text-xl h-[200px] w-[450px]"
+              className="cursor-pointer text-xl w-[450px]"
             />
           </span>
         </div>
         <div className="flex items-center">
           <ul className="flex">
-            <li className="py-2 px-5 cursor-pointer text-xl hover:bg-slate-600 flex items-center">
-              <Link href="./">Home</Link>
+            <li>
+              <Link className="py-2 px-5 cursor-pointer text-xl hover:bg-slate-600 flex items-center" href="./">Home</Link>
             </li>
-            <li className="py-2 px-5 cursor-pointer text-xl hover:bg-slate-600 flex items-center">
-              <Link href="/people">People</Link>
+            <li>
+              <Link className="py-2 px-5 cursor-pointer text-xl hover:bg-slate-600 flex items-center" href="/people">People</Link>
             </li>
-            <li className="py-2 cursor-pointer text-xl hover:bg-slate-600 flex items-center">
+            <li className=" hover:bg-slate-600">
               <div className="mx-auto flex items-center justify-center ">
                 <div className="group relative cursor-pointer">
                   <div className="flex items-center justify-between px-4">
-                    <a className="menu-hover">Research</a>
+                    <a className="py-2 cursor-pointer text-xl flex items-center menu-hover">Research</a>
                     {/* <span>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -82,14 +82,14 @@ const Navbar = () => {
                   <div className="invisible absolute z-50 flex w-[200px] flex-col shadow-xl group-hover:visible rounded-lg bg-slate-700">
                     <Link
                       href="/research"
-                      className="mt-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500"
+                      className="mt-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500 text-xl"
                     >
                       Research
                     </Link>
 
                     <Link
                       href="/research-facilities"
-                      className="mb-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500"
+                      className="mb-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500 text-xl"
                     >
                       Facilities
                     </Link>
@@ -97,11 +97,11 @@ const Navbar = () => {
                 </div>
               </div>
             </li>
-            <li className="py-2 cursor-pointer text-xl hover:bg-slate-600 flex items-center">
+            <li className=" hover:bg-slate-600">
               <div className="mx-auto flex items-center justify-center ">
                 <div className="group relative cursor-pointer">
                   <div className="flex items-center justify-between px-4">
-                    <a className="menu-hover">Publication</a>
+                    <a className="py-2 cursor-pointer text-xl flex items-center menu-hover">Publication</a>
                     {/* <span>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -119,17 +119,17 @@ const Navbar = () => {
                         </svg>
                       </span> */}
                   </div>
-                  <div className="invisible absolute z-50 flex w-[200px] flex-col shadow-xl group-hover:visible rounded-lg bg-slate-600">
+                  <div className="invisible absolute z-50 flex w-[200px] flex-col shadow-xl group-hover:visible rounded-lg bg-slate-700">
                     <Link
                       href="/journals"
-                      className="mt-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500"
+                      className="mt-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500 text-xl"
                     >
                       Journals
                     </Link>
 
                     <Link
                       href="/conferences"
-                      className="mb-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500"
+                      className="mb-1 py-1 px-4 mx-1 rounded-md hover:bg-slate-500 text-xl"
                     >
                       Conferences
                     </Link>
@@ -137,14 +137,14 @@ const Navbar = () => {
                 </div>
               </div>
             </li>
-            <li className="py-2 px-5 cursor-pointer text-xl hover:bg-slate-600 flex items-center">
-              <Link href="/projects">Project</Link>
+            <li>
+              <Link className="py-2 px-5 cursor-pointer text-xl hover:bg-slate-600 flex items-center" href="/projects">Project</Link>
             </li>
-            <li className="py-2 px-5 cursor-pointer text-xl hover:bg-slate-600 flex items-center">
-              <Link href="/technologies-developed">Technologies Developed</Link>
+            <li>
+              <Link className="py-2 px-5 cursor-pointer text-xl hover:bg-slate-600 flex items-center" href="/technologies-developed">Technologies Developed</Link>
             </li>
-            <li className="py-2 px-5 cursor-pointer text-xl text-white hover:bg-slate-600 flex items-center">
-              <a href="https://scholar.google.co.in/citations?user=1N1daS8AAAAJ&hl=en">
+            <li>
+              <a className="py-2 px-5 cursor-pointer text-xl text-white hover:bg-slate-600 flex items-center" href="https://scholar.google.co.in/citations?user=1N1daS8AAAAJ&hl=en">
                 <svg
                   className="text-xl bi bi-google w-6 h-6"
                   xmlns="http://www.w3.org/2000/svg"
@@ -160,7 +160,7 @@ const Navbar = () => {
                 </svg>
               </a>
             </li>
-            <li className="cursor-pointer flex items-center px-2">
+            <li className="px-5 -mt-2 cursor-pointer text-xl flex items-center">
               <ThemeSwitcher />
             </li>
           </ul>
