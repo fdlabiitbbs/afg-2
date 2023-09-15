@@ -14,9 +14,9 @@ const page = () => {
           return (
             <section className="body-font" key={research.id}>
               <div className="container mx-auto flex px-5 py-2 md:flex-row flex-col items-center">
-                <div className="md:mb-0 mb-10">
+                <div className="md:mb-0 mb-10 lg:w-[30%]">
                   <Image
-                    className="object-cover object-center rounded"
+                    className="rounded h-full"
                     alt="hero"
                     src={profilePic}
                     width={150}

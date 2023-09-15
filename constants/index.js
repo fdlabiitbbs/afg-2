@@ -1,7 +1,7 @@
 import patent1 from '../assets/patent1.png'
 import patent2 from '../assets/patent2.jpg'
-import patent3 from '../assets/patent3.gif'
-import patent4 from '../assets/patent4.gif'
+import patent3 from '../assets/patent3.png'
+import patent4 from '../assets/patent4.png'
 import patent5 from '../assets/patent5.jpg'
 import patent6 from '../assets/patent6.jpg'
 import SamarendraPanda from '../assets/SamarendraPanda.jpg'
@@ -13,6 +13,12 @@ import PranavPP from '../assets/PranavPP.jpg'
 import NitishKumar from '../assets/NitishKumar.jpg'
 import KondareddyMourya from '../assets/KondareddyMourya.jpg'
 import ChandanSethi from '../assets/ChandanSethi.jpg'
+import CoAxialJets from '../assets/CoAxialJets.png'
+import FocusJets from '../assets/FocusJets.png'
+import OptoMechSys from '../assets/OptoMechSys.png'
+import ResDiseaseTransmisssion from '../assets/ResDiseaseTransmisssion.png'
+import BioInspired from '../assets/BioInspired.png'
+import BluffBodies from '../assets/BluffBodies.png'
 
 
 export const ResearchFacilities = [
@@ -72,6 +78,7 @@ export const ResearchContent = [
 
       "Our research also places special emphasis on the indoor environment. By investigating the dynamics of airflow and ventilation systems, we strive to identify strategies that promote optimum ventilation and minimize the risk of infection in indoor spaces.",
     ],
+    image: ResDiseaseTransmisssion
   },
   {
     id: 2,
@@ -83,6 +90,7 @@ export const ResearchContent = [
 
       "In another invention, we introduced an innovative focusing technique to enhance the strength of synthetic jets (SJs) in the far-field. SJs often suffer from reduced vortex coherence, limiting their wide applicability. This issue also affects Synthetic Jet Arrays (SJ arrays) composed of multiple adjacent actuators, where destructive interactions between opposite rotating vortices decrease coherence in the far field. The inventors propose focusing as a method to mitigate these destructive interactions in the near field, allowing vortices to evolve effectively, which results in achieving 50% enhancement in jet strength in the far field. Subsequently, constructive merging between vortices amplifies the jet strength in the far field. This novel focusing of SJs holds tremendous potential for enhancing electronic cooling, aerodynamics, and other applications.",
     ],
+    image: CoAxialJets
   },
   {
     id: 3,
@@ -96,6 +104,7 @@ export const ResearchContent = [
 
       "These results provide valuable insights into the pitching of side-by-side airfoils and the formation of deflected jets. Understanding these phenomena can have implications for engineering applications, particularly in the domain of bio-inspired propulsion systems.",
     ],
+    image: BioInspired
   },
   {
     id: 4,
@@ -103,6 +112,7 @@ export const ResearchContent = [
     content: [
       "Harsh environments and high temperatures are the major factors responsible for the failure of sensors used in industrial applications, especially in process monitoring. We are engaged in the development of next-generation measurement devices for industrial applications.  These sensing devices are mainly based on Photonic Crystal fibre-based interferometers. High sensitivity, immunity to electromagnetic interference, and flexibility in design are some of the key features which make Photonic Crystal fibre-based systems suitable for a wide range of parameter sensing. Our group is currently working on developing sensors for flow rate, pressure, and temperature measurement for industrial applications ranging from large conduit pipes to micro channel flows. ",
     ],
+    image: OptoMechSys
   },
 ];
 
@@ -1098,5 +1108,27 @@ export const StudentNames = [
     }
   ]
   
-
+  
+  export const CorousalImages = [
+  {
+    id: 1,
+    image: CoAxialJets
+  },
+  {
+    id: 2,
+    image: FocusJets
+  },
+  {
+    id: 3,
+    image: OptoMechSys
+  },
+  {
+    id: 4,
+    image: ResDiseaseTransmisssion
+  },
+  {
+    id: 5,
+    image: BluffBodies
+  }
+]
 

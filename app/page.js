@@ -1,13 +1,13 @@
 import Navbar from '@/components/Navbar';
 import HomePage from '@/components/HomePage';
 import Footer from '@/components/Footer';
-import Corousal from '@/components/Corousal';
+import Slider from '@/components/Slider';
 
 export default function Home() {
   return (
     <div>
       <Navbar />
-      <Corousal />
+      <Slider />
       <HomePage />
       <Footer />
     </div>
