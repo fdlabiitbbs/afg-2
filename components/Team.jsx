@@ -53,7 +53,7 @@ const Team = () => {
           <div class="flex flex-wrap -m-4">
             {StudentNames.map((student, index) => {
               return (
-                <div class="p-4 lg:w-1/4 md:w-1/2">
+                <div class="p-4 lg:w-1/4 md:w-1/2" key={student.id}>
                   <div class="h-full flex flex-col items-center text-center">
                     <Image
                       alt="team"
