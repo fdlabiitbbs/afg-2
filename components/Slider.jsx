@@ -16,10 +16,10 @@ const Slider = () => {
       };
 
   return (
-    <div className="flex mx-8 my-4">
+    <div className="md:mx-8 mx-2 my-4 lg:w-[80%] border-2">
       <Splide
         aria-label="My Favorite Images"
-        className="lg:w-[70%]"
+        className="lg:w-full"
         options={ options }
       >
         {CorousalImages.map((slide, index) => {

@@ -1132,3 +1132,20 @@ export const StudentNames = [
   }
 ]
 
+export const NewsFeed = [
+  {
+    id: 1,
+    title: "FMEP conference at IIT Bhubaneswar",
+    date: "August 19, 2021"
+  },
+  {
+    id: 2,
+    title: "Dr Vladisavljević visiting Beihang University",
+    date: "August 8, 2021"
+  },
+  {
+    id: 3,
+    title: "The group attended the 72nd Annual APS DFD Meeting",
+    date: "August 1, 2021"
+  }
+]

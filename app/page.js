@@ -1,13 +1,13 @@
 import Navbar from '@/components/Navbar';
 import HomePage from '@/components/HomePage';
 import Footer from '@/components/Footer';
-import Slider from '@/components/Slider';
+import SlidernNews from '@/components/SlidernNews';
 
 export default function Home() {
   return (
     <div>
       <Navbar />
-      <Slider />
+      <SlidernNews />
       <HomePage />
       <Footer />
     </div>
