@@ -13,7 +13,7 @@ const page = () => {
       <Navbar />
       <h1 className="text-3xl font-bold lg:ml-20 md:ml-12 ml-8 mt-8">Journals</h1>
 
-      <ol style={{ listStyle: "decimal" }}>
+      <ol style={{ listStyle: "decimal" }} reversed>
         {reversedJournals.map((journal) => {
           return (
             <li

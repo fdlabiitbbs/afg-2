@@ -13,7 +13,7 @@ const page = () => {
         <h1 className="text-3xl font-bold lg:ml-20 md:ml-12 ml-8 mt-8">Conferences</h1>
         <br />
         <div className="lg:ml-20 md:ml-12 ml-8">
-          <ol style={{ listStyle: "decimal" }}>
+          <ol style={{ listStyle: "decimal" }} reversed>
             {reversedConferences.map((conference, index) => {
               return (
                 <li className="my-6 pl-4" key={conference.id}>
