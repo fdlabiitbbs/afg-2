@@ -1,7 +1,5 @@
 import Image from "next/image";
 import { TechnologiesDeveloped } from "@/constants";
-import Footer from "@/components/Footer";
-
 
 const page = () => {
   return (

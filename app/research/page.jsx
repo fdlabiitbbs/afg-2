@@ -1,6 +1,5 @@
 import { ResearchContent } from "@/constants";
 import Image from "next/image";
-import profilePic from "@/assets/profilePic.jpg";
 
 const page = () => {
   return (
