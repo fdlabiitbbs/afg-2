@@ -180,7 +180,7 @@ function Navtwo() {
 
                 <li className="mb-4 lg:hidden block">
                   <Link
-                    href="/conferenceses"
+                    href="/conferences"
                     className="text-xl text-white py-2 px-6 text-center lg:hover:bg-slate-600"
                     onClick={() => setNavbar(!navbar)}
                   >
