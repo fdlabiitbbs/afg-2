@@ -234,7 +234,7 @@ const Navbar = () => {
               animate={{ height: "100vh", opacity: 1 }}
               exit="exit"
             >
-              <div className=" w-full relative flex items-center flex-col mt-8">
+              <div className=" w-full h-[100%] relative flex items-center flex-col mt-8">
                 <Link
                   href="/"
                   className="inline-flex h-[50px] overflow-hidden text-[18px] uppercase"
