@@ -1,14 +1,11 @@
 import React from "react";
 import { ResearchFacilities } from "@/constants";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Image from "next/image";
 import profilePic from "@/assets/profilePic.jpg";
 
 const page = () => {
   return (
     <>
-      <Navbar />
       <div className="">
         {ResearchFacilities.map((research) => {
           return (
@@ -35,7 +32,6 @@ const page = () => {
           );
         })}
       </div>
-      <Footer />
     </>
 
   );

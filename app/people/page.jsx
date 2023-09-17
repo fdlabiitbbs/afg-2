@@ -1,5 +1,3 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Team from "@/components/Team";
 import { Education } from "@/constants";
 import { Awards } from "@/constants";
@@ -9,7 +7,6 @@ import profilePic from "@/assets/profilePic.jpg";
 const page = () => {
   return (
     <div>
-      <Navbar />
       <section className="body-font">
         <div className="container mx-auto flex px-5 py-8 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
@@ -814,7 +811,6 @@ const page = () => {
       </div>
 
       <Team />
-      <Footer />
     </div>
   );
 };
