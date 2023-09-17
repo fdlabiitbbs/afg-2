@@ -25,7 +25,7 @@ const Slider = () => {
         {CorousalImages.map((slide, index) => {
           return (
             <SplideSlide key={slide.id}>
-              <Image src={slide.image} alt="slider-images" width={30000} />
+              <Image src={slide.image} alt="slider-images" width={30000} priority={true} />
             </SplideSlide>
           );
         })}

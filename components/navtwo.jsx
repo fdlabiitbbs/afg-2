@@ -20,6 +20,7 @@ function Navtwo() {
                   height={300}
                   alt="logoAFG"
                   className="cursor-pointer text-xl w-[450px]"
+                  priority={true}
                 />
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
@@ -70,28 +71,31 @@ function Navtwo() {
               }`}
             >
               <ul className="h-screen lg:h-auto items-center justify-center lg:flex ">
+
                 <li className="mb-4">
                   <Link
                     href="/"
-                    className="text-xl text-white py-2 px-6 text-center hover:bg-slate-600"
+                    className="text-xl text-white py-2 px-6 text-center lg:hover:bg-slate-600"
                     onClick={() => setNavbar(!navbar)}
                   >
                     Home
                   </Link>
                 </li>
+
                 <li className="mb-4">
                   <Link
                     href="/people"
-                    className="text-xl text-white py-2 px-6 text-center hover:bg-slate-600"
+                    className="text-xl text-white py-2 px-6 text-center lg:hover:bg-slate-600"
                     onClick={() => setNavbar(!navbar)}
                   >
                     People
                   </Link>
                 </li>
-                <li className="mb-4">
+
+                <li className="mb-4 lg:block hidden">
                   <div className="group relative cursor-pointer">
                     <div>
-                      <a className="cursor-pointer text-xl menu-hover text-white py-2 px-6 text-center hover:bg-slate-600">
+                      <a className="cursor-pointer text-xl menu-hover text-white py-2 px-6 text-center lg:hover:bg-slate-600">
                         Research
                       </a>
                     </div>
@@ -114,10 +118,11 @@ function Navtwo() {
                     </div>
                   </div>
                 </li>
-                <li className="mb-4">
+
+                <li className="mb-4 lg:block hidden">
                   <div className="group relative cursor-pointer">
                     <div>
-                      <a className="cursor-pointer text-xl menu-hover text-white py-2 px-6 text-center hover:bg-slate-600">
+                      <a className="cursor-pointer text-xl menu-hover text-white py-2 px-6 text-center lg:hover:bg-slate-600">
                         Publications
                       </a>
                     </div>
@@ -140,27 +145,74 @@ function Navtwo() {
                     </div>
                   </div>
                 </li>
+
+                {/* -----------------MOBILE NAVIGATION---------------- */}
+
+                <li className="mb-4 lg:hidden block">
+                  <Link
+                    href="/research"
+                    className="text-xl text-white py-2 px-6 text-center lg:hover:bg-slate-600"
+                    onClick={() => setNavbar(!navbar)}
+                  >
+                    Research
+                  </Link>
+                </li>
+
+                <li className="mb-4 lg:hidden block">
+                  <Link
+                    href="/research-facilities"
+                    className="text-xl text-white py-2 px-6 text-center lg:hover:bg-slate-600"
+                    onClick={() => setNavbar(!navbar)}
+                  >
+                    Research Facilities
+                  </Link>
+                </li>
+
+                <li className="mb-4 lg:hidden block">
+                  <Link
+                    href="/journals"
+                    className="text-xl text-white py-2 px-6 text-center lg:hover:bg-slate-600"
+                    onClick={() => setNavbar(!navbar)}
+                  >
+                    Journals
+                  </Link>
+                </li>
+
+                <li className="mb-4 lg:hidden block">
+                  <Link
+                    href="/conferenceses"
+                    className="text-xl text-white py-2 px-6 text-center lg:hover:bg-slate-600"
+                    onClick={() => setNavbar(!navbar)}
+                  >
+                    Conferences
+                  </Link>
+                </li>
+
+                {/* -----------------ENDED HERE----------------- */}
+
                 <li className="mb-4">
                   <Link
                     href="/projects"
-                    className="text-xl text-white py-2 px-6 text-center hover:bg-slate-600"
+                    className="text-xl text-white py-2 px-6 text-center lg:hover:bg-slate-600"
                     onClick={() => setNavbar(!navbar)}
                   >
                     Projects
                   </Link>
                 </li>
+
                 <li className="mb-4">
                   <Link
                     href="/technologies-developed"
-                    className="text-xl text-white py-2 px-6 text-center hover:bg-slate-600"
+                    className="text-xl text-white py-2 px-6 text-center lg:hover:bg-slate-600"
                     onClick={() => setNavbar(!navbar)}
                   >
                     Technologies Developed
                   </Link>
                 </li>
+
                 <li className="mb-4">
                   <Link
-                    className="py-2 px-5 cursor-pointer text-xl text-white hover:bg-slate-600 flex items-center"
+                    className="py-2 px-6 cursor-pointer text-xl text-white lg:hover:bg-slate-600 flex items-center"
                     href="https://scholar.google.co.in/citations?user=1N1daS8AAAAJ&hl=en"
                   >
                     <svg
@@ -178,6 +230,7 @@ function Navtwo() {
                     </svg>
                   </Link>
                 </li>
+
               </ul>
             </div>
           </div>
