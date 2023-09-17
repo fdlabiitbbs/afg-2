@@ -6,10 +6,8 @@ import SlidernNews from '@/components/SlidernNews';
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <SlidernNews />
       <HomePage />
-      <Footer />
     </div>
   )
 }

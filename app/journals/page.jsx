@@ -1,7 +1,5 @@
 import React from "react";
 import { Journals } from "@/constants";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 const page = () => {
   const reversedJournals = Journals.map(
@@ -10,7 +8,6 @@ const page = () => {
 
   return (
     <div>
-      <Navbar />
       <h1 className="text-3xl font-bold lg:ml-20 md:ml-12 ml-8 mt-8">Journals</h1>
 
       <ol style={{ listStyle: "decimal" }} reversed>
@@ -51,7 +48,6 @@ const page = () => {
           );
         })}
       </ol>
-      <Footer />
     </div>
   );
 };

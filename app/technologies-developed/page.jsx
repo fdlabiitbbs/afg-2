@@ -1,13 +1,11 @@
 import Image from "next/image";
 import { TechnologiesDeveloped } from "@/constants";
-import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 
 const page = () => {
   return (
     <>
-      <Navbar />
       <div className="">
         {TechnologiesDeveloped.map((tech, index) => {
           return (
@@ -39,7 +37,6 @@ const page = () => {
           );
         })}
       </div>
-      <Footer />
     </>
 
   );

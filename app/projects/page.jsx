@@ -1,12 +1,9 @@
-import Footer from "@/components/Footer"
-import Navbar from "@/components/Navbar"
 import { sponsoredProjects } from "@/constants"
 import { consultancyProjects } from "@/constants"
 
 const page = () => {
   return (
     <div>
-      <Navbar />
       <section className="mb-10">
         <h1 className="text-3xl font-bold ml-8 mt-8">Sponsored Projects</h1>
         <ul style={{ listStyle: 'disc' }} className="ml-8 mt-4">
@@ -29,7 +26,6 @@ const page = () => {
             })}
         </ul>
       </section>
-      <Footer />
     </div>
   )
 }

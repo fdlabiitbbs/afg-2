@@ -1,5 +1,3 @@
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
 import { Conferences } from "@/constants";
 
 const page = () => {
@@ -8,7 +6,6 @@ const page = () => {
   );
   return (
     <div>
-      <Navbar />
       <section>
         <h1 className="text-3xl font-bold lg:ml-20 md:ml-12 ml-8 mt-8">Conferences</h1>
         <br />
@@ -76,7 +73,6 @@ const page = () => {
           </ol>
         </div>
       </section>
-      <Footer />
     </div>
   );
 };
