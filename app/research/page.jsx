@@ -1,13 +1,10 @@
 import { ResearchContent } from "@/constants";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Image from "next/image";
 import profilePic from "@/assets/profilePic.jpg";
 
 const page = () => {
   return (
     <>
-      <Navbar />
       <div className="">
         {ResearchContent.map((research, index) => {
           return (
@@ -39,7 +36,6 @@ const page = () => {
           );
         })}
       </div>
-      <Footer />
     </>
 
   );
