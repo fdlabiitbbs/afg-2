@@ -2,6 +2,7 @@ import './globals.css'
 import Providers from './providers'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import Navtwo from '@/components/navtwo'
 
 export const metadata = {
   title: 'Applied Fluids Group',
@@ -13,7 +14,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Providers>
-          <Navbar />
+          {/* <Navbar /> */}
+          <Navtwo />
           {children}
           <Footer />
         </Providers>
