@@ -297,7 +297,7 @@ const Navbar = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
                     height="29"
-                    fill="orange"
+                    fill="blue"
                     viewBox="0 0 16 16"
                   >
                     <path
