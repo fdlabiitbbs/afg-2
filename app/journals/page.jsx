@@ -19,16 +19,16 @@ const page = () => {
               key={journal.ID}
               className="md:pl-4 ml-8 md:mx-20 md:py-2 p-2 rounded-lg"
             >
-              <h1 className="">
+              <h1>
               {journal.Authors.map((author, index) => {
                   return (
-                    <span key={index} className="">
+                    <span key={index}>
                       {author}
                       {index === journal.Authors.length - 1 ? "" : ", "}
                     </span>
                   );
-                })}.{" "}
-                "{journal.Title}."{" "}
+                })}.&nbsp;
+                &ldquo;{journal.Title}.&ldquo; &nbsp;
                 <span className="text-blue-700">{journal.Journal} &nbsp;</span>
                 {journal.Volume_Issue_Year_Pages.map((volume, index) => {
                   return (
@@ -39,7 +39,7 @@ const page = () => {
                         : ", "}
                     </span>
                   );
-                })}{" - "}
+                })}&nbsp; - &nbsp;
                 <span>
                   <a href={journal.DOI} className="text-red-600">
                     DOI
