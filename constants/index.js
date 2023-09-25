@@ -19,7 +19,10 @@ import OptoMechSys from '../assets/OptoMechSys.png'
 import ResDiseaseTransmisssion from '../assets/ResDiseaseTransmisssion.png'
 import BioInspired from '../assets/BioInspired.png'
 import BluffBodies from '../assets/BluffBodies.png'
-
+import ParticleImageVeocimetrySetup from '../assets/ParticleImageVeocimetrySetup.jpg'
+import HotWireExptSetup from '../assets/HotWireExptSetup.jpg'
+import WindTunnel from '../assets/WindTunnel.jpg'
+import Cad_lab from '../assets/Cad_lab.jpg'
 
 export const ResearchFacilities = [
   {
@@ -27,18 +30,21 @@ export const ResearchFacilities = [
     title: "Subsonic Wind Tunnel",
     content:
       "A state-of-the-art wind tunnel facility is available with a test section size of 1 m × 1m and 4 m in length with a turbulence level of less than 0.5%. The wind tunnel is equipped with a gust generator and a passive grid. An active free-stream turbulence generator facility is also available. The wind tunnel can cater up to a free stream velocity of 50 m/s. The wind tunnel is equipped with various instruments to measure unsteady forces and moments.",
+      image: WindTunnel,
   },
   {
     id: 2,
     title: "Time-Resolved Particle Image Velocimetry (TR-PIV)",
     content:
       "Time-Resolved Particle Image Velocimetry (TR-PIV) is an advanced experimental technique used in fluid dynamics research to measure fluid flow velocity over time. It involves the use of high-speed cameras to capture a sequence of images of tracer particles seeded in the fluid. The images are then analyzed to determine the particle displacement and velocity at various time intervals, providing a detailed insight into the fluid flow dynamics.",
+      image: ParticleImageVeocimetrySetup,
   },
   {
     id: 3,
     title: "Hotwire Anemometry",
     content:
       "Hotwire anemometer is a sophisticated instrument used for measuring turbulence in fluid flows with exceptional temporal resolution. We have a dedicated four-channel fully automated Hotwire anemometer system with 3D traverse and various probes (Single wire, X wire, and Boundary layer)",
+      image: HotWireExptSetup,
   },
   {
     id: 4,
@@ -57,6 +63,7 @@ export const ResearchFacilities = [
     title: "Computational Facility",
     content:
       "Multiple Dedicated computational servers with 64 and 48 cores are available to perform high-end Computational Fluid Dynamics Simulations.",
+    image: Cad_lab,
   },
   {
     id: 7,

@@ -14,7 +14,7 @@ const Footer = () => {
             height={50}
             className="w-[70px] h-[70px] md:w-[200px] md:h-[200px]"
            />
-          <span className="ml-3 text-sm">
+          <span className="ml-3 text-sm lg:text-lg">
             School of Mechanical Sciences
             <br />
             Indian Institute of Technology Bhubaneswar

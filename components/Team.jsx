@@ -73,7 +73,7 @@ const Team = () => {
           </div>
         </div>
       </section> */}
-      <h1 className="mb-4 pt-12 text-4xl font-extrabold text-center">Research Scholars</h1>
+      <h1 className="mb-4 pt-12 text-3xl font-bold text-center">Research Scholars</h1>
       {StudentNames.map((student, index) => {
         return (
           <div className="body-font border-2 border-black lg:mx-24 mx-2 my-4" key={student.id}>
@@ -86,7 +86,7 @@ const Team = () => {
                 />
               </div>
               <div className="lg:flex-grow md:w-1/2 lg:pl-8 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                <h1 className="title-font sm:text-4xl text-3xl font-medium">
+                <h1 className="title-font text-3xl font-medium">
                   {student.name}
                 </h1>
                 <p className="leading-relaxed text-xl mb-2">
