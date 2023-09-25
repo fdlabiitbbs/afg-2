@@ -22,7 +22,7 @@ import BluffBodies from '../assets/BluffBodies.png'
 import ParticleImageVeocimetrySetup from '../assets/ParticleImageVeocimetrySetup.jpg'
 import HotWireExptSetup from '../assets/HotWireExptSetup.jpg'
 import WindTunnel from '../assets/WindTunnel.jpg'
-import Cad_lab from '../assets/Cad_lab.jpg'
+import CAD_lab from '../assets/CAD_lab.jpg'
 
 export const ResearchFacilities = [
   {
@@ -63,7 +63,7 @@ export const ResearchFacilities = [
     title: "Computational Facility",
     content:
       "Multiple Dedicated computational servers with 64 and 48 cores are available to perform high-end Computational Fluid Dynamics Simulations.",
-    image: Cad_lab,
+    image: CAD_lab,
   },
   {
     id: 7,
