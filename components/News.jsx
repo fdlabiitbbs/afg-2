@@ -11,9 +11,9 @@ const News = () => {
         </thead>
         <tbody>
           {NewsFeed.map((news, index) => (
-            <tr key={news.id} className="flex flex-col text-xl border-b-[1px] py-4">
+            <tr key={news.id} className="flex flex-col text-xl border-b-[1px] py-4 px-10">
               <td className="font-semibold">{news.title}</td>
-              <td className="text-gray-500">{news.date}</td>
+              {/* <td className="text-gray-500">{news.date}</td> */}
             </tr>
           ))}
         </tbody>

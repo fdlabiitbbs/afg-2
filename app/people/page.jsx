@@ -19,8 +19,9 @@ const page = () => {
               Dr Venugopal Arummuru
             </div>
           </div>
-          <div className="w-[100%]">
-            <div className="md:ml-5 space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
+
+          <div className="mx-auto">
+            {/* <div className="md:ml-5 space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
               <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                 <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-black group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
                   <svg
@@ -771,11 +772,74 @@ const page = () => {
                   </div>
                 </div>
               </div>
+            </div> */}
+            
+            <h1 className="text-3xl mb-5">Experience</h1>
+            <div>
+              <ul className="flex flex-col gap-y-7">
+                <li>
+                  <div className="flex items-center justify-between space-x-2 mb-1">
+                    <div className="font-bold text-slate-900">
+                      Oct 2023 - Present
+                    </div>
+                  </div>
+                  <div className="text-black">
+                    Associate Professor, IIT Bhubaneswar, India
+                  </div>
+                </li>
+
+                <li>
+                  <div className="flex items-center justify-between space-x-2 mb-1">
+                    <div className="font-bold text-slate-900">
+                      Mar 2016 - Sep 2023
+                    </div>
+                  </div>
+                  <div className="text-black">
+                    Assistant Professor, IIT Bhubaneswar, India
+                  </div>
+                </li>
+
+                <li>
+                  <div className="flex items-center justify-between space-x-2 mb-1">
+                    <div className="font-bold text-slate-900">
+                      Sep 2014 - Feb 2016
+                    </div>
+                  </div>
+                  <div className="text-black">
+                    Lead Engineer/Technologist, GE Measurement & Control, India
+                  </div>
+                </li>
+
+                <li>
+                  <div className="flex items-center justify-between space-x-2 mb-1">
+                    <div className="font-bold text-slate-900">
+                      Jun 2014 - Aug 2014
+                    </div>
+                  </div>
+                  <div className="text-black">
+                    Research Associate, National University of Singapore,
+                    Singapore
+                  </div>
+                </li>
+
+                <li>
+                  <div className="flex items-center justify-between space-x-2 mb-1">
+                    <div className="font-bold text-slate-900">
+                      Aug 2008 - Jun 2010
+                    </div>
+                  </div>
+                  <div className="text-black">
+                    Design and Development Engineer, Forbes Marshall Pvt. Ltd
+                    India
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </section>
 
+      {/* -------------------------EDUCATION SECTION----------------------- */}
       <div className="my-10">
         <div className="md:ml-20 ml-5">
           <h1 className="text-3xl mb-5">Education</h1>
@@ -793,6 +857,7 @@ const page = () => {
         </div>
       </div>
 
+      {/* -------------------------AWARDS SECTION----------------------- */}
       <div className="my-10">
         <div className="md:ml-20 ml-5">
           <h1 className="text-3xl mb-5">Awards and Recognition</h1>
@@ -810,6 +875,7 @@ const page = () => {
         </div>
       </div>
 
+      {/* -------------------------RESEARCH SCHOLARS SECTION----------------------- */}
       <Team />
     </div>
   );

@@ -861,6 +861,35 @@ export const Journals = [
     Volume_Issue_Year_Pages: ["2023"],
     impactFactor: 4.99,
   },
+  {
+    ID: 42,
+    Authors: ["M Dnyanesh", <b>Venugopal A</b>, "Y Harekrishna"],
+    Title:
+      "A numerical investigation into thermo-fluid characteristics of pulsating jet impingement on a dimpled surface",
+    Journal: "Physics of Fluids",
+    Volume_Issue_Year_Pages: ["2023"],
+    impactFactor: 4.99,
+  },
+  {
+    ID: 43,
+    Authors: ["N Kumar", "S Kumar", <b>Venugopal A</b>, "YG Bhumkar"],
+    Title:
+      "Analysis of non-uniform laminar flow past a circular cylinder on the flow and sound field evolution using direct numerical simulation approach",
+    Journal: "Acta Mechanica",
+    Volume_Issue_Year_Pages: ["2023"],
+    DOI: "https://doi.org/10.1007/s00707-023-03735-8",
+    impactFactor: 2.7,
+  },
+  {
+    ID: 44,
+    Authors: ["S Merrylin", "P Samrendra", <b>Venugopal A</b>],
+    Title:
+      "A Computational Study of Particle Dynamics in Synthetic Jet Flow Field",
+    Journal: "Physics of Fluids",
+    Volume_Issue_Year_Pages: ["2023",	"35",	"97128"],
+    DOI: "https://doi.org/10.1063/5.0161143",
+    impactFactor: 4.99,
+  }
 ];
 
 
@@ -1054,63 +1083,63 @@ export const StudentNames = [
       id: 1,
       name: "Samarendra Panda",
       degree: "Ph.D.",
-      description: "Dr. Samarendra Panda recently defended his thesis on novel coaxial synthetic jet. He developed a novel coaxial synthetic jet (CSJ) actuator having an independent actuation facility. The flow field is analyzed in a quiescent environment numerically using openFoam and experimentally with hot-wire anemometry. He has one patent application along with five international journals.",
+      description: "Dr. Samarendra Panda, recently defended his thesis on novel coaxial synthetic jet. He developed a novel coaxial synthetic jet (CSJ) actuator having independent actuation facility is developed. The flow field is analysed in a quiescent environment numerically and experimentally with hot-wire anemometry. He has one patent application along with five international journals. At present he is a Post Doc fellow at IIT Bombay.",
       image: SamarendraPanda
     },
     {
       id: 2,
       name: "Sidhartha Sankar Samantaray",
       degree: "Ph.D.",
-      description: "Experimental investigations are performed to understand the dynamics of a pulsating coaxial jet with emphasis on impingement application. Hotwire anemometer, Particle image velocimetry, and Infrared thermography are used as tools to obtain flow field and temperature information to understand the dependence of Nusselt number on nozzle to plate distance, velocity ratio, amplitude, and frequency of pulsation, etc.",
+      description: "Mr. Sidharth S S is trying to understand dynamics of a pulsating coaxial jet with emphasis on impingement application. He is using Hotwire anemometer, Particle image velocimetry and Infrared thermography to obtain flow field and temperature information to understand the physics of this configuration.",
       image: SidharthaSankar
     },
     {
       id: 3,
       name: "Jangyadatta Pasa",
       degree: "Ph.D.",
-      description: "He proposed and demonstrated a new focusing phenomenon with synthetic jet array and analyzed the flow field using openFOAM numerically. He also characterized the jet using hotwire anemometer and Infrared thermography.",
+      description: "Mr. Jangyadatta Pasa has recently submitted his thesis on “Investigations on Steering and Focusing of Jet from Synthetic Jet Array” He proposed and demonstrated a new focusing phenomenon with synthetic jet array and analyzed the flow field numerically. He also characterized the jet using hotwire anemometer and Infrared thermography.",
       image: JangyadattaPasa
     },
     {
       id: 4,
       name: "Rakesh Nandan",
       degree: "Ph.D.",
-      description: "He is working on the design and development of a hybrid heat sink by combining active and passive cooling systems for thermal management of electronic devices. His research work is mainly focused on integrating Synthetic jet into the phase-change material-based heat sink to make it compact, effective, and efficient.",
+      description: "Mr. Rakesh N is working on the design and development of hybrid heat sink by combining the active and passive cooling systems for thermal management of electronic devices. His research work is mainly focused on integrating Synthetic jet into the phase change material based heat sink to make it compact, effective and efficient.",
       image: RakeshNandan
     },
     {
       id: 5,
       name: "Nitish Kumar",
       degree: "Ph.D.",
-      description: "He is working on compact and efficient active flow control devices for thermal management and aerodynamics flow control.",
+      description: "Mr. Nitish is working on compact and efficient active flow control devises for thermal management and aerodynamics flow control.",
       image: NitishKumar
     },
     {
       id: 6,
       name: "Chandan Sethi",
       degree: "M. Tech",
-      description: "He is exploring the potential of coaxial synthetic jets for thermal management of electronics using experimental tools like hotwire anemometer and infrared thermography.",
+      description: "Mr. Chandan S is exploring the potential of coaxial synthetic jets for thermal management of electronics using experimental tools like hotwire anemometer and infrared thermography.",
       image: ChandanSethi
     },
     {
       id: 7,
       name: "Pranav P P",
       degree: "M. Tech",
-      description: "His area of research is hydrodynamic instability. He is developing an experimental facility to quantify these instabilities and use them effectively for various engineering applications.",
+      description: "Mr. Pranav P P area of research is hydrodynamic instability, He is developing an experimental facility to quantify these instabilities and use them effectively for various engineering application.",
       image: PranavPP
     },
     {
       id: 8,
       name: "Vardhan Mittal",
       degree: "B. Tech",
-      description: "He is working on synthetic jet-based flow control devices for boundary layer transition control and flow separation mitigation to improve the aerodynamics performance of airfoils.",
+      description: "Mr. Vardhan M is working on synthetic jet-based flow control devices for boundary layer transition control and flow separation mitigation to improve aerodynamics performance of airfoils.",
       image: VardhanMittal
     },
     {
       id: 9,
       name: "Kondareddy Mourya",
       degree: "B.Tech",
-      description: "He is exploring the possibility of thin foil flexible structures for flow control and thermal management using numerical and experimental tools.",
+      description: "Mr. Konareddy M is exploring the possibility of thin foil flexible structures for flow control and thermal management using numerical and experimental tools.",
       image: KondareddyMourya
     }
   ]
@@ -1142,17 +1171,22 @@ export const StudentNames = [
 export const NewsFeed = [
   {
     id: 1,
-    title: "FMEP conference at IIT Bhubaneswar",
+    title: "Congratulations to Mr. Jangyadatta Pasa for submitting his PhD thesis",
     date: "August 19, 2021"
   },
   {
     id: 2,
-    title: "Dr Vladisavljević visiting Beihang University",
+    title: "Congratulations to Dr. Samrendra Pada for securing a Post Doc position at IIT Bombay",
     date: "August 8, 2021"
   },
   {
     id: 3,
-    title: "The group attended the 72nd Annual APS DFD Meeting",
+    title: "Our Group is attending IHMTC - 2023 conference at IIT Patna",
+    date: "August 1, 2021"
+  },
+  {
+    id: 4,
+    title: "Subsonic Wind Tunnel with PIV and other instruments are commissioned at Fluid Dynamics Laboratory",
     date: "August 1, 2021"
   }
 ]
