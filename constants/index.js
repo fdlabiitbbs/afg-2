@@ -194,7 +194,7 @@ export const TechnologiesDeveloped = [
     title:
       "A Rational System for Testing Resilient Modulus of Unbound Granular Materials",
     img: patent7,
-    patentNo: "1763/MUM/2013 (Granted)",
+    patentNo: "Patent Application Submitted",
     background:
       "Resilient Modulus (MR) of Unbound Granular Materials (UGMs) is a critical parameter in the Mechanistic-Empirical (M-E) pavement design procedure. In most countries empirical correlations are used to determine MR of unbound granular layers due to the complex, time- consuming and resource-intensive nature of Repeated Load Triaxial Tests (RLTT). Alternative set-ups such as Springbox, K-Mould and PUMA are available for determination of MR. But the confining pressure is not entirely user regulated in these set-ups as it is applied via spring or rubber. And none of the mentioned test set-ups consider the effect of subgrade stiffness on the MR of UGMs",
     novelty: (

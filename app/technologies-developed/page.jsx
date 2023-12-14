@@ -4,7 +4,7 @@ import { TechnologiesDeveloped } from "@/constants";
 const page = () => {
   return (
     <>
-      <div className="container mx-auto px-5 py-12 items-center">
+      <div className="container mx-auto px-5 py-12 items-center text-justify">
         <h1 className="title-font md:text-4xl text-3xl mb-4 font-medium">Technologies Developed</h1>
         <p className="leading-relaxed">
           On this page, you will find a comprehensive collection of our research
@@ -27,7 +27,7 @@ const page = () => {
         {TechnologiesDeveloped.map((tech, index) => {
           return (
             <section className="body-font" key={tech.id}>
-              <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+              <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
                   <Image
                     className="object-cover object-center rounded"

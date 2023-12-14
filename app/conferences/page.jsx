@@ -14,7 +14,7 @@ const page = () => {
             {reversedConferences.map((conference, index) => {
               return (
                 <li className="my-6 pl-4" key={conference.id}>
-                  <div className="md:flex">
+                  <div className="md:flex gap-y-2">
                     <div className="flex">
                         <div>
                         <svg
@@ -52,7 +52,7 @@ const page = () => {
                         </svg>
                         </div>
                         <div className="flex items-center">
-                        <p>{conference.date}&nbsp;  |  &nbsp;  </p>
+                        <p>{conference.date}&nbsp;  <span className="hidden">|</span>  &nbsp;  </p>
                         </div>
                     </div>
                     <div className="flex">
@@ -64,9 +64,11 @@ const page = () => {
                         </div>
                     </div>
                   </div>
-                  <p className="text-xl font-semibold">{conference.conferenceName}</p>
-                  <p className="">{conference.info}</p>
-                  <p className="">{conference.attendees}</p>
+                  <div className="mr-2">
+                    <p className="text-xl font-semibold">{conference.conferenceName}</p>
+                    <p className="">{conference.info}</p>
+                    <p className="">{conference.attendees}</p>
+                  </div>
                 </li>
               );
             })}
