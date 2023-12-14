@@ -1,28 +1,31 @@
-import patent1 from '../assets/patent1.png'
-import patent2 from '../assets/patent2.jpg'
-import patent3 from '../assets/patent3.png'
-import patent4 from '../assets/patent4.png'
-import patent5 from '../assets/patent5.jpg'
-import patent6 from '../assets/patent6.jpg'
-import SamarendraPanda from '../assets/SamarendraPanda.jpg'
-import VardhanMittal from '../assets/VardhanMittal.jpg'
-import SidharthaSankar from '../assets/SidharthaSankar.jpg' 
-import RakeshNandan from '../assets/RakeshNandan.jpg'
-import JangyadattaPasa from '../assets/JangyadattaPasa.jpg'
-import PranavPP from '../assets/PranavPP.jpg'
-import NitishKumar from '../assets/NitishKumar.jpg'
-import KondareddyMourya from '../assets/KondareddyMourya.jpg'
-import ChandanSethi from '../assets/ChandanSethi.jpg'
-import CoAxialJets from '../assets/CoAxialJets.png'
-import FocusJets from '../assets/FocusJets.png'
-import OptoMechSys from '../assets/OptoMechSys.png'
-import ResDiseaseTransmisssion from '../assets/ResDiseaseTransmisssion.png'
-import BioInspired from '../assets/BioInspired.png'
-import BluffBodies from '../assets/BluffBodies.png'
-import ParticleImageVeocimetrySetup from '../assets/ParticleImageVeocimetrySetup.jpg'
-import HotWireExptSetup from '../assets/HotWireExptSetup.jpg'
-import WindTunnel from '../assets/WindTunnel.jpg'
-import CAD_lab from '../assets/CAD_lab.jpg'
+import patent1 from "../assets/patent1.png";
+import patent2 from "../assets/patent2.jpg";
+import patent3 from "../assets/patent3.png";
+import patent4 from "../assets/patent4.png";
+import patent5 from "../assets/patent5.jpg";
+import patent6 from "../assets/patent6.jpg";
+import patent7 from "../assets/patent7.jpg";
+import SamarendraPanda from "../assets/SamarendraPanda.jpg";
+import VardhanMittal from "../assets/VardhanMittal.jpg";
+import SidharthaSankar from "../assets/SidharthaSankar.jpg";
+import RakeshNandan from "../assets/RakeshNandan.jpg";
+import JangyadattaPasa from "../assets/JangyadattaPasa.jpg";
+import PranavPP from "../assets/PranavPP.jpg";
+import NitishKumar from "../assets/NitishKumar.jpg";
+import KondareddyMourya from "../assets/KondareddyMourya.jpg";
+import ChandanSethi from "../assets/ChandanSethi.jpg";
+import CoAxialJets from "../assets/CoAxialJets.png";
+import FocusJets from "../assets/FocusJets.png";
+import OptoMechSys from "../assets/OptoMechSys.png";
+import ResDiseaseTransmisssion from "../assets/ResDiseaseTransmisssion.png";
+import JetimpHT from "../assets/JetimpHT.jpg";
+import BioInspired from "../assets/BioInspired.png";
+import BluffBodies from "../assets/BluffBodies.png";
+import ParticleImageVeocimetrySetup from "../assets/ParticleImageVeocimetrySetup.jpg";
+import HotWireExptSetup from "../assets/HotWireExptSetup.jpg";
+import WindTunnel from "../assets/WindTunnel.jpg";
+import CAD_lab from "../assets/CAD_lab.jpg";
+import OtherHardwares from "../assets/OtherHardwares.jpg";
 
 export const ResearchFacilities = [
   {
@@ -30,21 +33,21 @@ export const ResearchFacilities = [
     title: "Subsonic Wind Tunnel",
     content:
       "A state-of-the-art wind tunnel facility is available with a test section size of 1 m × 1m and 4 m in length with a turbulence level of less than 0.5%. The wind tunnel is equipped with a gust generator and a passive grid. An active free-stream turbulence generator facility is also available. The wind tunnel can cater up to a free stream velocity of 50 m/s. The wind tunnel is equipped with various instruments to measure unsteady forces and moments.",
-      image: WindTunnel,
+    image: WindTunnel,
   },
   {
     id: 2,
     title: "Time-Resolved Particle Image Velocimetry (TR-PIV)",
     content:
       "Time-Resolved Particle Image Velocimetry (TR-PIV) is an advanced experimental technique used in fluid dynamics research to measure fluid flow velocity over time. It involves the use of high-speed cameras to capture a sequence of images of tracer particles seeded in the fluid. The images are then analyzed to determine the particle displacement and velocity at various time intervals, providing a detailed insight into the fluid flow dynamics.",
-      image: ParticleImageVeocimetrySetup,
+    image: ParticleImageVeocimetrySetup,
   },
   {
     id: 3,
     title: "Hotwire Anemometry",
     content:
       "Hotwire anemometer is a sophisticated instrument used for measuring turbulence in fluid flows with exceptional temporal resolution. We have a dedicated four-channel fully automated Hotwire anemometer system with 3D traverse and various probes (Single wire, X wire, and Boundary layer)",
-      image: HotWireExptSetup,
+    image: HotWireExptSetup,
   },
   {
     id: 4,
@@ -70,9 +73,9 @@ export const ResearchFacilities = [
     title: "Other Hardware",
     content:
       "Various power amplifiers, analog filters, and Data acquisition systems are available for conducting customized experiments.",
+    image: OtherHardwares,
   },
 ];
-
 
 export const ResearchContent = [
   {
@@ -85,7 +88,7 @@ export const ResearchContent = [
 
       "Our research also places special emphasis on the indoor environment. By investigating the dynamics of airflow and ventilation systems, we strive to identify strategies that promote optimum ventilation and minimize the risk of infection in indoor spaces.",
     ],
-    image: ResDiseaseTransmisssion
+    image: ResDiseaseTransmisssion,
   },
   {
     id: 2,
@@ -97,7 +100,7 @@ export const ResearchContent = [
 
       "In another invention, we introduced an innovative focusing technique to enhance the strength of synthetic jets (SJs) in the far-field. SJs often suffer from reduced vortex coherence, limiting their wide applicability. This issue also affects Synthetic Jet Arrays (SJ arrays) composed of multiple adjacent actuators, where destructive interactions between opposite rotating vortices decrease coherence in the far field. The inventors propose focusing as a method to mitigate these destructive interactions in the near field, allowing vortices to evolve effectively, which results in achieving 50% enhancement in jet strength in the far field. Subsequently, constructive merging between vortices amplifies the jet strength in the far field. This novel focusing of SJs holds tremendous potential for enhancing electronic cooling, aerodynamics, and other applications.",
     ],
-    image: CoAxialJets
+    image: CoAxialJets,
   },
   {
     id: 3,
@@ -111,7 +114,7 @@ export const ResearchContent = [
 
       "These results provide valuable insights into the pitching of side-by-side airfoils and the formation of deflected jets. Understanding these phenomena can have implications for engineering applications, particularly in the domain of bio-inspired propulsion systems.",
     ],
-    image: BioInspired
+    image: BioInspired,
   },
   {
     id: 4,
@@ -119,17 +122,16 @@ export const ResearchContent = [
     content: [
       "Harsh environments and high temperatures are the major factors responsible for the failure of sensors used in industrial applications, especially in process monitoring. We are engaged in the development of next-generation measurement devices for industrial applications.  These sensing devices are mainly based on Photonic Crystal fibre-based interferometers. High sensitivity, immunity to electromagnetic interference, and flexibility in design are some of the key features which make Photonic Crystal fibre-based systems suitable for a wide range of parameter sensing. Our group is currently working on developing sensors for flow rate, pressure, and temperature measurement for industrial applications ranging from large conduit pipes to micro channel flows. ",
     ],
-    image: OptoMechSys
+    image: OptoMechSys,
   },
 ];
-
 
 export const TechnologiesDeveloped = [
   {
     id: 1,
     title: "Vortex Cross-correlation Flowmeter",
     img: patent1,
-    patentNo: "1763/MUM/2013",
+    patentNo: "1763/MUM/2013 (Granted)",
     background:
       "Vortex flowmeters are extensively used in various industrial applications for fluid flow measurement. The performance of vortex flowmeters is significantly compromised by various factors inherent to industrial processes, such as flow pulsations, piping vibrations, and installation effects. These factors attract significant concern, particularly when operating under low Reynolds number flow conditions, where the vortex signal is relatively weak. Consequently, these effects impose limitations on the flowmeter's lower operating range.",
     novelty:
@@ -139,7 +141,7 @@ export const TechnologiesDeveloped = [
     id: 2,
     title: "Vortex Flowmeter for Measuring a fluid flow rate",
     img: patent2,
-    patentNo: "2459/MUM/2015",
+    patentNo: "2459/MUM/2015 (Granted)",
     background:
       "Vortex flowmeters are widely employed in industrial applications to measure fluid flow. However, their performance is greatly affected by factors like flow pulsations, piping vibrations, and installation effects. Hence upstream and downstream straight pipes are required to achieve the required accuracy. However, this piping requirement is expensive and may not be feasible in industrial applications. ",
     novelty:
@@ -149,7 +151,7 @@ export const TechnologiesDeveloped = [
     id: 3,
     title:
       "A System And A Method To Create And Modulate Coaxial Synthetic Jets",
-      img: patent3,
+    img: patent3,
     patentNo: "202131047214",
     background:
       "Many engineering applications like, aerodynamics, electronics cooling, and process industries and combustion requires effective utilization of fluids. Such applications demand an active flow control technique to manipulate the flow field to achieve the desired effects like turbulence enhancement and vortices. Existing flow control devices have limited scope due to their ineffectiveness in manipulating the flow field to achieve these desired effects. ",
@@ -180,15 +182,46 @@ export const TechnologiesDeveloped = [
     id: 6,
     title:
       "A Model Interferometer Based System to Improve Performance of Vortex Flow meter",
-      img: patent6,
+    img: patent6,
     patentNo: "E-5/320/2019/KOL",
     background:
       "Optical fiber-based vibration sensors are a potential class of technology. Their market value is rapidly increasing due to their high sensitivity and the potential to design versatile probes to detect various parameters. In practical applications, the performance of such sensor probes is affected by the external field noise and low amplitude of the external field. In order to improve their real time performance in complex environments, the modulation or conditioning of their responses is a definite solution. In this regard, methods based on spatial signal processing or phase noise cancellation have been reported. However, amplification, attenuation of noise components and filtering using a single system remained elusive. ",
     novelty:
       "In the proposed invention, identical fiber modal interferometers are fabricated and combined parallelly, such that one arm acts as the sensing arm while the other acts as the reference arm. The sensing arm is exposed to an external measurand field while an equivalent field about the reference arm is applied in a controlled manner to modulate the resultant signal and achieve signal amplification, attenuation of unwanted frequencies, and enhance the signal-to-noise ratio of the output waveform. Real-time amplification, attenuation, and filtering of the dynamic optical response of sensor probes over a broad frequency range is feasible. The proposed system can be applied for conditioning the response of an optical fiber sensor deployed to detect external physical fields. ",
   },
-];
+  {
+    id: 7,
+    title:
+      "A Rational System for Testing Resilient Modulus of Unbound Granular Materials",
+    img: patent7,
+    patentNo: "1763/MUM/2013 (Granted)",
+    background:
+      "Resilient Modulus (MR) of Unbound Granular Materials (UGMs) is a critical parameter in the Mechanistic-Empirical (M-E) pavement design procedure. In most countries empirical correlations are used to determine MR of unbound granular layers due to the complex, time- consuming and resource-intensive nature of Repeated Load Triaxial Tests (RLTT). Alternative set-ups such as Springbox, K-Mould and PUMA are available for determination of MR. But the confining pressure is not entirely user regulated in these set-ups as it is applied via spring or rubber. And none of the mentioned test set-ups consider the effect of subgrade stiffness on the MR of UGMs",
+    novelty: (
+      <ul style={{ listStyle: "disc" }}>
+        <li>
+          A simple and rational test set up has been developed for the
+          determination of Resilient Modulus of Unbound Granular Materials
+          (UGMs) that can simulate the elastic subgrade support during the test.
 
+        </li>
+        <li>
+          Resilient Modulus Test of UGMs can be conducted without containing the
+          specimen in rubber membranes at user regulated confining pressure.
+        </li>
+        <li>
+          A single acting pneumatic cylinder provided at the bottom simulates
+          the stiffness of the soil subgrade and can be varied depending on the
+          type of soil.
+        </li>
+        <li>
+          Specimen can be compacted and contained inside a split mould and
+          confining stress can be applied through four pneumatic cylinders.
+        </li>
+      </ul>
+    ),
+  },
+];
 
 export const Conferences = [
   {
@@ -428,9 +461,8 @@ export const Conferences = [
       "Samarendra Panda, Jangyadatta Pasa, Trushar B. Gohil, and Venugopal Arumuru",
     date: "14-16 December, 2022",
     place: "IIT Roorkee, India",
-},
+  },
 ];
-
 
 export const Journals = [
   {
@@ -571,7 +603,11 @@ export const Journals = [
   },
   {
     ID: 15,
-    Authors: ["Choudhary, Kushal Prasad", <b>Venugopal A</b>, "Yogesh G. Bhumkar"],
+    Authors: [
+      "Choudhary, Kushal Prasad",
+      <b>Venugopal A</b>,
+      "Yogesh G. Bhumkar",
+    ],
     Title: "Numerical simulation of beam drift effect in ultrasonic flow-meter",
     Journal: "Measurement",
     Volume_Issue_Year_Pages: ["146", "", "2019", "705-717"],
@@ -618,7 +654,7 @@ export const Journals = [
     Title:
       "Bi-Directional Interferometric Flowmeter with Linear Sensitivity and Large Dynamic Range",
     Journal: "IEEE Transactions on Instrumentation and Measurement",
-    Volume_Issue_Year_Pages:[ "2020"],
+    Volume_Issue_Year_Pages: ["2020"],
     DOI: "https://doi.org/10.1109/TIM.2020.3014468",
     impactFactor: 5.332,
   },
@@ -886,121 +922,122 @@ export const Journals = [
     Title:
       "A Computational Study of Particle Dynamics in Synthetic Jet Flow Field",
     Journal: "Physics of Fluids",
-    Volume_Issue_Year_Pages: ["2023",	"35",	"97128"],
+    Volume_Issue_Year_Pages: ["2023", "35", "97128"],
     DOI: "https://doi.org/10.1063/5.0161143",
     impactFactor: 4.99,
-  }
+  },
 ];
-
 
 export const sponsoredProjects = [
   {
     id: 1,
-    Project_Name: "Design and Development of Steering and Focusing Synthetic Jet Array",
+    Project_Name:
+      "Design and Development of Steering and Focusing Synthetic Jet Array",
     Funding_Agency: "CRG, DST",
-    Funding_Amount: "43.2 lakhs"
+    Funding_Amount: "43.2 lakhs",
   },
   {
     id: 2,
-    Project_Name: "Indigenous Development of a novel low-cost Solar PV panel self-cleaning device",
+    Project_Name:
+      "Indigenous Development of a novel low-cost Solar PV panel self-cleaning device",
     Funding_Agency: "DST (Department of Science and Technology)",
-    Funding_Amount: "42.5 lakhs"
+    Funding_Amount: "42.5 lakhs",
   },
   {
     id: 3,
-    Project_Name: "Fiber Reinforced cotton & polyester photonics fabrics with thermal comfort and illumination functionality",
+    Project_Name:
+      "Fiber Reinforced cotton & polyester photonics fabrics with thermal comfort and illumination functionality",
     Funding_Agency: "Ministry of Textile",
-    Funding_Amount: "72 lakhs"
+    Funding_Amount: "72 lakhs",
   },
   {
     id: 4,
-    Project_Name: "Indigenous Development of Controlled Interferometry Based High Temperature Industrial Flow Measurement device",
+    Project_Name:
+      "Indigenous Development of Controlled Interferometry Based High Temperature Industrial Flow Measurement device",
     Funding_Agency: "Device Development Program, DST",
-    Funding_Amount: "79 lakhs"
+    Funding_Amount: "79 lakhs",
   },
   {
     id: 5,
     Project_Name: "Centre for Wing Design",
     Funding_Agency: "FIST, DST",
-    Funding_Amount: "265 lakhs"
+    Funding_Amount: "265 lakhs",
   },
   {
     id: 6,
-    Project_Name: "Design and Development of Hybrid 'PCM-Synthetic Jet' based Heat Sink for Electronic Cooling",
+    Project_Name:
+      "Design and Development of Hybrid 'PCM-Synthetic Jet' based Heat Sink for Electronic Cooling",
     Funding_Agency: "DST",
     Funding_Amount: "38 lakhs",
-    Status: "Completed"
+    Status: "Completed",
   },
   {
     id: 7,
     Project_Name: "Design and Development of Jet Pumps",
     Funding_Agency: "Aeronautical Development Agency",
     Funding_Amount: "13 lakhs",
-    Status: "Completed"
+    Status: "Completed",
   },
   {
     id: 8,
     Project_Name: "Computational Analysis of Acoustic Beam Steering",
     Funding_Agency: "AR&DB",
     Funding_Amount: "17.6 lakhs",
-    Status: "Completed"
+    Status: "Completed",
   },
   {
     id: 9,
     Project_Name: "Design & Development of Synthetic Jet",
     Funding_Agency: "SERB: ECR",
     Funding_Amount: "32.1 lakhs",
-    Status: "Completed"
+    Status: "Completed",
   },
   {
     id: 10,
     Project_Name: "Design of Multipath Ultrasonic flow meter",
     Funding_Agency: "IIT Bhubaneswar",
     Funding_Amount: "10 lakhs",
-    Status: "Completed"
-  }
-]
-
-
+    Status: "Completed",
+  },
+];
 
 export const consultancyProjects = [
   {
     id: 1,
-    Project_Name: "Fitness Monitoring System and Pro diagnostics of LURO BURNER – Paradeep Phosphate Limited",
+    Project_Name:
+      "Fitness Monitoring System and Pro diagnostics of LURO BURNER – Paradeep Phosphate Limited",
     Funding_Agency: "Paradeep Phosphate Limited",
-    Funding_Amount: "14.2 lakhs"
+    Funding_Amount: "14.2 lakhs",
   },
   {
     id: 2,
     Project_Name: "Design Review for Multi-variable Industrial Sensor",
     Funding_Agency: "Honeywell Technology Solutions Lab Pvt. Ltd",
     Funding_Amount: "5.1 Lakhs",
-    Status: "Completed"
+    Status: "Completed",
   },
   {
     id: 3,
     Project_Name: "Design of Miniature Ultrasonic Sensor",
     Funding_Agency: "General Electric",
     Funding_Amount: "2.95 Lakhs",
-    Status: "Completed"
+    Status: "Completed",
   },
   {
     id: 4,
     Project_Name: "Design of Coriolis Mass Flowmeter",
     Funding_Agency: "Honeywell Technology Solutions Lab Pvt. Ltd",
     Funding_Amount: "13 Lakhs",
-    Status: "Completed"
+    Status: "Completed",
   },
   {
     id: 5,
     Project_Name: "Design and Development of Flow Measurement Solution",
     Funding_Agency: "Honeywell Technology Solutions Lab Pvt. Ltd",
     Funding_Amount: "21.5 Lakhs",
-    Status: "Completed"
-  }
-]
-
-
+    Status: "Completed",
+  },
+];
 
 export const Education = [
   {
@@ -1019,7 +1056,6 @@ export const Education = [
       "B.E, Mechanical, National Institute of Technology Raipur, India (2006)",
   },
 ];
-
 
 export const Awards = [
   {
@@ -1077,116 +1113,130 @@ export const Awards = [
   },
 ];
 
-
 export const StudentNames = [
-    {
-      id: 1,
-      name: "Samarendra Panda",
-      degree: "Ph.D.",
-      description: "Dr. Samarendra Panda, recently defended his thesis on novel coaxial synthetic jet. He developed a novel coaxial synthetic jet (CSJ) actuator having independent actuation facility is developed. The flow field is analysed in a quiescent environment numerically and experimentally with hot-wire anemometry. He has one patent application along with five international journals. At present he is a Post Doc fellow at IIT Bombay.",
-      image: SamarendraPanda
-    },
-    {
-      id: 2,
-      name: "Sidhartha Sankar Samantaray",
-      degree: "Ph.D.",
-      description: "Mr. Sidharth S S is trying to understand dynamics of a pulsating coaxial jet with emphasis on impingement application. He is using Hotwire anemometer, Particle image velocimetry and Infrared thermography to obtain flow field and temperature information to understand the physics of this configuration.",
-      image: SidharthaSankar
-    },
-    {
-      id: 3,
-      name: "Jangyadatta Pasa",
-      degree: "Ph.D.",
-      description: "Mr. Jangyadatta Pasa has recently submitted his thesis on “Investigations on Steering and Focusing of Jet from Synthetic Jet Array” He proposed and demonstrated a new focusing phenomenon with synthetic jet array and analyzed the flow field numerically. He also characterized the jet using hotwire anemometer and Infrared thermography.",
-      image: JangyadattaPasa
-    },
-    {
-      id: 4,
-      name: "Rakesh Nandan",
-      degree: "Ph.D.",
-      description: "Mr. Rakesh N is working on the design and development of hybrid heat sink by combining the active and passive cooling systems for thermal management of electronic devices. His research work is mainly focused on integrating Synthetic jet into the phase change material based heat sink to make it compact, effective and efficient.",
-      image: RakeshNandan
-    },
-    {
-      id: 5,
-      name: "Nitish Kumar",
-      degree: "Ph.D.",
-      description: "Mr. Nitish is working on compact and efficient active flow control devises for thermal management and aerodynamics flow control.",
-      image: NitishKumar
-    },
-    {
-      id: 6,
-      name: "Chandan Sethi",
-      degree: "M. Tech",
-      description: "Mr. Chandan S is exploring the potential of coaxial synthetic jets for thermal management of electronics using experimental tools like hotwire anemometer and infrared thermography.",
-      image: ChandanSethi
-    },
-    {
-      id: 7,
-      name: "Pranav P P",
-      degree: "M. Tech",
-      description: "Mr. Pranav P P area of research is hydrodynamic instability, He is developing an experimental facility to quantify these instabilities and use them effectively for various engineering application.",
-      image: PranavPP
-    },
-    {
-      id: 8,
-      name: "Vardhan Mittal",
-      degree: "B. Tech",
-      description: "Mr. Vardhan M is working on synthetic jet-based flow control devices for boundary layer transition control and flow separation mitigation to improve aerodynamics performance of airfoils.",
-      image: VardhanMittal
-    },
-    {
-      id: 9,
-      name: "Kondareddy Mourya",
-      degree: "B.Tech",
-      description: "Mr. Konareddy M is exploring the possibility of thin foil flexible structures for flow control and thermal management using numerical and experimental tools.",
-      image: KondareddyMourya
-    }
-  ]
-  
-  
-  export const CorousalImages = [
   {
     id: 1,
-    image: CoAxialJets
+    name: "Samarendra Panda",
+    degree: "Ph.D.",
+    description:
+      "Dr. Samarendra Panda, recently defended his thesis on novel coaxial synthetic jet. He developed a novel coaxial synthetic jet (CSJ) actuator having independent actuation facility is developed. The flow field is analysed in a quiescent environment numerically and experimentally with hot-wire anemometry. He has one patent application along with five international journals. At present he is a Post Doc fellow at IIT Bombay.",
+    image: SamarendraPanda,
   },
   {
     id: 2,
-    image: FocusJets
+    name: "Sidhartha Sankar Samantaray",
+    degree: "Ph.D.",
+    description:
+      "Mr. Sidharth S S is trying to understand dynamics of a pulsating coaxial jet with emphasis on impingement application. He is using Hotwire anemometer, Particle image velocimetry and Infrared thermography to obtain flow field and temperature information to understand the physics of this configuration.",
+    image: SidharthaSankar,
   },
   {
     id: 3,
-    image: OptoMechSys
+    name: "Jangyadatta Pasa",
+    degree: "Ph.D.",
+    description:
+      "Mr. Jangyadatta Pasa has recently submitted his thesis on “Investigations on Steering and Focusing of Jet from Synthetic Jet Array” He proposed and demonstrated a new focusing phenomenon with synthetic jet array and analyzed the flow field numerically. He also characterized the jet using hotwire anemometer and Infrared thermography.",
+    image: JangyadattaPasa,
   },
   {
     id: 4,
-    image: ResDiseaseTransmisssion
+    name: "Rakesh Nandan",
+    degree: "Ph.D.",
+    description:
+      "Mr. Rakesh N is working on the design and development of hybrid heat sink by combining the active and passive cooling systems for thermal management of electronic devices. His research work is mainly focused on integrating Synthetic jet into the phase change material based heat sink to make it compact, effective and efficient.",
+    image: RakeshNandan,
   },
   {
     id: 5,
-    image: BluffBodies
-  }
-]
+    name: "Nitish Kumar",
+    degree: "Ph.D.",
+    description:
+      "Mr. Nitish is working on compact and efficient active flow control devises for thermal management and aerodynamics flow control.",
+    image: NitishKumar,
+  },
+  {
+    id: 6,
+    name: "Chandan Sethi",
+    degree: "M. Tech",
+    description:
+      "Mr. Chandan S is exploring the potential of coaxial synthetic jets for thermal management of electronics using experimental tools like hotwire anemometer and infrared thermography.",
+    image: ChandanSethi,
+  },
+  {
+    id: 7,
+    name: "Pranav P P",
+    degree: "M. Tech",
+    description:
+      "Mr. Pranav P P area of research is hydrodynamic instability, He is developing an experimental facility to quantify these instabilities and use them effectively for various engineering application.",
+    image: PranavPP,
+  },
+  {
+    id: 8,
+    name: "Vardhan Mittal",
+    degree: "B. Tech",
+    description:
+      "Mr. Vardhan M is working on synthetic jet-based flow control devices for boundary layer transition control and flow separation mitigation to improve aerodynamics performance of airfoils.",
+    image: VardhanMittal,
+  },
+  {
+    id: 9,
+    name: "Kondareddy Mourya",
+    degree: "B.Tech",
+    description:
+      "Mr. Konareddy M is exploring the possibility of thin foil flexible structures for flow control and thermal management using numerical and experimental tools.",
+    image: KondareddyMourya,
+  },
+];
+
+export const CorousalImages = [
+  {
+    id: 1,
+    image: CoAxialJets,
+  },
+  {
+    id: 2,
+    image: FocusJets,
+  },
+  {
+    id: 3,
+    image: OptoMechSys,
+  },
+  {
+    id: 4,
+    image: ResDiseaseTransmisssion,
+  },
+  {
+    id: 5,
+    image: BluffBodies,
+  },
+  {
+    id: 6,
+    image: JetimpHT,
+  },
+];
 
 export const NewsFeed = [
   {
     id: 1,
-    title: "Congratulations to Mr. Jangyadatta Pasa for submitting his PhD thesis",
-    date: "August 19, 2021"
+    title:
+      "Congratulations to Mr. Jangyadatta Pasa for submitting his PhD thesis",
+    date: "August 19, 2021",
   },
   {
     id: 2,
-    title: "Congratulations to Dr. Samrendra Pada for securing a Post Doc position at IIT Bombay",
-    date: "August 8, 2021"
+    title:
+      "Congratulations to Dr. Samrendra Pada for securing a Post Doc position at IIT Bombay",
+    date: "August 8, 2021",
   },
   {
     id: 3,
     title: "Our Group is attending IHMTC - 2023 conference at IIT Patna",
-    date: "August 1, 2021"
+    date: "August 1, 2021",
   },
   {
     id: 4,
-    title: "Subsonic Wind Tunnel with PIV and other instruments are commissioned at Fluid Dynamics Laboratory",
-    date: "August 1, 2021"
-  }
-]
+    title:
+      "Subsonic Wind Tunnel with PIV and other instruments are commissioned at Fluid Dynamics Laboratory",
+    date: "August 1, 2021",
+  },
+];

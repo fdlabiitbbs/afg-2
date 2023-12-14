@@ -92,7 +92,7 @@ const Team = () => {
                 <p className="leading-relaxed text-xl mb-2">
                   {student.degree}
                 </p>
-                <p className="mb-4 leading-relaxed">
+                <p className="mb-4 leading-relaxed text-left">
                   {student.description}
                 </p>
               </div>
