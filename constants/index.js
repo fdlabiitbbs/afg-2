@@ -104,6 +104,17 @@ export const ResearchContent = [
   },
   {
     id: 3,
+    title: "Thermal Management",
+    content: [
+      "Thermal management is a critical aspect in various engineering applications, including electronics, automotive systems, industrial processes, and more. Efficient heat dissipation is essential to ensure optimal performance, reliability, and longevity of components. Flow control devices play a pivotal role in thermal management systems, regulating the flow of coolant or air to control temperatures effectively.",
+
+      "We are developing novel flow control devices for thermal management, these include, Co-axial synthetic jets, synthetic jet array for steering & focusing, and flexible flaps. These devices can be tailored to make them suitable for near-field and far-field cooling applications, along with spot cooling features.",
+
+    ],
+    image: JetimpHT,
+  },
+  {
+    id: 4,
     title: "Bio Inspired Propulsion",
     content: [
       "Bio-inspired propulsion is an innovative field that takes inspiration from nature's incredible diversity to design propulsion mechanisms for various applications. By emulating the exceptional locomotion abilities of animals and microorganisms, we aim to engineer more efficient, agile, and sustainable propulsion systems.",
@@ -117,7 +128,7 @@ export const ResearchContent = [
     image: BioInspired,
   },
   {
-    id: 4,
+    id: 5,
     title: "Opto-Mechanical Sensors for Industrial Application",
     content: [
       "Harsh environments and high temperatures are the major factors responsible for the failure of sensors used in industrial applications, especially in process monitoring. We are engaged in the development of next-generation measurement devices for industrial applications.  These sensing devices are mainly based on Photonic Crystal fibre-based interferometers. High sensitivity, immunity to electromagnetic interference, and flexibility in design are some of the key features which make Photonic Crystal fibre-based systems suitable for a wide range of parameter sensing. Our group is currently working on developing sensors for flow rate, pressure, and temperature measurement for industrial applications ranging from large conduit pipes to micro channel flows. ",
@@ -934,69 +945,69 @@ export const sponsoredProjects = [
     Project_Name:
       "Design and Development of Steering and Focusing Synthetic Jet Array",
     Funding_Agency: "CRG, DST",
-    Funding_Amount: "43.2 lakhs",
+    Funding_Amount: "INR 43.2 lakhs",
   },
   {
     id: 2,
     Project_Name:
       "Indigenous Development of a novel low-cost Solar PV panel self-cleaning device",
     Funding_Agency: "DST (Department of Science and Technology)",
-    Funding_Amount: "42.5 lakhs",
+    Funding_Amount: "INR 42.5 lakhs",
   },
   {
     id: 3,
     Project_Name:
       "Fiber Reinforced cotton & polyester photonics fabrics with thermal comfort and illumination functionality",
     Funding_Agency: "Ministry of Textile",
-    Funding_Amount: "72 lakhs",
+    Funding_Amount: "INR 72 lakhs",
   },
   {
     id: 4,
     Project_Name:
       "Indigenous Development of Controlled Interferometry Based High Temperature Industrial Flow Measurement device",
     Funding_Agency: "Device Development Program, DST",
-    Funding_Amount: "79 lakhs",
+    Funding_Amount: "INR 79 lakhs",
   },
   {
     id: 5,
     Project_Name: "Centre for Wing Design",
     Funding_Agency: "FIST, DST",
-    Funding_Amount: "265 lakhs",
+    Funding_Amount: "INR 265 lakhs",
   },
   {
     id: 6,
     Project_Name:
       "Design and Development of Hybrid 'PCM-Synthetic Jet' based Heat Sink for Electronic Cooling",
     Funding_Agency: "DST",
-    Funding_Amount: "38 lakhs",
+    Funding_Amount: "INR 38 lakhs",
     Status: "Completed",
   },
   {
     id: 7,
     Project_Name: "Design and Development of Jet Pumps",
     Funding_Agency: "Aeronautical Development Agency",
-    Funding_Amount: "13 lakhs",
+    Funding_Amount: "INR 13 lakhs",
     Status: "Completed",
   },
   {
     id: 8,
     Project_Name: "Computational Analysis of Acoustic Beam Steering",
     Funding_Agency: "AR&DB",
-    Funding_Amount: "17.6 lakhs",
+    Funding_Amount: "INR 17.6 lakhs",
     Status: "Completed",
   },
   {
     id: 9,
     Project_Name: "Design & Development of Synthetic Jet",
     Funding_Agency: "SERB: ECR",
-    Funding_Amount: "32.1 lakhs",
+    Funding_Amount: "INR 32.1 lakhs",
     Status: "Completed",
   },
   {
     id: 10,
     Project_Name: "Design of Multipath Ultrasonic flow meter",
     Funding_Agency: "IIT Bhubaneswar",
-    Funding_Amount: "10 lakhs",
+    Funding_Amount: "INR 10 lakhs",
     Status: "Completed",
   },
 ];

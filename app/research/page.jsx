@@ -4,27 +4,6 @@ import Image from "next/image";
 const page = () => {
   return (
     <>
-      <div className="container mx-auto px-5 py-12 items-center">
-        <h1 className="title-font md:text-4xl text-3xl mb-4 font-medium">
-          Thermal management
-        </h1>
-        <p className="leading-relaxed">
-          Thermal management is a critical aspect in various engineering
-          applications, including electronics, automotive systems, industrial
-          processes, and more. Efficient heat dissipation is essential to ensure
-          optimal performance, reliability, and longevity of components. Flow
-          control devices play a pivotal role in thermal management systems,
-          regulating the flow of coolant or air to control temperatures
-          effectively.
-        </p>
-        <p className="leading-relaxed">
-          We are developing novel flow control devices for thermal management,
-          these include, Co-axial synthetic jets, synthetic jet array for
-          steering & focusing, and flexible flaps. These devices can be tailored
-          to make them suitable for near-field and far-field cooling
-          applications, along with spot cooling features.
-        </p>
-      </div>
       <div className="">
         {ResearchContent.map((research, index) => {
           return (

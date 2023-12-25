@@ -3,7 +3,7 @@ import { NewsFeed } from "@/constants";
 const News = () => {
   return (
     <div>
-      <table className="mx-4 my-8 border-2">
+      <table className="mx-4 my-8">
         <thead className="border-b-[1px]">
           <tr>
             <th className="text-3xl font-bold py-4 ">Latest News</th>
