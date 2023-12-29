@@ -7,9 +7,7 @@ const page = () => {
       <div className="container mx-auto px-5 py-12 items-center text-justify">
         <h1 className="title-font md:text-4xl text-3xl mb-4 font-medium">Technologies Developed</h1>
         <p className="leading-relaxed">
-          On this page, you will find a comprehensive collection of our research
-          group&#39;s technologies, Each technology is accompanied by a brief
-          description of its features, benefits, and potential applications.
+        On this page, you will find a comprehensive collection of technologies proposed and developed by our research group. Each technology is accompanied by a brief description of its features, benefits, and potential applications.
         </p>
         <p className="leading-relaxed">
           Our goal is to bring our research from the lab to the real world, and

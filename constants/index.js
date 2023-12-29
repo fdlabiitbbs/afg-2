@@ -109,7 +109,6 @@ export const ResearchContent = [
       "Thermal management is a critical aspect in various engineering applications, including electronics, automotive systems, industrial processes, and more. Efficient heat dissipation is essential to ensure optimal performance, reliability, and longevity of components. Flow control devices play a pivotal role in thermal management systems, regulating the flow of coolant or air to control temperatures effectively.",
 
       "We are developing novel flow control devices for thermal management, these include, Co-axial synthetic jets, synthetic jet array for steering & focusing, and flexible flaps. These devices can be tailored to make them suitable for near-field and far-field cooling applications, along with spot cooling features.",
-
     ],
     image: JetimpHT,
   },
@@ -208,29 +207,8 @@ export const TechnologiesDeveloped = [
     patentNo: "Patent Application Submitted",
     background:
       "Resilient Modulus (MR) of Unbound Granular Materials (UGMs) is a critical parameter in the Mechanistic-Empirical (M-E) pavement design procedure. In most countries empirical correlations are used to determine MR of unbound granular layers due to the complex, time- consuming and resource-intensive nature of Repeated Load Triaxial Tests (RLTT). Alternative set-ups such as Springbox, K-Mould and PUMA are available for determination of MR. But the confining pressure is not entirely user regulated in these set-ups as it is applied via spring or rubber. And none of the mentioned test set-ups consider the effect of subgrade stiffness on the MR of UGMs",
-    novelty: (
-      <ul style={{ listStyle: "disc" }}>
-        <li>
-          A simple and rational test set up has been developed for the
-          determination of Resilient Modulus of Unbound Granular Materials
-          (UGMs) that can simulate the elastic subgrade support during the test.
-
-        </li>
-        <li>
-          Resilient Modulus Test of UGMs can be conducted without containing the
-          specimen in rubber membranes at user regulated confining pressure.
-        </li>
-        <li>
-          A single acting pneumatic cylinder provided at the bottom simulates
-          the stiffness of the soil subgrade and can be varied depending on the
-          type of soil.
-        </li>
-        <li>
-          Specimen can be compacted and contained inside a split mould and
-          confining stress can be applied through four pneumatic cylinders.
-        </li>
-      </ul>
-    ),
+    novelty:
+      "A simple and rational test set up has been developed for the determination of Resilient Modulus of Unbound Granular Materials (UGMs) that can simulate the elastic subgrade support during the test. Resilient Modulus Test of UGMs can be conducted without containing the specimen in rubber membranes at user regulated confining pressure. A single acting pneumatic cylinder provided at the bottom simulates the stiffness of the soil subgrade and can be varied depending on the type of soil. Specimen can be compacted and contained inside a split mould and confining stress can be applied through four pneumatic cylinders.",
   },
 ];
 
@@ -478,8 +456,7 @@ export const Conferences = [
     conferenceName:
       "27th National and 5th International ISHMT-ASTFE Heat and Mass Transfer Conference - IHMTC 2023",
     info: "Heat Transfer Aspect of an Independently Controlled Coaxial Synthetic Jet",
-    attendees:
-      "Chandan S, Samrendra P, Venugopal A.",
+    attendees: "Chandan S, Samrendra P, Venugopal A.",
     date: "14-17 December, 2023",
     place: "IIT Patna, India",
   },
@@ -488,8 +465,7 @@ export const Conferences = [
     conferenceName:
       "27th National and 5th International ISHMT-ASTFE Heat and Mass Transfer Conference - IHMTC 2023",
     info: "Temperature control of electronic gadgets using PCM and synthetic jet based hybrid heat sink",
-    attendees:
-      "Rakesh N, Venugopal A, Mihir D.",
+    attendees: "Rakesh N, Venugopal A, Mihir D.",
     date: "14-17 December, 2023",
     place: "IIT Patna, India",
   },
@@ -498,8 +474,7 @@ export const Conferences = [
     conferenceName:
       "27th National and 5th International ISHMT-ASTFE Heat and Mass Transfer Conference - IHMTC 2023",
     info: "A Way of Improving the Heat Removal Uniformity Using Pulsating Air Jet Impingement on a Dimpled Surface",
-    attendees:
-      "M Dnyanesh, Venugopal A,  Y Harekrishna",
+    attendees: "M Dnyanesh, Venugopal A,  Y Harekrishna",
     date: "14-17 December, 2023",
     place: "IIT Patna, India",
   },
@@ -1226,7 +1201,7 @@ export const AlumniNames = [
       "Dr. Samarendra Panda, recently defended his thesis on novel coaxial synthetic jet. He developed a novel coaxial synthetic jet (CSJ) actuator having independent actuation facility is developed. The flow field is analysed in a quiescent environment numerically and experimentally with hot-wire anemometry. He has one patent application along with five international journals. At present he is a Post Doc fellow at IIT Bombay.",
     image: SamarendraPanda,
   },
-]
+];
 
 export const CorousalImages = [
   {
