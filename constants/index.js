@@ -473,6 +473,36 @@ export const Conferences = [
     date: "14-16 December, 2022",
     place: "IIT Roorkee, India",
   },
+  {
+    id: 28,
+    conferenceName:
+      "27th National and 5th International ISHMT-ASTFE Heat and Mass Transfer Conference - IHMTC 2023",
+    info: "Heat Transfer Aspect of an Independently Controlled Coaxial Synthetic Jet",
+    attendees:
+      "Chandan S, Samrendra P, Venugopal A.",
+    date: "14-17 December, 2023",
+    place: "IIT Patna, India",
+  },
+  {
+    id: 29,
+    conferenceName:
+      "27th National and 5th International ISHMT-ASTFE Heat and Mass Transfer Conference - IHMTC 2023",
+    info: "Temperature control of electronic gadgets using PCM and synthetic jet based hybrid heat sink",
+    attendees:
+      "Rakesh N, Venugopal A, Mihir D.",
+    date: "14-17 December, 2023",
+    place: "IIT Patna, India",
+  },
+  {
+    id: 30,
+    conferenceName:
+      "27th National and 5th International ISHMT-ASTFE Heat and Mass Transfer Conference - IHMTC 2023",
+    info: "A Way of Improving the Heat Removal Uniformity Using Pulsating Air Jet Impingement on a Dimpled Surface",
+    attendees:
+      "M Dnyanesh, Venugopal A,  Y Harekrishna",
+    date: "14-17 December, 2023",
+    place: "IIT Patna, India",
+  },
 ];
 
 export const Journals = [
@@ -1097,28 +1127,24 @@ export const Awards = [
   },
   {
     id: 7,
-    award: "Young Scientist Award 2017- Venus International Foundation",
-  },
-  {
-    id: 8,
     award: "IIT Bombay Excellence in Thesis Work Award -2015",
   },
   {
-    id: 9,
+    id: 8,
     award: "American Physical Society /DFD Travel Grant – 2013",
   },
   {
-    id: 10,
+    id: 9,
     award:
       "Department of Science and Technology & CSIR India, Travel Grant (2013)",
   },
   {
-    id: 11,
+    id: 10,
     award:
       "Forbes Marshall Fellowship 2006-2008, IIT Bombay (Postgraduate Studies)",
   },
   {
-    id: 12,
+    id: 11,
     award:
       "Merit-Based Scholarship from S.E.C. Railway, India (2003, 2004 & 2005) for graduate Studies",
   },
@@ -1127,14 +1153,6 @@ export const Awards = [
 export const StudentNames = [
   {
     id: 1,
-    name: "Samarendra Panda",
-    degree: "Ph.D.",
-    description:
-      "Dr. Samarendra Panda, recently defended his thesis on novel coaxial synthetic jet. He developed a novel coaxial synthetic jet (CSJ) actuator having independent actuation facility is developed. The flow field is analysed in a quiescent environment numerically and experimentally with hot-wire anemometry. He has one patent application along with five international journals. At present he is a Post Doc fellow at IIT Bombay.",
-    image: SamarendraPanda,
-  },
-  {
-    id: 2,
     name: "Sidhartha Sankar Samantaray",
     degree: "Ph.D.",
     description:
@@ -1142,7 +1160,7 @@ export const StudentNames = [
     image: SidharthaSankar,
   },
   {
-    id: 3,
+    id: 2,
     name: "Jangyadatta Pasa",
     degree: "Ph.D.",
     description:
@@ -1150,7 +1168,7 @@ export const StudentNames = [
     image: JangyadattaPasa,
   },
   {
-    id: 4,
+    id: 3,
     name: "Rakesh Nandan",
     degree: "Ph.D.",
     description:
@@ -1158,7 +1176,7 @@ export const StudentNames = [
     image: RakeshNandan,
   },
   {
-    id: 5,
+    id: 4,
     name: "Nitish Kumar",
     degree: "Ph.D.",
     description:
@@ -1166,7 +1184,7 @@ export const StudentNames = [
     image: NitishKumar,
   },
   {
-    id: 6,
+    id: 5,
     name: "Chandan Sethi",
     degree: "M. Tech",
     description:
@@ -1174,7 +1192,7 @@ export const StudentNames = [
     image: ChandanSethi,
   },
   {
-    id: 7,
+    id: 6,
     name: "Pranav P P",
     degree: "M. Tech",
     description:
@@ -1182,7 +1200,7 @@ export const StudentNames = [
     image: PranavPP,
   },
   {
-    id: 8,
+    id: 7,
     name: "Vardhan Mittal",
     degree: "B. Tech",
     description:
@@ -1190,7 +1208,7 @@ export const StudentNames = [
     image: VardhanMittal,
   },
   {
-    id: 9,
+    id: 8,
     name: "Kondareddy Mourya",
     degree: "B.Tech",
     description:
@@ -1198,6 +1216,17 @@ export const StudentNames = [
     image: KondareddyMourya,
   },
 ];
+
+export const AlumniNames = [
+  {
+    id: 1,
+    name: "Samarendra Panda",
+    degree: "Ph.D.",
+    description:
+      "Dr. Samarendra Panda, recently defended his thesis on novel coaxial synthetic jet. He developed a novel coaxial synthetic jet (CSJ) actuator having independent actuation facility is developed. The flow field is analysed in a quiescent environment numerically and experimentally with hot-wire anemometry. He has one patent application along with five international journals. At present he is a Post Doc fellow at IIT Bombay.",
+    image: SamarendraPanda,
+  },
+]
 
 export const CorousalImages = [
   {
@@ -1236,16 +1265,16 @@ export const NewsFeed = [
   {
     id: 2,
     title:
-      "Congratulations to Dr. Samrendra Pada for securing a Post Doc position at IIT Bombay",
+      "Congratulations to Dr. Samrendra Panda for securing a Post Doc position at IIT Bombay",
     date: "August 8, 2021",
   },
+  // {
+  //   id: 3,
+  //   title: "Our Group is attending IHMTC - 2023 conference at IIT Patna",
+  //   date: "August 1, 2021",
+  // },
   {
     id: 3,
-    title: "Our Group is attending IHMTC - 2023 conference at IIT Patna",
-    date: "August 1, 2021",
-  },
-  {
-    id: 4,
     title:
       "Subsonic Wind Tunnel with PIV and other instruments are commissioned at Fluid Dynamics Laboratory",
     date: "August 1, 2021",

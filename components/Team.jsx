@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { StudentNames } from "@/constants";
+import { AlumniNames } from "@/constants";
 
 const Team = () => {
   return (
@@ -73,6 +74,9 @@ const Team = () => {
           </div>
         </div>
       </section> */}
+
+
+{/* ----------------------------rESEARCH sCHOLARS----------------------------- */}
       <h1 className="mb-4 pt-12 text-3xl font-bold text-center">Research Scholars</h1>
       {StudentNames.map((student, index) => {
         return (
@@ -94,6 +98,36 @@ const Team = () => {
                 </p>
                 <p className="mb-4 leading-relaxed text-left">
                   {student.description}
+                </p>
+              </div>
+            </div>
+          </div>
+        );
+      })}
+
+
+{/* ----------------------------ALUMNI----------------------------- */}
+      <h1 className="mb-4 pt-12 text-3xl font-bold text-center">Alumni</h1>
+      {AlumniNames.map((alumni, index) => {
+        return (
+          <div className="body-font border-2 border-black lg:mx-24 mx-2 my-4" key={alumni.id}>
+            <div className="container mx-auto flex px-2 py-2 md:flex-row flex-col items-center">
+              <div className="lg:max-w-lg lg:w-[150px] md:w-1/2 w-5/6 md:mb-0 mb-10">
+                <Image
+                  className="object-cover object-center rounded border-2"
+                  alt="hero"
+                  src={alumni.image}
+                />
+              </div>
+              <div className="lg:flex-grow md:w-1/2 lg:pl-8 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 className="title-font text-3xl font-medium">
+                  {alumni.name}
+                </h1>
+                <p className="leading-relaxed text-xl mb-2">
+                  {alumni.degree}
+                </p>
+                <p className="mb-4 leading-relaxed text-left">
+                  {alumni.description}
                 </p>
               </div>
             </div>
