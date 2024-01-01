@@ -996,20 +996,13 @@ export const sponsoredProjects = [
   },
   {
     id: 8,
-    Project_Name: "Computational Analysis of Acoustic Beam Steering",
-    Funding_Agency: "AR&DB",
-    Funding_Amount: "INR 17.6 lakhs",
-    Status: "Completed",
-  },
-  {
-    id: 9,
     Project_Name: "Design & Development of Synthetic Jet",
     Funding_Agency: "SERB: ECR",
     Funding_Amount: "INR 32.1 lakhs",
     Status: "Completed",
   },
   {
-    id: 10,
+    id: 9,
     Project_Name: "Design of Multipath Ultrasonic flow meter",
     Funding_Agency: "IIT Bhubaneswar",
     Funding_Amount: "INR 10 lakhs",
