@@ -940,7 +940,7 @@ export const Journals = [
     Journal: "Physics of Fluids",
     Volume_Issue_Year_Pages: ["2023", "35", "97128"],
     DOI: "https://doi.org/10.1063/5.0161143",
-    impactFactor: 4.99,
+    impactFactor: 4.6,
   },
 ];
 
