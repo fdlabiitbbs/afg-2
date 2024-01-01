@@ -693,7 +693,7 @@ export const Journals = [
     Journal: "Physics of Fluids",
     Volume_Issue_Year_Pages: ["32", "9", "2020", "095122"],
     DOI: "https://doi.org/10.1063/5.0019725",
-    impactFactor: 4.98,
+    impactFactor: 4.6,
   },
   {
     ID: 22,
@@ -704,7 +704,7 @@ export const Journals = [
     Volume_Issue_Year_Pages: ["32", "11", "2020", "115129"],
     "Featured and Most Read Article": true,
     DOI: "https://doi.org/10.1063/5.0030101",
-    impactFactor: 4.98,
+    impactFactor: 4.6,
   },
   {
     ID: 23,
@@ -733,7 +733,7 @@ export const Journals = [
     Journal: "Physics of Fluids",
     Volume_Issue_Year_Pages: ["33", "6", "2021", "065108"],
     DOI: "https://doi.org/10.1063/5.0054110",
-    impactFactor: 4.98,
+    impactFactor: 4.6,
   },
   {
     ID: 26,
@@ -742,7 +742,7 @@ export const Journals = [
     Journal: "Physics of Fluids",
     Volume_Issue_Year_Pages: ["33", "7", "2021", "077120"],
     DOI: "https://doi.org/10.1063/5.0058571",
-    impactFactor: 4.98,
+    impactFactor: 4.6,
   },
   {
     ID: 27,
@@ -812,7 +812,7 @@ export const Journals = [
     Journal: "Physics of Fluids",
     Volume_Issue_Year_Pages: ["34", "6", "2022", "065118"],
     DOI: "https://doi.org/10.1063/5.0095115",
-    impactFactor: 4.98,
+    impactFactor: 4.6,
   },
   {
     ID: 33,
@@ -822,7 +822,7 @@ export const Journals = [
     Journal: "Physics of Fluids",
     Volume_Issue_Year_Pages: ["34", "9", "2022", "093601"],
     DOI: "https://doi.org/10.1063/5.0101727",
-    impactFactor: 4.98,
+    impactFactor: 4.6,
   },
   {
     ID: 34,
@@ -867,7 +867,7 @@ export const Journals = [
     Journal: "Journal of Energy Storage",
     Volume_Issue_Year_Pages: ["58", "2023", "106376"],
     DOI: "https://doi.org/10.1016/j.est.2022.106376",
-    impactFactor: 8.907,
+    impactFactor: 9.4,
   },
   {
     ID: 38,
@@ -902,7 +902,7 @@ export const Journals = [
     Journal: "Physics of Fluids",
     Volume_Issue_Year_Pages: ["35", "5", "2023"],
     DOI: "https://doi.org/10.1063/5.0148794",
-    impactFactor: 4.98,
+    impactFactor: 4.6,
   },
   {
     ID: 41,
@@ -920,7 +920,7 @@ export const Journals = [
       "A numerical investigation into thermo-fluid characteristics of pulsating jet impingement on a dimpled surface",
     Journal: "Physics of Fluids",
     Volume_Issue_Year_Pages: ["2023"],
-    impactFactor: 4.99,
+    impactFactor: 4.6,
   },
   {
     ID: 43,
