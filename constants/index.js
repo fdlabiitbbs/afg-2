@@ -942,16 +942,6 @@ export const Journals = [
     DOI: "https://doi.org/10.1063/5.0161143",
     impactFactor: 4.6,
   },
-        {
-              ID: 45,
-    Authors: ["S Merrylin", "P Samrendra", <b>Venugopal A</b>],
-    Title:
-      "A Computational Study of Particle Dynamics in Synthetic Jet Flow Field",
-    Journal: "Physics of Fluids",
-    Volume_Issue_Year_Pages: ["2023", "35", "97128"],
-    DOI: "https://doi.org/10.1063/5.0161143",
-    impactFactor: 4.6,
-        }
 ];
 
 export const sponsoredProjects = [
