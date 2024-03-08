@@ -474,9 +474,27 @@ export const Conferences = [
     conferenceName:
       "27th National and 5th International ISHMT-ASTFE Heat and Mass Transfer Conference - IHMTC 2023",
     info: "A Way of Improving the Heat Removal Uniformity Using Pulsating Air Jet Impingement on a Dimpled Surface",
-    attendees: "M Dnyanesh, Venugopal A,  Y Harekrishna",
+    attendees: "M Dnyanesh, Venugopal A, Y Harekrishna",
     date: "14-17 December, 2023",
     place: "IIT Patna, India",
+  },
+  {
+    id: 31,
+    conferenceName:
+      "27 th National and 5th International ISHMT-ASTFE Heat and Mass Transfer Conference",
+    info: "Photonic Crystal Fiber Interferometer for Flow Sensing and Measurement",
+    attendees: "Arvind Kumar Maurya, Venugopal Arumuru, Rajan Jha",
+    date: "14-17 December, 2023",
+    place: "IIT Patna, India",
+  },
+  {
+    id: 32,
+    conferenceName:
+      "FIV2024: FSI2 & FIV + N, the 10th International Symposium on Fluid-Structures Interaction, Fluid-Sound Interactions, Flow-Induced Vibration, and Noise",
+    info: "Active Flow control of Square Cylinder Using Synthetic Jet Array",
+    attendees: "Vardhan Mittal, Venugopal Arumuru",
+    date: "2-5 July, 2024",
+    place: "Vibrant Iguaçu Falls, Brazil",
   },
 ];
 
@@ -942,6 +960,26 @@ export const Journals = [
     DOI: "https://doi.org/10.1063/5.0161143",
     impactFactor: 4.6,
   },
+  {
+    ID: 45,
+    Authors: ["Vardhan Mittal", <b>Venugopal A</b>],
+    Title:
+      "Torque generation using synthetic jet actuators",
+    Journal: "Journal of Process Mechanical Engineering",
+    Volume_Issue_Year_Pages: ["2023", "8"],
+    DOI: "https://doi.org/10.1177/095440892412302",
+    impactFactor: 2.4,
+  },
+  {
+    ID: 46,
+    Authors: ["Jangyadatta Pasa", "Neeruganti Venkata Shathrughnu", <b>Venugopal A</b>],
+    Title:
+      "Impingement Heat Transfer Enhancement by Focusing the Jet from Synthetic Jet Array",
+    Journal: "International Communications in Heat and Mass Transfer",
+    Volume_Issue_Year_Pages: ["152", "2024", "12"],
+    DOI: "https://doi.org/10.1016/j.icheatmasstransfer.2024.107306",
+    impactFactor: 7,
+  },
 ];
 
 export const sponsoredProjects = [
@@ -1227,22 +1265,23 @@ export const NewsFeed = [
   {
     id: 1,
     title:
-      "Congratulations to Mr. Jangyadatta Pasa for submitting his PhD thesis",
+      "Patent Granted - Model Interferometer System Enhancing Vortex Flow Meter Performance ",
     date: "August 19, 2021",
   },
   {
     id: 2,
     title:
-      "Congratulations to Dr. Samrendra Panda for securing a Post Doc position at IIT Bombay",
+      "Jangya's work on \"Impingement Heat Transfer Enhancement by Focusing the Jet from Synthetic Jet Array\" published in ICHMT. Congratulations!",
     date: "August 8, 2021",
   },
-  // {
-  //   id: 3,
-  //   title: "Our Group is attending IHMTC - 2023 conference at IIT Patna",
-  //   date: "August 1, 2021",
-  // },
   {
     id: 3,
+    title:
+      "Vardhan's work on \"Active Flow Control of Square Cylinder using Synthetic Jet Array\" Accepted for FIV2024 Conference Congratulations!",
+    date: "August 1, 2021",
+  },
+  {
+    id: 4,
     title:
       "Subsonic Wind Tunnel with PIV and other instruments are commissioned at Fluid Dynamics Laboratory",
     date: "August 1, 2021",
