@@ -1265,25 +1265,25 @@ export const NewsFeed = [
   {
     id: 1,
     title:
-      "Patent Granted - Model Interferometer System Enhancing Vortex Flow Meter Performance ",
+      "Dr. Venugopal Arumuru has been selected as a Technical Committee Member of  IMEKO (International Measurements Confederation) ",
     date: "August 19, 2021",
   },
   {
     id: 2,
     title:
-      "Jangya's work on \"Impingement Heat Transfer Enhancement by Focusing the Jet from Synthetic Jet Array\" published in ICHMT. Congratulations!",
+      "Congratulations to Mr. Pravendra Patel for recurring PhD admission at University of Michigan Ann Arbor",
     date: "August 8, 2021",
   },
   {
     id: 3,
     title:
-      "Vardhan's work on \"Active Flow Control of Square Cylinder using Synthetic Jet Array\" Accepted for FIV2024 Conference Congratulations!",
+      "Rakesh's work on \"An Experimental Investigation into PCM-Integrated Heat Sinks under Varying Duty Cycles\" Published in Journal of Energy Storage ",
     date: "August 1, 2021",
   },
   {
     id: 4,
     title:
-      "Subsonic Wind Tunnel with PIV and other instruments are commissioned at Fluid Dynamics Laboratory",
+      "Subsonic Wind Tunnel with PIV and other instruments is being commissioned at Fluid Dynamics Laboratory",
     date: "August 1, 2021",
   },
 ];
