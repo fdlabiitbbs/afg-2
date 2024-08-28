@@ -938,6 +938,7 @@ export const Journals = [
       "A numerical investigation into thermo-fluid characteristics of pulsating jet impingement on a dimpled surface",
     Journal: "Physics of Fluids",
     Volume_Issue_Year_Pages: ["2023"],
+    DOI: "https://doi.org/10.1063/5.0180656",
     impactFactor: 4.6,
   },
   {
@@ -967,7 +968,7 @@ export const Journals = [
       "Torque generation using synthetic jet actuators",
     Journal: "Journal of Process Mechanical Engineering",
     Volume_Issue_Year_Pages: ["2023", "8"],
-    DOI: "https://doi.org/10.1177/095440892412302",
+    DOI: "https://doi.org/10.1177/09544089241230267",
     impactFactor: 2.4,
   },
   {
