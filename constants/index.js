@@ -1272,7 +1272,7 @@ export const NewsFeed = [
   {
     id: 2,
     title:
-      "Congratulations to Mr. Pravendra Patel for recurring PhD admission at University of Michigan Ann Arbor",
+      "Congratulations to Mr. Pravendra Patel for securing PhD admission at University of Michigan Ann Arbor",
     date: "August 8, 2021",
   },
   {
