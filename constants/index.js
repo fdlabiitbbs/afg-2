@@ -571,7 +571,7 @@ export const Journals = [
   {
     ID: 8,
     Authors: [<b>Venugopal A</b>, "Amit Agrawal", "S. V. Prabhu"],
-    Title: "A Vortex cross-correlation flowmeter with improved turndown ratio",
+    Title: "Note: A Vortex cross-correlation flowmeter with improved turndown ratio",
     Journal: "Review of Scientific Instruments",
     Volume_Issue_Year_Pages: ["85", "6", "2014", "066109"],
     DOI: "https://doi.org/https://doi.org/10.1063/1.4884078",
@@ -581,7 +581,7 @@ export const Journals = [
     ID: 9,
     Authors: [<b>Venugopal A</b>, "Amit Agrawal", "S. V. Prabhu"],
     Title:
-      "Spatial correlations in the wake of a circular cylinder and a normal plate Placed inside a pipe",
+      "Spanwise correlations in the wake of a circular cylinder and a normal plate Placed inside a pipe",
     Journal: "Journal of Fluids and Structures",
     Volume_Issue_Year_Pages: ["54", "", "2015", "536-547"],
     DOI: "https://doi.org/10.1016/j.jfluidstructs.2014.12.008",
@@ -590,7 +590,7 @@ export const Journals = [
   {
     ID: 10,
     Authors: ["Lavish O.", <b>Venugopal A</b>, "Amit Agrawal", "S. V. Prabhu"],
-    Title: "Vortex shedding from a circular cylinder with a parallel slit",
+    Title: "Vortex shedding characteristics of a cylinder with a parallel slit placed in a circular pipe",
     Journal: "Journal of Visualization",
     Volume_Issue_Year_Pages: ["2017", "", "", "1-13"],
     DOI: "https://doi.org/https://doi.org/10.1007/s12650-016-0398-y",
@@ -938,6 +938,7 @@ export const Journals = [
       "A numerical investigation into thermo-fluid characteristics of pulsating jet impingement on a dimpled surface",
     Journal: "Physics of Fluids",
     Volume_Issue_Year_Pages: ["2023"],
+    DOI: "https://doi.org/10.1063/5.0180656",
     impactFactor: 4.6,
   },
   {
@@ -967,7 +968,7 @@ export const Journals = [
       "Torque generation using synthetic jet actuators",
     Journal: "Journal of Process Mechanical Engineering",
     Volume_Issue_Year_Pages: ["2023", "8"],
-    DOI: "https://doi.org/10.1177/095440892412302",
+    DOI: "https://doi.org/10.1177/09544089241230267",
     impactFactor: 2.4,
   },
   {
@@ -1271,7 +1272,7 @@ export const NewsFeed = [
   {
     id: 2,
     title:
-      "Congratulations to Mr. Pravendra Patel for recurring PhD admission at University of Michigan Ann Arbor",
+      "Congratulations to Mr. Pravendra Patel for securing PhD admission at University of Michigan Ann Arbor",
     date: "August 8, 2021",
   },
   {
