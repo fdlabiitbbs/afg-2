@@ -11,7 +11,7 @@ const page = () => {
         <div className="container mx-auto flex px-5 py-8 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <Image
-              className="object-cover object-center rounded mx-auto h-[350px] w-[250px] border-2 border-black"
+              className="object-cover object-center rounded mx-auto h-[350px] w-[350px] border-2 border-black"
               alt="Dr Venugopal Arummuru"
               src={profilePic}
             />
