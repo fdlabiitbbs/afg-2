@@ -16,7 +16,7 @@ const page = () => {
               src={profilePic}
             />
             <div className="text-center font-semibold mx-auto text-3xl mt-8">
-              Dr Venugopal Arummuru
+              Dr Venugopal Arumuru
             </div>
           </div>
 
