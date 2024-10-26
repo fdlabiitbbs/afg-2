@@ -981,6 +981,46 @@ export const Journals = [
     DOI: "https://doi.org/10.1016/j.icheatmasstransfer.2024.107306",
     impactFactor: 7,
   },
+  {
+    ID: 47,
+    Authors: ["Nandan R", <b>Venugopal A</b>, "Das M"],
+    Title:
+      "An experimental investigation into PCM-integrated heat sinks under varying duty cycles.",
+    Journal: "Journal of Energy Storage",
+    Volume_Issue_Year_Pages: ["97", "2024", "112905"],
+    DOI: "https://doi.org/10.1016/j.est.2024.112905 ",
+    impactFactor: 8.9,
+  },
+  {
+    ID: 48,
+    Authors: ["Sethi C", "Pasa J", "Panda S", <b>Venugopal A</b>],
+    Title:
+      "Influence of mass flux ratio and phase difference on impingement heat transfer characteristics of coaxial synthetic jet.",
+    Journal: "International Journal of Heat and Mass Transfer",
+    Volume_Issue_Year_Pages: ["234","126075", "2024"],
+    DOI: "https://doi.org/10.1016/j.ijheatmasstransfer.2024.126075",
+    impactFactor: 5,
+  },
+  {
+    ID: 49,
+    Authors: ["Kalipada Chatterjee", "Carlos Marques", <b>Venugopal A</b>, "Subrat Sahu", "Jan Nedoma", "Rajan Jha"],
+    Title:
+      "Integrated Interferometers' System for In-situ Real Time Optical Signal Modulation.",
+    Journal: "Photonics Research",
+    Volume_Issue_Year_Pages: ["2024"],
+    DOI: "https://doi.org/10.1364/PRJ.527410 ",
+    impactFactor: 6.6,
+  },
+  {
+    ID: 50,
+    Authors: ["Vardhan Mittal", <b>Venugopal A</b>],
+    Title:
+      "Control of the von Kármán vortex street with focusing and vectoring of jet using synthetic jet array",
+    Journal: "Physics of Fluids ",
+    Volume_Issue_Year_Pages: ["2024", "36", "103630"],
+    DOI: "https://doi.org/10.1063/5.0233485",
+    impactFactor: 4.10,
+  },
 ];
 
 export const sponsoredProjects = [
@@ -1266,25 +1306,31 @@ export const NewsFeed = [
   {
     id: 1,
     title:
-      "Dr. Venugopal Arumuru has been selected as a Technical Committee Member of  IMEKO (International Measurements Confederation) ",
+      "Dr. Venugopal Arumuru has been selected as a Technical Committee Member of IMEKO (International Measurements Confederation)",
     date: "August 19, 2021",
   },
   {
     id: 2,
     title:
-      "Congratulations to Mr. Pravendra Patel for securing PhD admission at University of Michigan Ann Arbor",
+      "Congratulations to Dr. Jangyadatta Pasa for securing a postdoctoral position at Harbin Institute of Technology",
     date: "August 8, 2021",
   },
   {
     id: 3,
     title:
-      "Rakesh's work on \"An Experimental Investigation into PCM-Integrated Heat Sinks under Varying Duty Cycles\" Published in Journal of Energy Storage ",
+      "Congratulations to Mr. Pravendra Patel for securing PhD admission at the University of Michigan Ann Arborof Energy Storage ",
     date: "August 1, 2021",
   },
   {
     id: 4,
     title:
-      "Subsonic Wind Tunnel with PIV and other instruments is being commissioned at Fluid Dynamics Laboratory",
+      "Congratulations to Vardhan Mittal for publishing his B.Tech project work in  \"Physics of Fluids\" journal",
+    date: "August 1, 2021",
+  },
+  {
+    id: 5,
+    title:
+      "Subsonic Wind Tunnel with PIV and other instruments is being commissioned at the Fluid Dynamics Laboratory",
     date: "August 1, 2021",
   },
 ];
