@@ -1021,6 +1021,16 @@ export const Journals = [
     DOI: "https://doi.org/10.1063/5.0233485",
     impactFactor: 4.10,
   },
+  {
+    ID: 51,
+    Authors: ["Nandan Rakesh", <b>Venugopal A</b>, "Mihir Kumar Das"],
+    Title:
+      "Temperature control of electronic gadgets using novel heat sink",
+    Journal: "International Communications in Heat and Mass Transfer",
+    Volume_Issue_Year_Pages: ["159", "2024", "108101"],
+    DOI: "https://doi.org/10.1016/j.icheatmasstransfer.2024.108101",
+    impactFactor: 6.4,
+  }
 ];
 
 export const sponsoredProjects = [
@@ -1306,31 +1316,31 @@ export const NewsFeed = [
   {
     id: 1,
     title:
-      "Dr. Venugopal Arumuru has been selected as a Technical Committee Member of IMEKO (International Measurements Confederation)",
+      "Dr. Venugopal Arumuru has been selected as a Technical Committee Member of IMEKO (International Measurements Confederation).",
     date: "August 19, 2021",
   },
   {
     id: 2,
     title:
-      "Congratulations to Dr. Jangyadatta Pasa for securing a postdoctoral position at Harbin Institute of Technology",
+      "Congratulations to Dr. Jangyadatta Pasa for securing a postdoctoral position at Harbin Institute of Technology.",
     date: "August 8, 2021",
   },
   {
     id: 3,
     title:
-      "Congratulations to Mr. Pravendra Patel for securing PhD admission at the University of Michigan Ann Arborof Energy Storage ",
+      "Congratulations to Mr. Pravendra Patel for securing PhD admission at the University of Michigan Ann Arbor.",
     date: "August 1, 2021",
   },
   {
     id: 4,
     title:
-      "Congratulations to Vardhan Mittal for publishing his B.Tech project work in  \"Physics of Fluids\" journal",
+      "Congratulations to Vardhan Mittal for publishing his B.Tech project work in  \"Physics of Fluids\" journal.",
     date: "August 1, 2021",
   },
   {
     id: 5,
     title:
-      "Subsonic Wind Tunnel with PIV and other instruments is being commissioned at the Fluid Dynamics Laboratory",
+      "Subsonic Wind Tunnel with PIV and other instruments is being commissioned at the Fluid Dynamics Laboratory.",
     date: "August 1, 2021",
   },
 ];
