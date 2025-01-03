@@ -1030,6 +1030,23 @@ export const Journals = [
     Volume_Issue_Year_Pages: ["159", "2024", "108101"],
     DOI: "https://doi.org/10.1016/j.icheatmasstransfer.2024.108101",
     impactFactor: 6.4,
+  },
+  {
+    ID: 52,
+    Authors: ["PP", "Pranav", "Pranay Prabha Badvelu", <b>Venugopal A</b>],
+    Title:
+      "Influence of amplitude and harmonic frequencies on the velocity of Faraday superwalkers.",
+    Journal: "Physics of Fluids",
+    Volume_Issue_Year_Pages: ["2024", "36", "12"],
+    DOI: "",
+  },
+  {
+    ID: 53,
+    Authors: ["Jangyadatta Pasa", <b>Venugopal A</b>],
+    Title:
+      "Phase Difference Effects on Synthetic Jet Array Flow: A Proper Orthogonal Decomposition Study",
+    Journal: "Physics of Fluids",
+    Volume_Issue_Year_Pages: ["2025"],
   }
 ];
 
@@ -1322,25 +1339,25 @@ export const NewsFeed = [
   {
     id: 2,
     title:
-      "Congratulations to Dr. Jangyadatta Pasa for securing a postdoctoral position at Harbin Institute of Technology.",
+      "Congratulations to Vardhan Mittal for receiving the B. K. De Memorial Award and the Dinesh Memorial Award for the Most Innovative B. Tech Project of IIT Bhubaneswar ",
     date: "August 8, 2021",
   },
   {
     id: 3,
     title:
-      "Congratulations to Mr. Pravendra Patel for securing PhD admission at the University of Michigan Ann Arbor.",
+      "Congratulations to Mr. Pranav and Mr. Pranab for publishing their work on Faraday Superwalkers in the Physics of Fluids journal",
     date: "August 1, 2021",
   },
   {
     id: 4,
     title:
-      "Congratulations to Vardhan Mittal for publishing his B.Tech project work in  \"Physics of Fluids\" journal.",
+      "Congratulations to Dr. Jangyadatta Pasa for securing a postdoctoral position at Harbin Institute of Technology",
     date: "August 1, 2021",
   },
   {
     id: 5,
     title:
-      "Subsonic Wind Tunnel with PIV and other instruments is being commissioned at the Fluid Dynamics Laboratory.",
+      "Dr. Venugopal Arumuru delivered a keynote talk during the 11th International and 51st National Conference on Fluid Mechanics and Fluid Power, Dec 2024",
     date: "August 1, 2021",
   },
 ];

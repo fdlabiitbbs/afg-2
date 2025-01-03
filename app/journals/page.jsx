@@ -30,7 +30,7 @@ const page = () => {
                 })}.&nbsp;
                 &ldquo;{journal.Title}.&ldquo; &nbsp;
                 <span className="text-blue-700">{journal.Journal}</span>&nbsp;
-                <span className="text-blue-500">({journal.impactFactor ? `IF=${journal.impactFactor}`  : ""})</span>&nbsp;
+                <span className="text-blue-500">{journal.impactFactor ? `(IF=${journal.impactFactor})`  : ""}</span>&nbsp;
                 {journal.Volume_Issue_Year_Pages.map((volume, index) => {
                   return (
                     <span key={index} className="">
@@ -40,10 +40,10 @@ const page = () => {
                         : ", "}
                     </span>
                   );
-                })}&nbsp; - &nbsp;
+                })}&nbsp; 
                 <span>
                   <a href={journal.DOI} className="text-red-600">
-                    DOI
+                    {journal.DOI ? "- DOI" : ""}
                   </a>
                 </span>
               </h1>
