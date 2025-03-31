@@ -1333,19 +1333,19 @@ export const NewsFeed = [
   {
     id: 1,
     title:
-      "Dr. Venugopal Arumuru has been selected as a Technical Committee Member of IMEKO (International Measurements Confederation).",
-    date: "August 19, 2021",
+      "Congratulations to Vardhan Mittal for securing a Ph.D. position at Purdue University, USA.",
+    date: "August 8, 2021",
   },
   {
     id: 2,
     title:
-      "Congratulations to Vardhan Mittal for receiving the B. K. De Memorial Award and the Dinesh Memorial Award for the Most Innovative B. Tech Project of IIT Bhubaneswar ",
-    date: "August 8, 2021",
+      "Congratulations to Varun Jaganath for securing a Ph.D. position at Texas A & M University, USA.",
+    date: "August 1, 2021",
   },
   {
     id: 3,
     title:
-      "Congratulations to Mr. Pranav and Mr. Pranab for publishing their work on Faraday Superwalkers in the Physics of Fluids journal",
+      "Congratulations to Vardhan Mittal for receiving the B. K. De Memorial Award and the Dinesh Memorial Award for the Most Innovative B. Tech Project of IIT Bhubaneswar",
     date: "August 1, 2021",
   },
   {
@@ -1357,7 +1357,13 @@ export const NewsFeed = [
   {
     id: 5,
     title:
-      "Dr. Venugopal Arumuru delivered a keynote talk during the 11th International and 51st National Conference on Fluid Mechanics and Fluid Power, Dec 2024",
+      "Dr. Venugopal Arumuru has been selected as a Technical Committee Member of IMEKO (International Measurements Confederation).",
+    date: "August 1, 2021",
+  },
+  {
+    id: 6,
+    title:
+      "Dr. Venugopal Arumuru delivered a keynote talk during the 11th International and 51st National Conference on Fluid Mechanics and Fluid Power, Dec 2024.",
     date: "August 1, 2021",
   },
 ];
