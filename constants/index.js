@@ -967,7 +967,7 @@ export const Journals = [
     Title:
       "Torque generation using synthetic jet actuators",
     Journal: "Journal of Process Mechanical Engineering",
-    Volume_Issue_Year_Pages: ["2023", "8"],
+    Volume_Issue_Year_Pages: ["2024", "8"],
     DOI: "https://doi.org/10.1177/09544089241230267",
     impactFactor: 2.4,
   },
@@ -1047,7 +1047,7 @@ export const Journals = [
       "Phase Difference Effects on Synthetic Jet Array Flow: A Proper Orthogonal Decomposition Study",
     Journal: "Physics of Fluids",
     Volume_Issue_Year_Pages: ["2025"],
-  }
+  },
 ];
 
 export const sponsoredProjects = [
