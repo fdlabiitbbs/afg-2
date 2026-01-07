@@ -14,6 +14,7 @@ import PranavPP from "../assets/PranavPP.jpg";
 import NitishKumar from "../assets/NitishKumar.jpg";
 import KondareddyMourya from "../assets/KondareddyMourya.jpg";
 import ChandanSethi from "../assets/ChandanSethi.jpg";
+import Srikanth from "../assets/Srikanth.jpg";
 import CoAxialJets from "../assets/CoAxialJets.png";
 import FocusJets from "../assets/FocusJets.png";
 import OptoMechSys from "../assets/OptoMechSys.png";
@@ -1257,8 +1258,16 @@ export const StudentNames = [
       "Mr. Nitish is working on compact and efficient active flow control devises for thermal management and aerodynamics flow control.",
     image: NitishKumar,
   },
-  {
+    {
     id: 5,
+    name: "Manapalli Srikanth",
+    degree: "Ph.D.",
+    description:
+      "Mr Srikanth's research investigates the physics of pulsed coaxial jets and their unsteady flow structures. He analyzes jet interaction, vortex dynamics, and mixing enhancement under pulsed operation. These insights support application in combustion.",
+    image: Srikanth,
+  },
+  {
+    id: 6,
     name: "Chandan Sethi",
     degree: "M. Tech",
     description:
@@ -1266,7 +1275,7 @@ export const StudentNames = [
     image: ChandanSethi,
   },
   {
-    id: 6,
+    id: 7,
     name: "Pranav P P",
     degree: "M. Tech",
     description:
@@ -1274,7 +1283,7 @@ export const StudentNames = [
     image: PranavPP,
   },
   {
-    id: 7,
+    id: 8,
     name: "Vardhan Mittal",
     degree: "B. Tech",
     description:
@@ -1282,7 +1291,7 @@ export const StudentNames = [
     image: VardhanMittal,
   },
   {
-    id: 8,
+    id: 9,
     name: "Kondareddy Mourya",
     degree: "B.Tech",
     description:
