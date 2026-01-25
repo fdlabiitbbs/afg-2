@@ -1098,6 +1098,16 @@ export const Journals = [
     DOI: "https://doi.org/10.1016/j.icheatmasstransfer.2025.109580",
     impactFactor:6.4,
   },
+  {
+    ID: 59,
+    Authors: ["Jangyadatta Pasa", <b>Venugopal A</b>,"Md Mahbub Alam","Huaying Chen"],
+    Title:
+      "Enhanced impingement heat transfer in coaxial synthetic jets through frequency ratio and mass flux control",
+    Journal: "Applied Thermal Engineering",
+    Volume_Issue_Year_Pages: ["2025","286","129387"],
+    DOI: "https://doi.org/10.1016/j.applthermaleng.2025.129387",
+    impactFactor:6.9,
+  },
 ];
 
 export const sponsoredProjects = [
