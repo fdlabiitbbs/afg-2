@@ -1108,6 +1108,16 @@ export const Journals = [
     DOI: "https://doi.org/10.1016/j.applthermaleng.2025.129387",
     impactFactor:6.9,
   },
+  {
+    ID: 60,
+    Authors: ["Rakesh Nandan", <b>Venugopal A</b>,"Mihir Kumar Das"],
+    Title:
+      "Synthetic Jet Integrated in Phase Change Material Based Heat Sink: A Novel Compact Thermal Management Device for Electronic Cooling",
+    Journal: "Energy Conversion and Management",
+    Volume_Issue_Year_Pages: ["2025","348","120741"],
+    DOI: "https://doi.org/10.1016/j.enconman.2025.120741",
+    impactFactor:10.9,
+  },
 ];
 
 export const sponsoredProjects = [
