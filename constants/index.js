@@ -1068,6 +1068,16 @@ export const Journals = [
     Volume_Issue_Year_Pages: ["2025","10","307-330"],
     DOI: "https://doi.org/10.1007/s41403-025-00530-w",
   },
+  {
+    ID: 56,
+    Authors: ["Pradyumna Kumar Sahoo","Soham Roychowdhury" <b>Venugopal A</b>],
+    Title:
+      "Fluid sloshing augmented parametric excitation for enhanced piezoelectric vibration energy harvesting",
+    Journal: "Sensors and Actuators A: Physical",
+    Volume_Issue_Year_Pages: ["2025","395","117061"],
+    DOI: "https://doi.org/10.1016/j.sna.2025.117061",
+    impactFactor:4.9,
+  },
 ];
 
 export const sponsoredProjects = [
