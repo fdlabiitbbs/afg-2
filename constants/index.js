@@ -1128,6 +1128,16 @@ export const Journals = [
     DOI: "https://doi.org/10.1016/j.ijheatmasstransfer.2025.127766",
     impactFactor:6.4,
   },
+  {
+    ID: 62,
+    Authors: ["Jangyadatta Pasa","Md Mahbub Alam", <b>Venugopal A</b>,"Huaying Chen","Tinghai Cheng"],
+    Title:
+      "Advancements in Synthetic Jet for Flow Control and Heat Transfer: A Comprehensive Review",
+    Journal: "Fluids",
+    Volume_Issue_Year_Pages: ["2026","11","22"],
+    DOI: "https://doi.org/10.3390/fluids11010022",
+    impactFactor:1.8,
+  },
 ];
 
 export const sponsoredProjects = [
