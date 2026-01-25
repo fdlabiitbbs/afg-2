@@ -1043,14 +1043,6 @@ export const Journals = [
   },
   {
     ID: 53,
-    Authors: ["Jangyadatta Pasa", <b>Venugopal A</b>],
-    Title:
-      "Phase Difference Effects on Synthetic Jet Array Flow: A Proper Orthogonal Decomposition Study",
-    Journal: "Physics of Fluids",
-    Volume_Issue_Year_Pages: ["2025"],
-  },
-  {
-    ID: 54,
     Authors: ["Vishnu Mudavath", <b>Venugopal A</b>],
     Title:
       "Impingement heat transfer characteristics of nozzles with inclined exits",
@@ -1058,6 +1050,14 @@ export const Journals = [
     Volume_Issue_Year_Pages: ["2024","37","541-556"],
     DOI: "https://doi.org/10.1080/08916152.2023.2166162",
     impactFactor:2.9,
+  },
+  {
+    ID: 54,
+    Authors: ["Jangyadatta Pasa", <b>Venugopal A</b>],
+    Title:
+      "Phase Difference Effects on Synthetic Jet Array Flow: A Proper Orthogonal Decomposition Study",
+    Journal: "Physics of Fluids",
+    Volume_Issue_Year_Pages: ["2025"],
   },
 ];
 
