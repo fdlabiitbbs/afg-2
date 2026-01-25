@@ -1118,6 +1118,16 @@ export const Journals = [
     DOI: "https://doi.org/10.1016/j.enconman.2025.120741",
     impactFactor:10.9,
   },
+  {
+    ID: 61,
+    Authors: ["Rakesh Nandan", <b>Venugopal A</b>,"Mihir Kumar Das"],
+    Title:
+      "Prospects of hybrid cooling technologies for thermal management of electronic gadgets: A review",
+    Journal: "International Journal of Heat and Mass Transfer",
+    Volume_Issue_Year_Pages: ["2025","255","127766"],
+    DOI: "https://doi.org/10.1016/j.ijheatmasstransfer.2025.127766",
+    impactFactor:6.4,
+  },
 ];
 
 export const sponsoredProjects = [
