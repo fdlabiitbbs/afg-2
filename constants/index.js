@@ -1059,6 +1059,16 @@ export const Journals = [
     DOI: "https://doi.org/10.1364/PRJ.527410",
     impactFactor:7.2,
   },
+  {
+    ID: 55,
+    Authors: ["Vishnu Mudavath", <b>Venugopal A</b>],
+    Title:
+      "Impingement heat transfer characteristics of nozzles with inclined exits",
+    Journal: "Experimental Heat Transfer",
+    Volume_Issue_Year_Pages: ["2024","37","541-556"],
+    DOI: "https://doi.org/10.1080/08916152.2023.2166162",
+    impactFactor:2.9,
+  },
 ];
 
 export const sponsoredProjects = [
