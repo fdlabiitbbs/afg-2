@@ -1070,7 +1070,7 @@ export const Journals = [
   },
   {
     ID: 56,
-    Authors: ["Pradyumna Kumar Sahoo","Soham Roychowdhury" <b>Venugopal A</b>],
+    Authors: ["Pradyumna Kumar Sahoo","Soham Roychowdhury", <b>Venugopal A</b>],
     Title:
       "Fluid sloshing augmented parametric excitation for enhanced piezoelectric vibration energy harvesting",
     Journal: "Sensors and Actuators A: Physical",
