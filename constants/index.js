@@ -1078,6 +1078,16 @@ export const Journals = [
     DOI: "https://doi.org/10.1016/j.sna.2025.117061",
     impactFactor:4.9,
   },
+  {
+    ID: 57,
+    Authors: ["YM Andhare","R Nandan", <b>Venugopal A</b>,"MK Das"],
+    Title:
+      "State of the art 3D printed heat sink with a combination of multiple discretely located honeycomb structures with phase change material for enhanced cooling of electronic gadgets",
+    Journal: "International Journal of Heat and Mass Transfer",
+    Volume_Issue_Year_Pages: ["2025","251","127356"],
+    DOI: "https://doi.org/10.1016/j.ijheatmasstransfer.2025.127356",
+    impactFactor:6.4,
+  },
 ];
 
 export const sponsoredProjects = [
