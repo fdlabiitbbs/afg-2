@@ -1059,6 +1059,15 @@ export const Journals = [
     Journal: "Physics of Fluids",
     Volume_Issue_Year_Pages: ["2025"],
   },
+  {
+    ID: 55,
+    Authors: [<b>Venugopal A</b>, "Harekrishna Yadav"],
+    Title:
+      "Indoor Transmission of Respiratory Diseases and Influencing Factors—A Critical Review",
+    Journal: "Springer Nature ",
+    Volume_Issue_Year_Pages: ["2025","10","307-330"],
+    DOI: "https://doi.org/10.1007/s41403-025-00530-w",
+  },
 ];
 
 export const sponsoredProjects = [
