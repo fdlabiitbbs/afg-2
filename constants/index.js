@@ -1088,6 +1088,16 @@ export const Journals = [
     DOI: "https://doi.org/10.1016/j.ijheatmasstransfer.2025.127356",
     impactFactor:6.4,
   },
+  {
+    ID: 58,
+    Authors: ["Sidhartha Sankar Samantaray", <b>Venugopal A</b>],
+    Title:
+      "Near field flow dynamics of coaxial jet impingement heat transfer",
+    Journal: "International Communications in Heat and Mass Transfer",
+    Volume_Issue_Year_Pages: ["2025","169","109580"],
+    DOI: "https://doi.org/10.1016/j.icheatmasstransfer.2025.109580",
+    impactFactor:6.4,
+  },
 ];
 
 export const sponsoredProjects = [
