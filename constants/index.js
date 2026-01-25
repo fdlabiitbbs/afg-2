@@ -1051,16 +1051,6 @@ export const Journals = [
   },
   {
     ID: 54,
-    Authors: ["Kalipada Chatterjee","Jan Nedoma", <b>Venugopal A</b>,"Subrat Sahu","Carlos Marques","Rajan Jha"],
-    Title:
-      "Integrated interferometers’ system for in situ real-time optical signal modulation",
-    Journal: "Photonics Research",
-    Volume_Issue_Year_Pages: ["2024","12","2018-2026"],
-    DOI: "https://doi.org/10.1364/PRJ.527410",
-    impactFactor:7.2,
-  },
-  {
-    ID: 55,
     Authors: ["Vishnu Mudavath", <b>Venugopal A</b>],
     Title:
       "Impingement heat transfer characteristics of nozzles with inclined exits",
