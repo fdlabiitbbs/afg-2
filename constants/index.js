@@ -15,6 +15,7 @@ import NitishKumar from "../assets/NitishKumar.jpg";
 import KondareddyMourya from "../assets/KondareddyMourya.jpg";
 import ChandanSethi from "../assets/ChandanSethi.jpg";
 import Srikanth from "../assets/Srikanth.jpg";
+import NileshSamal from "../assets/Nilesh.jpeg";
 import FarukPinjari from "../assets/Faruk Pinjari.jpeg";
 import CoAxialJets from "../assets/CoAxialJets.png";
 import FocusJets from "../assets/FocusJets.png";
@@ -1356,7 +1357,7 @@ export const StudentNames = [
     name: "Nitish Kumar",
     degree: "Ph.D.",
     description:
-      "Mr. Nitish is working on compact and efficient active flow control devises for thermal management and aerodynamics flow control.",
+      "Mr. Nitish is working on compact and efficient active flow control devices for thermal management and aerodynamics flow control.",
     image: NitishKumar,
   },
     {
@@ -1388,7 +1389,7 @@ export const StudentNames = [
     name: "Pranav P P",
     degree: "M. Tech",
     description:
-      "Mr. Pranav P P area of research is hydrodynamic instability, He is developing an experimental facility to quantify these instabilities and use them effectively for various engineering application.",
+      "Mr. Pranav P P area of research is hydrodynamic instability. He is developing an experimental facility to quantify these instabilities and use them effectively for various engineering application.",
     image: PranavPP,
   },
   {
@@ -1417,6 +1418,14 @@ export const AlumniNames = [
     description:
       "Dr. Samarendra Panda, recently defended his thesis on novel coaxial synthetic jet. He developed a novel coaxial synthetic jet (CSJ) actuator having independent actuation facility is developed. The flow field is analysed in a quiescent environment numerically and experimentally with hot-wire anemometry. He has one patent application along with five international journals. At present he is a Post Doc fellow at IIT Bombay.",
     image: SamarendraPanda,
+  },
+  {
+    id: 2,
+    name: "Nilesh Samal",
+    degree: "B.Tech.",
+    description:
+      "Mr. Nilesh Samal is working on a novel compact design of synthetic jet actuator (Oscillating orifice synthetic jet) for enhanced thermal management applications in compact environments using experimental tools.",
+    image: NileshSamal,
   },
 ];
 
