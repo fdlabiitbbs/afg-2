@@ -15,7 +15,7 @@ import NitishKumar from "../assets/NitishKumar.jpg";
 import KondareddyMourya from "../assets/KondareddyMourya.jpg";
 import ChandanSethi from "../assets/ChandanSethi.jpg";
 import Srikanth from "../assets/Srikanth.jpg";
-import FarukPinjari from "../assets/Faruk Pinjari.jpg";
+import FarukPinjari from "../assets/Faruk Pinjari.jpeg";
 import CoAxialJets from "../assets/CoAxialJets.png";
 import FocusJets from "../assets/FocusJets.png";
 import OptoMechSys from "../assets/OptoMechSys.png";
@@ -1373,7 +1373,7 @@ export const StudentNames = [
     degree: "Ph.D.",
     description:
       "Faruk Pinjari is a Ph.D. scholar at IIT Bhubaneswar under the AICTE Quality Improvement Programme (QIP) scheme. He previously worked as a Deputy Manager at ACC Limited, where he contributed to Waste Heat Recovery System (WHRS) projects for nearly 2.8 years, and is currently serving as a Senior Lecturer in Mechanical Engineering at Government Polytechnic, Ratnagiri, under the Directorate of Technical Education (DTE), Mumbai. His current research focuses on the design and development of compact modified Synthetic Jet Actuators (SJAs) for heat transfer enhancement, with applications in electronics cooling through experimental investigations.",
-    image: Faruk Pinjari,
+    image: FarukPinjari,
   },
   {
     id: 7,
