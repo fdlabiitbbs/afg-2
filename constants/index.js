@@ -1138,6 +1138,17 @@ export const Journals = [
     DOI: "https://doi.org/10.3390/fluids11010022",
     impactFactor:1.8,
   },
+{
+    ID: 63,
+    Authors: ["Nilesh Samal","Vardhan Mittal,", <b>Venugopal A</b>],
+    Title:
+      "Orifice on oscillating diaphragm based compact synthetic jet actuator for enhanced thermal management",
+    Journal: "Energy Conversion and Management",
+    Volume_Issue_Year_Pages: ["2026","360","121585"],
+    DOI: "https://doi.org/10.1016/j.enconman.2026.121585",
+    impactFactor:11.8,
+  },
+
 ];
 
 export const sponsoredProjects = [
