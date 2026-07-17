@@ -1458,21 +1458,40 @@ export const CorousalImages = [
 
 export const NewsFeed = [
   {
-    id: 11,
+    id: 1,
     title:
-      "Congratulations to Vardhan Mittal for securing a Ph.D. position at Purdue University, USA.",
-    date: "August 8, 2021",
+      "Dr. Venugopal Arumuru delivered a keynote lecture at the International Conference on Fluid and Thermal Engineering (ICFTE 2026) hosted by BITS Pilani.",
   },
   {
-    id: 10,
+    id: 2,
     title:
-      "Congratulations to Varun Jaganath for securing a Ph.D. position at Texas A & M University, USA.",
+      "Dr. Venugopal Arumuru attended FLOMEKO 2026 and the TC-9 Meeting held in Tokyo, Japan, engaging with the global flow measurement community.",
+  },
+  {
+    id: 3,
+    title:
+      "Congratulations to Dr. Rakesh N on successfully defending his Ph.D. thesis and joining the Defence Research and Development Organisation (DRDO).",
+  },
+  {
+    id: 4,
+    title:
+      "Congratulations to Dhruv K, on publishing his research in NPJ Thermal Science and Engineering, a Nature Portfolio journal.",
+  },
+  {
+    id: 5,
+    title:
+      "Congratulations to Nilesh S, on publishing his B.Tech. project work in the prestigious journal Energy Conversion and Management.",
+  },
+   {
+    id: 6,
+    title:
+      "Dr. Venugopal Arumuru delivered a keynote talk during the 11th International and 51st National Conference on Fluid Mechanics and Fluid Power, Dec 2024.",
     date: "August 1, 2021",
   },
-  {
-    id: 9,
+   {
+    id: 7,
     title:
-      "Congratulations to Vardhan Mittal for receiving the B. K. De Memorial Award and the Dinesh Memorial Award for the Most Innovative B. Tech Project of IIT Bhubaneswar",
+      "Dr. Venugopal Arumuru has been selected as a Technical Committee Member of IMEKO (International Measurements Confederation).",
     date: "August 1, 2021",
   },
   {
@@ -1482,40 +1501,21 @@ export const NewsFeed = [
     date: "August 1, 2021",
   },
   {
-    id: 7,
+    id: 9,
     title:
-      "Dr. Venugopal Arumuru has been selected as a Technical Committee Member of IMEKO (International Measurements Confederation).",
+      "Congratulations to Vardhan Mittal for receiving the B. K. De Memorial Award and the Dinesh Memorial Award for the Most Innovative B. Tech Project of IIT Bhubaneswar",
     date: "August 1, 2021",
   },
   {
-    id: 6,
+    id: 10,
     title:
-      "Dr. Venugopal Arumuru delivered a keynote talk during the 11th International and 51st National Conference on Fluid Mechanics and Fluid Power, Dec 2024.",
+      "Congratulations to Varun Jaganath for securing a Ph.D. position at Texas A & M University, USA.",
     date: "August 1, 2021",
   },
   {
-    id: 5,
+    id: 11,
     title:
-      "Congratulations to Nilesh S, on publishing his B.Tech. project work in the prestigious journal Energy Conversion and Management.",
-  },
-  {
-    id: 4,
-    title:
-      "Congratulations to Dhruv K, on publishing his research in NPJ Thermal Science and Engineering, a Nature Portfolio journal.",
-  },
-  {
-    id: 3,
-    title:
-      "Congratulations to Dr. Rakesh N on successfully defending his Ph.D. thesis and joining the Defence Research and Development Organisation (DRDO).",
-  },
-  {
-    id: 2,
-    title:
-      "Dr. Venugopal Arumuru attended FLOMEKO 2026 and the TC-9 Meeting held in Tokyo, Japan, engaging with the global flow measurement community.",
-  },
-  {
-    id: 1,
-    title:
-      "Dr. Venugopal Arumuru delivered a keynote lecture at the International Conference on Fluid and Thermal Engineering (ICFTE 2026) hosted by BITS Pilani.",
+      "Congratulations to Vardhan Mittal for securing a Ph.D. position at Purdue University, USA.",
+    date: "August 8, 2021",
   },
 ];
