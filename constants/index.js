@@ -1493,4 +1493,29 @@ export const NewsFeed = [
       "Dr. Venugopal Arumuru delivered a keynote talk during the 11th International and 51st National Conference on Fluid Mechanics and Fluid Power, Dec 2024.",
     date: "August 1, 2021",
   },
+  {
+    id: 7,
+    title:
+      "Congratulations to Nilesh S, on publishing his B.Tech. project work in the prestigious journal Energy Conversion and Management.",
+  },
+  {
+    id: 8,
+    title:
+      "Congratulations to Dhruv K, on publishing his research in NPJ Thermal Science and Engineering, a Nature Portfolio journal.",
+  },
+  {
+    id: 9,
+    title:
+      "Congratulations to Dr. Rakesh N on successfully defending his Ph.D. thesis and joining the Defence Research and Development Organisation (DRDO).",
+  },
+  {
+    id: 10,
+    title:
+      "Dr. Venugopal Arumuru attended FLOMEKO 2026 and the TC-9 Meeting held in Tokyo, Japan, engaging with the global flow measurement community.",
+  },
+  {
+    id: 11,
+    title:
+      "Dr. Venugopal Arumuru delivered a keynote lecture at the International Conference on Fluid and Thermal Engineering (ICFTE 2026) hosted by BITS Pilani.",
+  },
 ];
