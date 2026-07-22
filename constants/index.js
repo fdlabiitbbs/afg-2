@@ -1494,28 +1494,4 @@ export const NewsFeed = [
       "Dr. Venugopal Arumuru has been selected as a Technical Committee Member of IMEKO (International Measurements Confederation).",
     date: "August 1, 2021",
   },
-  {
-    id: 8,
-    title:
-      "Congratulations to Dr. Jangyadatta Pasa for securing a postdoctoral position at Harbin Institute of Technology",
-    date: "August 1, 2021",
-  },
-  {
-    id: 9,
-    title:
-      "Congratulations to Vardhan Mittal for receiving the B. K. De Memorial Award and the Dinesh Memorial Award for the Most Innovative B. Tech Project of IIT Bhubaneswar",
-    date: "August 1, 2021",
-  },
-  {
-    id: 10,
-    title:
-      "Congratulations to Varun Jaganath for securing a Ph.D. position at Texas A & M University, USA.",
-    date: "August 1, 2021",
-  },
-  {
-    id: 11,
-    title:
-      "Congratulations to Vardhan Mittal for securing a Ph.D. position at Purdue University, USA.",
-    date: "August 8, 2021",
-  },
 ];
