@@ -1465,7 +1465,7 @@ export const NewsFeed = [
   {
     id: 2,
     title:
-      "Dr. Venugopal Arumuru attended FLOMEKO 2026 and the TC-9 Meeting held in Tokyo, Japan, engaging with the global flow measurement community.",
+      "Dr. Venugopal Arumuru attended FLOMEKO 2026 and the TC-9 Meeting held in Nara, Japan, engaging with the global flow measurement community.",
   },
   {
     id: 3,
