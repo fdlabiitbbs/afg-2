@@ -1482,16 +1482,4 @@ export const NewsFeed = [
     title:
       "Congratulations to Nilesh S, on publishing his B.Tech. project work in the prestigious journal Energy Conversion and Management.",
   },
-   {
-    id: 6,
-    title:
-      "Dr. Venugopal Arumuru delivered a keynote talk during the 11th International and 51st National Conference on Fluid Mechanics and Fluid Power, Dec 2024.",
-    date: "August 1, 2021",
-  },
-   {
-    id: 7,
-    title:
-      "Dr. Venugopal Arumuru has been selected as a Technical Committee Member of IMEKO (International Measurements Confederation).",
-    date: "August 1, 2021",
-  },
 ];
