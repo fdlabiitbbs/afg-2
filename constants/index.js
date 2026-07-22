@@ -1150,7 +1150,15 @@ export const Journals = [
     DOI: "https://doi.org/10.1016/j.enconman.2026.121585",
     impactFactor:11.8,
   },
-
+{
+    ID: 64,
+    Authors: ["Dhruv S.Kuvar", <b>Venugopal A</b>],
+    Title:
+      "Bio-inspired mini axial fan for thermal management",
+    Journal: "npj Thermal science and Engineering",
+    Volume_Issue_Year_Pages: ["2026","12","1-12"],
+    DOI: "https://doi.org/10.1038/s44435-026-00013-6",
+  },
 ];
 
 export const sponsoredProjects = [
