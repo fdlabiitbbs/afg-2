@@ -1466,6 +1466,11 @@ export const CorousalImages = [
 
 export const NewsFeed = [
   {
+    id: 6,
+    title:
+      "Applications Invited: Junior Research Fellow (JRF) in ANRF-funded Project on Synthetic Jet-Based Coaxial Burner Technology.https://eims.iitbbs.ac.in/SricWeb/temporaryJobs.htm",
+  },
+  {
     id: 1,
     title:
       "Dr. Venugopal Arumuru delivered a keynote lecture at the International Conference on Fluid and Thermal Engineering (ICFTE 2026) hosted by BITS Pilani.",
