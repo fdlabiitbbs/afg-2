@@ -1159,6 +1159,15 @@ export const Journals = [
     Volume_Issue_Year_Pages: ["2026","12","1-12"],
     DOI: "https://doi.org/10.1038/s44435-026-00013-6",
   },
+  {
+    ID: 65,
+    Authors: ["Nandish Pai","Vardhan Mittal", <b>Venugopal A</b>],
+    Title:
+      "A closed hybrid electronics cooling device using liquid synthetic jet and phase change material",
+    Journal: "Applied ThermalEngineering",
+    Volume_Issue_Year_Pages: ["2026","307","133269"],
+    DOI: "10.1016/j.applthermaleng.2026.133269",
+  },
 ];
 
 export const sponsoredProjects = [
