@@ -1468,7 +1468,7 @@ export const NewsFeed = [
   {
     id: 6,
     title:
-      "Applications Invited: Junior Research Fellow (JRF) in ANRF-funded Project on Synthetic Jet-Based Coaxial Burner Technology. https://eims.iitbbs.ac.in/SricWeb/temporaryJobs.htm",
+      "Congratulations to Nanish P, on publishing his work in the Applied Thermal Engineering Journal.",
   },
   {
     id: 1,
