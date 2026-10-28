@@ -1176,6 +1176,7 @@ export const Journals = [
     Journal: "International Journal of Thermal Sciences",
     Volume_Issue_Year_Pages: ["2026","232","111376"],
     DOI: "https://doi.org/10.1016/j.ijthermalsci.2026.111376",
+    },
 ];
 
 export const sponsoredProjects = [
