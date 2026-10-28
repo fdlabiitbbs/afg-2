@@ -1164,10 +1164,18 @@ export const Journals = [
     Authors: ["Nandish Pai","Vardhan Mittal", <b>Venugopal A</b>],
     Title:
       "A closed hybrid electronics cooling device using liquid synthetic jet and phase change material",
-    Journal: "Applied ThermalEngineering",
+    Journal: "Applied Thermal Engineering",
     Volume_Issue_Year_Pages: ["2026","307","133269"],
     DOI: "10.1016/j.applthermaleng.2026.133269",
   },
+  {
+    ID: 66,
+    Authors: ["Rituraj Patel",", <b>Venugopal A</b>],
+    Title:
+      "Impingement heat transfer performance of a square turbulent jet modified by slotted orifice synthetic jets",
+    Journal: "International Journal of Thermal Sciences",
+    Volume_Issue_Year_Pages: ["2026","232","111376"],
+    DOI: "https://doi.org/10.1016/j.ijthermalsci.2026.111376",
 ];
 
 export const sponsoredProjects = [
