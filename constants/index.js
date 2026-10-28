@@ -17,6 +17,7 @@ import ChandanSethi from "../assets/ChandanSethi.jpg";
 import Srikanth from "../assets/Srikanth.jpg";
 import NileshSamal from "../assets/Nilesh.jpeg";
 import FarukPinjari from "../assets/Faruk Pinjari.jpeg";
+import RiturajPatel from "../assets/RiturajPatel.jpeg";
 import CoAxialJets from "../assets/CoAxialJets.png";
 import FocusJets from "../assets/FocusJets.png";
 import OptoMechSys from "../assets/OptoMechSys.png";
@@ -1405,6 +1406,14 @@ export const StudentNames = [
   },
   {
     id: 7,
+    name: "Rituraj Patel",
+    degree: "Dual Degree" ,
+    description:
+      "Rituraj Patel is currently working on CFD for a coaxial synthetic jet as part of his Master's thesis. He has also researched the potential of speaker-based synthetic jets for flow control and their application in enhancing heat transfer.",
+    image: RiturajPatel,
+  },
+  {
+    id: 8,
     name: "Chandan Sethi",
     degree: "M. Tech",
     description:
@@ -1412,7 +1421,7 @@ export const StudentNames = [
     image: ChandanSethi,
   },
   {
-    id: 8,
+    id: 9,
     name: "Pranav P P",
     degree: "M. Tech",
     description:
@@ -1420,7 +1429,7 @@ export const StudentNames = [
     image: PranavPP,
   },
   {
-    id: 9,
+    id: 10,
     name: "Vardhan Mittal",
     degree: "B. Tech",
     description:
@@ -1428,7 +1437,7 @@ export const StudentNames = [
     image: VardhanMittal,
   },
   {
-    id: 10,
+    id: 11,
     name: "Kondareddy Mourya",
     degree: "B.Tech",
     description:
