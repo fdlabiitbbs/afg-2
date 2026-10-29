@@ -1179,6 +1179,7 @@ export const Journals = [
     DOI: "10.1016/j.ijthermalsci.2026.111376",
     impactFactor: 4.9,
   },
+      
 ];
 
 export const sponsoredProjects = [
