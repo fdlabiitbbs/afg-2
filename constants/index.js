@@ -1169,26 +1169,17 @@ export const Journals = [
     Volume_Issue_Year_Pages: ["2026","307","133269"],
     DOI: "10.1016/j.applthermaleng.2026.133269",
   },
-  // {
-  //   ID: 66,
-  //   Authors: ["Rituraj Patel", <b>Venugopal A</b>], 
-  //   Title:
-  //     "Impingement heat transfer performance of a square turbulent jet modified by slotted orifice synthetic jets",
-  //   Journal: "International Journal of Thermal Sciences", //New commit
-  //   Volume_Issue_Year_Pages: ["2026","232","111376"],
-  //   DOI: "10.1016/j.ijthermalsci.2026.111376",
-  //   impactFactor: 4.9,
-  // },
-         {
-    ID: 67,
+  {
+    ID: 66,
     Authors: ["Rituraj Patel", <b>Venugopal A</b>], 
     Title:
       "Impingement heat transfer performance of a square turbulent jet modified by slotted orifice synthetic jets",
-    Journal: "International Journal of Thermal Sciences", //New commit
+    Journal: "International Journal of Thermal Sciences",
     Volume_Issue_Year_Pages: ["2026","232","111376"],
     DOI: "10.1016/j.ijthermalsci.2026.111376",
     impactFactor: 4.9,
   },
+      
 ];
 
 export const sponsoredProjects = [
@@ -1506,7 +1497,7 @@ export const NewsFeed = [
   {
     id: 6,
     title:
-      "Congratulations to Nanish P, on publishing his work in the Applied Thermal Engineering Journal.",
+      "Congratulations to Nandish P, on publishing his work in the Applied Thermal Engineering Journal.",
   },
   {
     id: 1,
