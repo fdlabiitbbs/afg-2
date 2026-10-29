@@ -1496,7 +1496,7 @@ export const NewsFeed = [
   {
     id: 6,
     title:
-      "Congratulations to Nanish P, on publishing his work in the Applied Thermal Engineering Journal.",
+      "Congratulations to Nandish P, on publishing his work in the Applied Thermal Engineering Journal.",
   },
   {
     id: 1,
