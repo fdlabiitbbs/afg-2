@@ -1171,7 +1171,7 @@ export const Journals = [
   },
   {
     ID: 66,
-    Authors: ["Rituraj Patel", <b>Venugopal A</b>], 
+    Authors: ["Rituraj Patel", "<b>Venugopal A</b>"], 
     Title:
       "Impingement heat transfer performance of a square turbulent jet modified by slotted orifice synthetic jets",
     Journal: "International Journal of Thermal Sciences",
