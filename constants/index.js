@@ -1407,7 +1407,7 @@ export const StudentNames = [
   {
     id: 7,
     name: "Rituraj Patel",
-    degree: "Dual Degree" ,
+    degree: "Dual Degree",
     description:
       "Rituraj Patel is currently working on CFD for a coaxial synthetic jet as part of his Master's thesis. He has also researched the potential of speaker-based synthetic jets for flow control and their application in enhancing heat transfer.",
     image: RiturajPatel,
